@@ -1,7 +1,6 @@
 @charset "UTF-8";
 html {
   font-size: 62.5%;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
 body {
@@ -19,7 +18,7 @@ h1 {
   margin: 10px auto; }
 
 main {
-  margin-top: 20vh; }
+  margin-top: 15vh; }
   main p, main span {
     font-family: "Della Respira", serif;
     font-size: 1.5rem;
@@ -134,12 +133,98 @@ img {
   -webkit-animation-delay: 4s;
   animation-delay: 4s; }
 
+<<<<<<< HEAD
 @-webkit-keyframes arrowmove {
   from {
     width: 0; }
   to {
     width: 1.6%; } }
 
+=======
+.vert1 {
+  position: absolute;
+  left: 12.5%;
+  top: 57%;
+  width: 2px;
+  background: #997C6C;
+  animation: movevert1 0.3s 1 linear forwards;
+  animation-delay: 0.3s; }
+
+.vert2 {
+  position: absolute;
+  left: 12.5%;
+  top: 91%;
+  width: 2px;
+  background: #997C6C;
+  animation: movevert2 0.8s 1 linear forwards;
+  animation-delay: 0.8s; }
+
+.line5 {
+  position: absolute;
+  left: 12.5%;
+  top: 191%;
+  height: 2px;
+  background: #997C6C;
+  animation: moveline5 1s 1 linear forwards;
+  animation-delay: 1.8s; }
+
+.vert3 {
+  position: absolute;
+  left: 50%;
+  top: 191%;
+  width: 2px;
+  background: #997C6C;
+  animation: movevert3 1s 1 linear forwards;
+  animation-delay: 2.8s; }
+
+.product {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 14.5%;
+  animation-delay: 2.4s; }
+
+.arrow-left {
+  position: absolute;
+  left: 48.85%;
+  top: 231%;
+  height: 1.5px;
+  background: #997C6C;
+  transform: rotate(55deg);
+  animation: arrowmove 1s 1 linear forwards;
+  animation-delay: 4s; }
+
+.arrow-right {
+  position: absolute;
+  left: 49.75%;
+  top: 231%;
+  height: 1.5px;
+  background: #997C6C;
+  transform: rotate(-55deg);
+  animation: arrowmove 1s 1 linear forwards;
+  animation-delay: 4s; }
+
+@keyframes moveline5 {
+  from {
+    width: 0; }
+  to {
+    width: 37.5%; } }
+@keyframes movevert1 {
+  from {
+    height: 0; }
+  to {
+    height: 20%; } }
+@keyframes movevert2 {
+  from {
+    height: 0; }
+  to {
+    height: 100%; } }
+@keyframes movevert3 {
+  from {
+    height: 0; }
+  to {
+    height: 40%; } }
+>>>>>>> 8dd2ee370831a31792caba0e5bb64bd5046a298b
 @keyframes arrowmove {
   from {
     width: 0; }
@@ -170,6 +255,7 @@ img {
   100% {
     width: 30%; } }
 
+<<<<<<< HEAD
 div.pure-g div.pure-u-1-2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -221,3 +307,6 @@ div.pure-g div.pure-u-1-2 {
 
 div.garantie_details {
   background-color: #DD8496; }
+=======
+/*# sourceMappingURL=style.css.map */
+>>>>>>> 8dd2ee370831a31792caba0e5bb64bd5046a298b
