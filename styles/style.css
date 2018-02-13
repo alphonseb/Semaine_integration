@@ -1,3 +1,18 @@
-* {
-  color: red;
-}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Della Respira", serif;
+  background: white; }
+
+header h1 {
+  display: none; }
+header .logo {
+  background: url(../images/logo.png);
+  width: 544px;
+  height: 115px;
+  margin: 10px auto; }
+
+/*# sourceMappingURL=style.css.map */
