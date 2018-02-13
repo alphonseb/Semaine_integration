@@ -1,5 +1,6 @@
 html {
   font-size: 62.5%;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
 body {
@@ -51,6 +52,7 @@ img {
   margin: 0 90px; }
   .pure-g div {
     text-align: center; }
+<<<<<<< HEAD
   .pure-g .first {
     animation-delay: 0.3s; }
   .pure-g .second {
@@ -124,3 +126,5 @@ img {
     width: 30%; } }
 
 /*# sourceMappingURL=style.css.map */
+=======
+>>>>>>> 0c0b527487e2e9ae5e3fb37f403fd22b5ca5e57a
