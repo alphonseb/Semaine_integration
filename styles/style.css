@@ -1,42 +1,305 @@
-/*
-Error: Invalid CSS after "...screen2-header"": expected "{", was ";"
-        on line 7 of C:\Users\Alphonse\Google Drive\HETIC\Semaine intensive\Semaine_integration\src\scss\app.scss
+@charset "UTF-8";
+html {
+  font-size: 62.5%;
+  box-sizing: border-box; }
 
-2: @import "body";
-3: 
-4: @import "Homepage/Screen 1/screen1-header";
-5: @import "Homepage/Screen 1/screen1-main";
-6: <<<<<<< HEAD
-7: @import "Homepage/Screen 2/screen2-header";
-8: =======
-9: 
-10: @import "Productpage/top";
-11: @import "Productpage/middle";
-12: @import "Productpage/bottom";
+body {
+  margin: 0;
+  font-family: "Della Respira", serif;
+  background: white; }
 
-Backtrace:
-C:\Users\Alphonse\Google Drive\HETIC\Semaine intensive\Semaine_integration\src\scss\app.scss:7
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:677:in `block'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
-C:/Program Files (x86)/Koala/bin/sass:22:in `load'
-C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...screen2-header\"\": expected \"{\", was \";\"\A         on line 7 of C:\Users\Alphonse\Google Drive\HETIC\Semaine intensive\Semaine_integration\src\scss\app.scss\A \A 2: @import \"body\";\A 3: \A 4: @import \"Homepage/Screen 1/screen1-header\";\A 5: @import \"Homepage/Screen 1/screen1-main\";\A 6: <<<<<<< HEAD\A 7: @import \"Homepage/Screen 2/screen2-header\";\A 8: =======\A 9: \A 10: @import \"Productpage/top\";\A 11: @import \"Productpage/middle\";\A 12: @import \"Productpage/bottom\";"; }
+.screen1 {
+  height: 100vh; }
+
+.screen1 h1 {
+  display: none; }
+.screen1 .logo {
+  background: url(../images/logo.png);
+  width: 544px;
+  height: 115px;
+  margin: 10px auto; }
+
+.screen1 main {
+  margin-top: 15vh; }
+  .screen1 main p, .screen1 main span {
+    font-family: "Della Respira", serif;
+    font-size: 1.5rem;
+    color: #997C6C; }
+.screen1 img {
+  height: 100px;
+  width: auto; }
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+.screen1 .fade-in {
+  opacity: 0;
+  opacity: 1 \9;
+  /*just in case ie*/
+  -webkit-animation: fadein ease-in 1;
+  -moz-animation: fadein ease-in 1;
+  animation: fadein ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s; }
+.screen1 .pure-g {
+  position: relative;
+  margin: 0 90px; }
+  .screen1 .pure-g div {
+    text-align: center; }
+  .screen1 .pure-g .first {
+    animation-delay: 0.3s; }
+  .screen1 .pure-g .second {
+    animation-delay: 1s; }
+  .screen1 .pure-g .third {
+    animation-delay: 1.7s; }
+  .screen1 .pure-g .fourth {
+    animation-delay: 2.4s; }
+.screen1 .line1 {
+  position: absolute;
+  left: 15.5%;
+  top: 30%;
+  height: 2px;
+  background: #997C6C;
+  animation: move 1s 1 linear forwards;
+  animation-delay: 0.3s; }
+.screen1 .line2 {
+  position: absolute;
+  left: 41%;
+  top: 30%;
+  height: 2px;
+  background: #997C6C;
+  animation: move 1s 1 linear forwards;
+  animation-delay: 1.3s; }
+.screen1 .line3 {
+  position: absolute;
+  left: 65.6%;
+  top: 30%;
+  height: 2px;
+  background: #997C6C;
+  animation: move3 1.7s 1 linear forwards;
+  animation-delay: 2.3s; }
+.screen1 .arrow-top {
+  position: absolute;
+  left: 94.5%;
+  top: 26%;
+  height: 1.5px;
+  background: #997C6C;
+  transform: rotate(35deg);
+  animation: arrowmove 1s 1 linear forwards;
+  animation-delay: 4s; }
+.screen1 .arrow-bottom {
+  position: absolute;
+  left: 94.5%;
+  top: 34.5%;
+  height: 1.5px;
+  background: #997C6C;
+  transform: rotate(-35deg);
+  animation: arrowmove 1s 1 linear forwards;
+  animation-delay: 4s; }
+.screen1 .vert1 {
+  position: absolute;
+  left: 12.5%;
+  top: 57%;
+  width: 2px;
+  background: #997C6C;
+  animation: movevert1 0.3s 1 linear forwards;
+  animation-delay: 0.3s; }
+.screen1 .vert2 {
+  position: absolute;
+  left: 12.5%;
+  top: 91%;
+  width: 2px;
+  background: #997C6C;
+  animation: movevert2 0.8s 1 linear forwards;
+  animation-delay: 0.8s; }
+.screen1 .line5 {
+  position: absolute;
+  left: 12.5%;
+  top: 191%;
+  height: 2px;
+  background: #997C6C;
+  animation: moveline5 1s 1 linear forwards;
+  animation-delay: 1.8s; }
+.screen1 .vert3 {
+  position: absolute;
+  left: 50%;
+  top: 191%;
+  width: 2px;
+  background: #997C6C;
+  animation: movevert3 1s 1 linear forwards;
+  animation-delay: 2.8s; }
+.screen1 .product {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 14.5%;
+  animation-delay: 2.4s; }
+  .screen1 .product a {
+    color: #997C6C;
+    text-decoration: none; }
+.screen1 .arrow-left {
+  position: absolute;
+  left: 48.85%;
+  top: 231%;
+  height: 1.5px;
+  background: #997C6C;
+  transform: rotate(55deg);
+  animation: arrowmove 1s 1 linear forwards;
+  animation-delay: 4s; }
+.screen1 .arrow-right {
+  position: absolute;
+  left: 49.75%;
+  top: 231%;
+  height: 1.5px;
+  background: #997C6C;
+  transform: rotate(-55deg);
+  animation: arrowmove 1s 1 linear forwards;
+  animation-delay: 4s; }
+@keyframes moveline5 {
+  from {
+    width: 0; }
+  to {
+    width: 37.5%; } }
+@keyframes movevert1 {
+  from {
+    height: 0; }
+  to {
+    height: 20%; } }
+@keyframes movevert2 {
+  from {
+    height: 0; }
+  to {
+    height: 100%; } }
+@keyframes movevert3 {
+  from {
+    height: 0; }
+  to {
+    height: 40%; } }
+@keyframes arrowmove {
+  from {
+    width: 0; }
+  to {
+    width: 1.6%; } }
+@keyframes move {
+  0% {
+    width: 0; }
+  100% {
+    width: 18.5%; } }
+@keyframes move3 {
+  0% {
+    width: 0; }
+  100% {
+    width: 30%; } }
+.screen2 {
+  height: 100vh; }
+
+.screen2 .topbar {
+  width: 83%;
+  margin: 0 auto; }
+  .screen2 .topbar p {
+    font-size: 1.5rem;
+    font-family: "Della Respira", serif; }
+  .screen2 .topbar .logo {
+    background: url(../images/logo.png);
+    width: 495px;
+    height: 115px; }
+  .screen2 .topbar .centered {
+    padding-top: 4%; }
+    .screen2 .topbar .centered p {
+      margin: 0; }
+  .screen2 .topbar .icone-client {
+    width: 25px;
+    height: 25px;
+    background: url(../images/people_rose.png);
+    background-size: 25px 25px; }
+  .screen2 .topbar .icone-panier {
+    width: 25px;
+    height: 25px;
+    background: url(../images/panier_rose.png);
+    background-size: 25px 25px; }
+  .screen2 .topbar .fb {
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    background: url(../images/fb_rose.png);
+    background-size: 30px 30px; }
+  .screen2 .topbar .twi {
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    background: url(../images/twitter_rose.png);
+    background-size: 30px 30px; }
+  .screen2 .topbar .insta {
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    background: url(../images/insta_rose.png);
+    background-size: 30px 30px; }
+  .screen2 .topbar div {
+    text-align: center; }
+.screen2 header ul {
+  margin: 0 auto;
+  width: 95%;
+  padding: 0;
+  font-size: 1.5rem; }
+  .screen2 header ul li {
+    list-style: none;
+    text-align: center; }
+    .screen2 header ul li a {
+      font-family: "Della Respira", serif;
+      text-decoration: none;
+      color: #DD8496; }
+.screen2 .fixedline {
+  height: 2px;
+  background: #997C6C;
+  width: 80.6%;
+  position: relative;
+  left: 7px;
+  margin: 0 auto; }
+
+div.pure-g div.pure-u-1-2 {
+  display: flex; }
+  div.pure-g div.pure-u-1-2 img.grande {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #997C6C;
+    margin-left: 20px; }
+  div.pure-g div.pure-u-1-2 div.goutière {
+    padding: 0;
+    margin: 0; }
+    div.pure-g div.pure-u-1-2 div.goutière div.petites_images {
+      display: flex;
+      flex-direction: column; }
+      div.pure-g div.pure-u-1-2 div.goutière div.petites_images img.petite {
+        width: 95px;
+        height: 95px;
+        margin-bottom: 5px;
+        border: 1px solid #997C6C; }
+  div.pure-g div.pure-u-1-2 div.titre {
+    padding: 10px 578px 10px 10px;
+    background-color: #DD8496; }
+    div.pure-g div.pure-u-1-2 div.titre h3 {
+      font-family: "Della Respira", serif;
+      font-size: 20px; }
+  div.pure-g div.pure-u-1-2 div.ligne img {
+    width: 40px;
+    height: 40px; }
+  div.pure-g div.pure-u-1-2 div.ligne2 img {
+    width: 35px;
+    height: 35px; }
+  div.pure-g div.pure-u-1-2 div.ligne3 img {
+    width: 40px;
+    height: 40px; }
+  div.pure-g div.pure-u-1-2 div.moitie {
+    display: flex;
+    flex-direction: row; }
+
+div.garantie_details {
+  background-color: #DD8496; }
+
+/*# sourceMappingURL=style.css.map */
