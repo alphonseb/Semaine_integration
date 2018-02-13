@@ -22,7 +22,8 @@
 
    .fade-in {
     opacity:0;
-    opacity: 1 \9; /*just in case ie*/
+    opacity: 1 \9;
+    /*just in case ie*/
     -webkit-animation:fadein ease-in 1;
     -moz-animation:fadein ease-in 1;
     animation:fadein ease-in 1;
