@@ -1,0 +1,21 @@
+main{
+  margin-top: 20vh;
+  p, span{
+    font-family: $primary-font;
+    font-size: 1.5rem;
+    color: $light-brown;
+  }
+
+}
+
+img{
+  height: 100px;
+  width: auto;
+}
+
+.pure-g{
+  margin: 0 90px;
+  div{
+  text-align: center;
+  }
+}

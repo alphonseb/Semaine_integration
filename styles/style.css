@@ -7,12 +7,29 @@ body {
   font-family: "Della Respira", serif;
   background: white; }
 
-header h1 {
+h1 {
   display: none; }
-header .logo {
+
+.logo {
   background: url(../images/logo.png);
   width: 544px;
   height: 115px;
   margin: 10px auto; }
+
+main {
+  margin-top: 20vh; }
+  main p, main span {
+    font-family: "Della Respira", serif;
+    font-size: 1.5rem;
+    color: #997C6C; }
+
+img {
+  height: 100px;
+  width: auto; }
+
+.pure-g {
+  margin: 0 90px; }
+  .pure-g div {
+    text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
