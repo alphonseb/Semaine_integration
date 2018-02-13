@@ -1,6 +1,5 @@
 html {
   font-size: 62.5%;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
 body {
@@ -18,7 +17,7 @@ h1 {
   margin: 10px auto; }
 
 main {
-  margin-top: 20vh; }
+  margin-top: 15vh; }
   main p, main span {
     font-family: "Della Respira", serif;
     font-size: 1.5rem;
@@ -52,7 +51,6 @@ img {
   margin: 0 90px; }
   .pure-g div {
     text-align: center; }
-<<<<<<< HEAD
   .pure-g .first {
     animation-delay: 0.3s; }
   .pure-g .second {
@@ -109,6 +107,89 @@ img {
   animation: arrowmove 1s 1 linear forwards;
   animation-delay: 4s; }
 
+.vert1 {
+  position: absolute;
+  left: 12.5%;
+  top: 57%;
+  width: 2px;
+  background: #997C6C;
+  animation: movevert1 0.3s 1 linear forwards;
+  animation-delay: 0.3s; }
+
+.vert2 {
+  position: absolute;
+  left: 12.5%;
+  top: 91%;
+  width: 2px;
+  background: #997C6C;
+  animation: movevert2 0.8s 1 linear forwards;
+  animation-delay: 0.8s; }
+
+.line5 {
+  position: absolute;
+  left: 12.5%;
+  top: 191%;
+  height: 2px;
+  background: #997C6C;
+  animation: moveline5 1s 1 linear forwards;
+  animation-delay: 1.8s; }
+
+.vert3 {
+  position: absolute;
+  left: 50%;
+  top: 191%;
+  width: 2px;
+  background: #997C6C;
+  animation: movevert3 1s 1 linear forwards;
+  animation-delay: 2.8s; }
+
+.product {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 14.5%;
+  animation-delay: 2.4s; }
+
+.arrow-left {
+  position: absolute;
+  left: 48.85%;
+  top: 231%;
+  height: 1.5px;
+  background: #997C6C;
+  transform: rotate(55deg);
+  animation: arrowmove 1s 1 linear forwards;
+  animation-delay: 4s; }
+
+.arrow-right {
+  position: absolute;
+  left: 49.75%;
+  top: 231%;
+  height: 1.5px;
+  background: #997C6C;
+  transform: rotate(-55deg);
+  animation: arrowmove 1s 1 linear forwards;
+  animation-delay: 4s; }
+
+@keyframes moveline5 {
+  from {
+    width: 0; }
+  to {
+    width: 37.5%; } }
+@keyframes movevert1 {
+  from {
+    height: 0; }
+  to {
+    height: 20%; } }
+@keyframes movevert2 {
+  from {
+    height: 0; }
+  to {
+    height: 100%; } }
+@keyframes movevert3 {
+  from {
+    height: 0; }
+  to {
+    height: 40%; } }
 @keyframes arrowmove {
   from {
     width: 0; }
@@ -126,5 +207,3 @@ img {
     width: 30%; } }
 
 /*# sourceMappingURL=style.css.map */
-=======
->>>>>>> 0c0b527487e2e9ae5e3fb37f403fd22b5ca5e57a
