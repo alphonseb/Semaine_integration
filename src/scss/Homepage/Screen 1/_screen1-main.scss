@@ -20,7 +20,7 @@
     to {opacity: 1;}
   }
 
-  .fade-in {
+   .fade-in {
     opacity:0;
     opacity: 1 \9; /*just in case ie*/
     -webkit-animation:fadein ease-in 1;
@@ -36,7 +36,7 @@
     animation-duration:1s;
   }
 
-  .pure-g{
+ .pure-g{
     position: relative;
     margin: 0 90px;
     div{

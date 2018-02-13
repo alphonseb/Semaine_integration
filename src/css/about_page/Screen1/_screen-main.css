@@ -1,9 +1,0 @@
-img {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: start;
-  -ms-flex: start;
-  flex: start;
-  height: 100px;
-  margin: 20px; }

@@ -370,33 +370,7 @@ div.garantie_details {
   background-color: #DD8496; }
 
 <<<<<<< HEAD
-.grid {
-  width: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex; }
 
-.pure-u.pure-u-md-1-2.pure-u-lg-1-4 {
-  width: 1000px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-flow: column nowrap;
-  -ms-flex-flow: column nowrap;
-  flex-flow: column nowrap;
-  white-space: nowrap; }
-
-.circle {
-  height: 15rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 10rem; }
 =======
 /*# sourceMappingURL=style.css.map */
 >>>>>>> 09da726f51fa696c9eceb0fea49ccb8773a397a7
