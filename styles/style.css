@@ -323,9 +323,11 @@ body {
   .screen2 .topbar .centered {
     padding-top: 2.5%;
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
+    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center; }
     .screen2 .topbar .centered p {
@@ -350,13 +352,16 @@ body {
       color: #997C6C; }
   .screen2 .topbar .social {
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
     -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
     -ms-flex-pack: end;
     justify-content: flex-end; }
     .screen2 .topbar .social .fb a {
@@ -416,9 +421,11 @@ body {
           font-size: 1.4rem; }
   .screen2 header ul li:hover .sub-menu {
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
+    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center; }
   .screen2 header ul li:hover > a {
@@ -464,6 +471,7 @@ body {
   margin: 0 auto;
   overflow: hidden;
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
   .slider-content img {
@@ -475,13 +483,16 @@ body {
 .grid {
   height: 100vh;
   font-size: 62.5%;
-  font-family: "Della Respira", serif; }
+  font-family: "Della Respira", serif;
+  position: relative; }
 
 .titre {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
+  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
   height: 20vh; }
@@ -492,83 +503,126 @@ body {
   color: #de8496;
   margin-bottom: 2vh; }
 
+.trait1 {
+  top: 168px;
+  height: 1px;
+  background-color: black;
+  width: 250px;
+  position: absolute;
+  z-index: 1; }
+
+.trait2 {
+  top: 168px;
+  left: 250px;
+  height: 705px;
+  background-color: black;
+  width: 1px;
+  position: absolute;
+  z-index: 1; }
+
+.trait3 {
+  top: 872px;
+  height: 1px;
+  background-color: black;
+  width: 250px;
+  position: absolute;
+  z-index: 1; }
+
+.bullet {
+  margin-left: 15vh;
+  margin-top: 7px;
+  margin-right: 15vh;
+  z-index: 2;
+  background: url(../images/trousseau_background.png); }
+
 .image img {
   height: 10rem;
   width: 10rem;
-  margin: 2.5vh 20vh; }
+  margin: 2.5vh 10vh; }
 
 #france {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
   -ms-flex-flow: row wrap;
   flex-flow: row wrap;
   padding-top: 5.5vh;
   font-size: 1.5rem;
   font-style: italic;
-  margin-left: -10vh;
+  margin-left: -5vh;
   margin-right: 10vh; }
 
 #faitmain {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
   -ms-flex-flow: row wrap;
   flex-flow: row wrap;
   padding-top: 5.5vh;
   font-size: 1.5rem;
   font-style: italic;
-  margin-left: -10vh;
+  margin-left: -5vh;
   margin-right: 10vh; }
 
 #attention {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
   -ms-flex-flow: row wrap;
   flex-flow: row wrap;
   padding-top: 5.5vh;
   font-size: 1.5rem;
   font-style: italic;
-  margin-left: -10vh;
+  margin-left: -5vh;
   margin-right: 10vh; }
 
 #quality {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
   -ms-flex-flow: row wrap;
   flex-flow: row wrap;
-  margin-top: 4.2vh;
+  margin-top: 4vh;
   font-size: 1.5rem;
   font-style: italic;
-  margin-left: -10vh;
+  margin-left: -5vh;
   margin-right: 10vh; }
 
 #partage {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
   -ms-flex-flow: row wrap;
   flex-flow: row wrap;
-  padding-top: 4.2vh;
+  padding-top: 3vh;
   font-size: 1.5rem;
   font-style: italic;
-  margin-left: -10vh;
+  margin-left: -5vh;
   margin-right: 10vh; }
 
 .image {
-  width: auto; }
+  width: auto;
+  z-index: 3; }
 
 .text {
   width: 65%; }
@@ -580,7 +634,10 @@ body {
 
 .philosophie {
   letter-spacing: normal;
-  background-color: rgba(211, 211, 211, 0.8); }
+  background-color: rgba(211, 211, 211, 0.8);
+  margin-left: 15vh;
+  margin-right: 15vh;
+  text-align: justify; }
 
 .title_crea {
   height: 10vh;
@@ -593,31 +650,33 @@ body {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  margin-left: -20vh; }
+  margin-left: 15vh;
+  margin-right: 15vh; }
 
 .title_crea p {
   margin-top: 10vh;
+  margin-left: -5vh;
   font-size: 2.8rem; }
 
 .a_propos {
-  width: 30%;
+  width: 33%;
   height: 50vh;
   margin-top: 10vh; }
 
 .a_propos h2 {
   padding-top: 4.2vh;
   font-size: 1.5rem;
-  margin-left: 10vh;
+  margin-left: 5vh;
   margin-right: 5vh; }
 
 #a_propos {
   padding-top: 4.2vh;
   font-size: 1.5rem;
-  margin-left: 10vh;
+  margin-left: 5vh;
   margin-right: 5vh; }
 
 .creatrice {
-  width: 30%;
+  width: 33%;
   height: 50vh;
   margin-top: 10vh; }
 
@@ -633,25 +692,26 @@ body {
   margin-right: auto;
   margin-top: 7vh; }
 
-.description {
-  width: 30%;
+.parcours {
+  width: 33%;
   margin-top: 10vh; }
 
-#description {
+#parcours {
   padding-top: 4.2vh;
   font-size: 1.5rem;
-  margin-left: 10vh;
+  margin-left: 5vh;
   margin-right: 5vh; }
 
-.description h2 {
+.parcours h2 {
   padding-top: 4.2vh;
   font-size: 1.5rem;
-  margin-left: 10vh;
+  margin-left: 5vh;
   margin-right: 5vh; }
 
 div.pure-g div.pure-u-1-2#left {
   padding-top: 100px;
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
   div.pure-g div.pure-u-1-2#left img.pure-u-3-4#grande {
@@ -665,6 +725,7 @@ div.pure-g div.pure-u-1-2#left {
       margin: 0px 20px 0px 300px;
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
       -ms-flex-direction: column;
       flex-direction: column;
       width: 105px; }
@@ -686,6 +747,7 @@ div.pure-g div.pure-u-1-2#right {
       font-size: 25px; }
   div.pure-g div.pure-u-1-2#right div.ligne {
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
     div.pure-g div.pure-u-1-2#right div.ligne img {
@@ -697,6 +759,7 @@ div.pure-g div.pure-u-1-2#right {
       font-size: 13px; }
   div.pure-g div.pure-u-1-2#right div.ligne2 {
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
     div.pure-g div.pure-u-1-2#right div.ligne2 img {
@@ -709,6 +772,7 @@ div.pure-g div.pure-u-1-2#right {
       font-size: 13px; }
   div.pure-g div.pure-u-1-2#right div.ligne3 {
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
     div.pure-g div.pure-u-1-2#right div.ligne3 img {
@@ -723,13 +787,16 @@ div.pure-g div.pure-u-1-2#right {
     padding-right: 350px; }
     div.pure-g div.pure-u-1-2#right div.petit span.matiere {
       display: -webkit-box;
+      display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
       -webkit-box-align: end;
+      -webkit-align-items: flex-end;
       -ms-flex-align: end;
       align-items: flex-end;
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
       -ms-flex-direction: column;
       flex-direction: column; }
     div.pure-g div.pure-u-1-2#right div.petit span.quantite {
@@ -764,11 +831,13 @@ div.pure-g#middle {
     text-align: center;
     margin: auto;
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
     div.pure-g#middle div.pure-g#garantie_details div.pure-u-1-3#détails_entretien {
       background-color: #DD8496;
       -webkit-box-pack: end;
+      -webkit-justify-content: flex-end;
       -ms-flex-pack: end;
       justify-content: flex-end;
       margin: 50px 50px 0px 140px;
@@ -811,9 +880,11 @@ div.pure-g#middle {
   .screen2 .topbar .centered {
     padding-top: 2.5%;
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
+    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center; }
     .screen2 .topbar .centered p {
@@ -838,13 +909,16 @@ div.pure-g#middle {
       color: #997C6C; }
   .screen2 .topbar .social {
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
     -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
     -ms-flex-pack: end;
     justify-content: flex-end; }
     .screen2 .topbar .social .fb a {
@@ -904,9 +978,11 @@ div.pure-g#middle {
           font-size: 1.4rem; }
   .screen2 header ul li:hover .sub-menu {
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
+    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center; }
   .screen2 header ul li:hover > a {
