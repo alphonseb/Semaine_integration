@@ -575,80 +575,80 @@ body {
     -webkit-animation: fadeIN 1s 1 linear forwards;
     animation: fadeIN 1s 1 linear forwards; }
 
-div.pure-g div.pure-u-1-2#left {
+div.pure-g#top div.pure-u-1-2#left {
   padding-top: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
-  div.pure-g div.pure-u-1-2#left img.pure-u-3-4#grande {
+  div.pure-g#top div.pure-u-1-2#left img.pure-u-3-4#grande {
     width: 345px;
     height: 345px;
     border: 1px solid #997C6C; }
-  div.pure-g div.pure-u-1-2#left div#goutière {
+  div.pure-g#top div.pure-u-1-2#left div#goutière {
     padding: 0;
     margin: 0; }
-    div.pure-g div.pure-u-1-2#left div#goutière div#petites_images {
+    div.pure-g#top div.pure-u-1-2#left div#goutière div#petites_images {
       margin: 0px 20px 0px 315px;
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
       -ms-flex-direction: column;
       flex-direction: column;
       width: 105px; }
-      div.pure-g div.pure-u-1-2#left div#goutière div#petites_images img.petite {
+      div.pure-g#top div.pure-u-1-2#left div#goutière div#petites_images img.petite {
         width: 109px;
         height: 109px;
         margin-bottom: 5px;
         border: 1px solid #997C6C; }
 
-div.pure-g div.pure-u-1-2#right {
+div.pure-g#top div.pure-u-1-2#right {
   padding-top: 100px; }
-  div.pure-g div.pure-u-1-2#right div.titre {
+  div.pure-g#top div.pure-u-1-2#right div.titre {
     background-color: #DD8496;
     padding: 3px;
     height: 80px;
     border-radius: 3px; }
-    div.pure-g div.pure-u-1-2#right div.titre h3 {
+    div.pure-g#top div.pure-u-1-2#right div.titre h3 {
       padding-left: 30px;
       font-family: "Della Respira", serif;
       font-size: 25px; }
-  div.pure-g div.pure-u-1-2#right div.ligne {
+  div.pure-g#top div.pure-u-1-2#right div.ligne {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
-    div.pure-g div.pure-u-1-2#right div.ligne img {
+    div.pure-g#top div.pure-u-1-2#right div.ligne img {
       width: 40px;
       height: 40px;
       padding: 30px 5px 5px 15px; }
-    div.pure-g div.pure-u-1-2#right div.ligne span {
+    div.pure-g#top div.pure-u-1-2#right div.ligne span {
       margin-top: 42px;
       font-size: 13px; }
-  div.pure-g div.pure-u-1-2#right div.ligne2 {
+  div.pure-g#top div.pure-u-1-2#right div.ligne2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
-    div.pure-g div.pure-u-1-2#right div.ligne2 img {
+    div.pure-g#top div.pure-u-1-2#right div.ligne2 img {
       width: 30px;
       height: 30px;
       padding: 10px 5px 5px 20px; }
-    div.pure-g div.pure-u-1-2#right div.ligne2 span {
+    div.pure-g#top div.pure-u-1-2#right div.ligne2 span {
       margin-top: 17px;
       margin-left: 5px;
       font-size: 13px; }
-  div.pure-g div.pure-u-1-2#right div.ligne3 {
+  div.pure-g#top div.pure-u-1-2#right div.ligne3 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
-    div.pure-g div.pure-u-1-2#right div.ligne3 img {
+    div.pure-g#top div.pure-u-1-2#right div.ligne3 img {
       width: 40px;
       height: 40px;
       padding: 10px 5px 5px 15px; }
-    div.pure-g div.pure-u-1-2#right div.ligne3 span {
+    div.pure-g#top div.pure-u-1-2#right div.ligne3 span {
       margin-top: 22px;
       font-size: 13px; }
-  div.pure-g div.pure-u-1-2#right div.petit {
+  div.pure-g#top div.pure-u-1-2#right div.petit {
     padding-top: 15px;
     padding-right: 350px; }
-    div.pure-g div.pure-u-1-2#right div.petit span.matiere {
+    div.pure-g#top div.pure-u-1-2#right div.petit span.matiere {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -659,19 +659,25 @@ div.pure-g div.pure-u-1-2#right {
       -webkit-box-direction: normal;
       -ms-flex-direction: column;
       flex-direction: column; }
-    div.pure-g div.pure-u-1-2#right div.petit span.quantite {
+    div.pure-g#top div.pure-u-1-2#right div.petit span.quantite {
       font-size: 14px;
-      margin-top: 10px; }
-    div.pure-g div.pure-u-1-2#right div.petit input {
+      margin-top: 15px; }
+    div.pure-g#top div.pure-u-1-2#right div.petit input {
       width: 20px;
       height: 20px;
-      margin-left: 5px; }
-    div.pure-g div.pure-u-1-2#right div.petit span.price {
-      background-color: "Della Respira", serif;
-      padding-left: 270px; }
-    div.pure-g div.pure-u-1-2#right div.petit button {
-      background-color: "Della Respira", serif; }
-    div.pure-g div.pure-u-1-2#right div.petit a {
+      margin-left: 5px;
+      margin-top: 15px; }
+    div.pure-g#top div.pure-u-1-2#right div.petit span.price {
+      background-color: #DD8496;
+      margin: 15px -5px 0px 210px;
+      font-size: 15px;
+      padding: 7px 10px; }
+    div.pure-g#top div.pure-u-1-2#right div.petit span.ajoutez_au_panier {
+      background-color: #DD8496;
+      margin-top: 15px;
+      font-size: 15px;
+      padding: 7px 10px; }
+    div.pure-g#top div.pure-u-1-2#right div.petit a {
       text-decoration: none; }
 
 div.pure-g#middle {
