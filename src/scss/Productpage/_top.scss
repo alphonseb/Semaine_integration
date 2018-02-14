@@ -1,4 +1,4 @@
-div.pure-g{
+div.pure-g#top{
   div.pure-u-1-2#left{
     padding-top: 100px;
     display: flex;
@@ -84,19 +84,25 @@ div.pure-g{
       }
       span.quantite{
         font-size: 14px;
-        margin-top: 10px;
+        margin-top: 15px;
       }
       input{
         width:20px;
         height: 20px;
         margin-left: 5px;
+        margin-top: 15px;
       }
       span.price{
-        background-color: $primary-font;
-        padding-left: 270px;
+        background-color: $light-pink;
+        margin: 15px -5px 0px 210px;
+        font-size: 15px;
+        padding: 7px 10px;
       }
-      button{
-        background-color: $primary-font;
+      span.ajoutez_au_panier{
+        background-color: $light-pink;
+        margin-top: 15px;
+        font-size: 15px;
+        padding: 7px 10px;
       }
       a{
         text-decoration: none;
