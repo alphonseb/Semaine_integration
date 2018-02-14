@@ -11,7 +11,7 @@ div.pure-g{
       padding:0;
       margin:0;
       div#petites_images{
-        margin: 0px 20px 0px 300px;
+        margin: 0px 20px 0px 315px;
         flex-direction: column;
         width: 105px;
         img.petite{
@@ -30,6 +30,7 @@ div.pure-g{
       background-color: #DD8496;
       padding: 3px;
       height: 80px;
+      border-radius: 3px;
       h3 {
         padding-left: 30px;
         font-family: $primary-font;
