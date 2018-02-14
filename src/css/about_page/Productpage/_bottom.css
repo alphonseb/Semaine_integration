@@ -1,0 +1,9 @@
+div.pure-g#carousel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
+  div.pure-g#carousel div.pure-u-1-8 img {
+    width: 100px;
+    height: 100px; }
