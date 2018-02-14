@@ -1,37 +1,136 @@
+.screen2 main{
+  margin-top: 50px;
+}
 .slider{
   position: relative;
   .slider-arrow-left{
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
     background: url(../images/triangle_rose.png);
-    background-size: 50px 50px;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
     transform: rotate(-90deg);
     position: absolute;
-    left: 25%;
+    left: 19%;
     top: 50%;
     cursor: pointer;
+    transition: all 0.3s ease-in;
+  }
+  .slider-arrow-left:hover{
+    transform: scale(1.5) rotate(-90deg);
   }
   .slider-arrow-right{
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
     background: url(../images/triangle_rose.png);
-    background-size: 50px 50px;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
     transform: rotate(90deg);
     position: absolute;
-    right: 25%;
+    right: 19%;
     top: 50%;
     cursor: pointer;
+    transition: all 0.3s ease-in;
+  }
+  .slider-arrow-right:hover{
+    transform: scale(1.5) rotate(90deg);
+  }
+  .slider-index {
+    position: absolute;
+    left: 46%;
+    bottom: -3vh;
+    display: flex;
+    div{
+      margin: 0 10px;
+      width: 7px;
+      height: 7px;
+      border: 1.5px solid $light-pink;
+      border-radius: 100%;
+    }
   }
 }
 
+.pink-background{
+  background: $light-pink;
+}
+
 .slider-content{
-  width: 850px;
-  height: 400px;
+  max-width: 860px;
   margin: 0 auto;
   overflow: hidden;
+  border: solid 1.5px $light-pink;
   display: flex;
-  img{
+  div{
+    width: 100%;
     position: relative;
     transition: all ease-in .75s;
+    a{
+      display: block;
+      border: solid 3px $white;
+      outline: solid 1.5px $light-pink;
+      width: 25%;
+      height: 10%;
+      background: $light-pink;
+      text-decoration: none;
+      font-family: $primary-font;
+      font-size: 1.7rem;
+      color: $white;
+      position: absolute;
+      right: 20px;
+      bottom: 10px;
+      text-align: center;
+      line-height: 200%;
+      transition: all 0.2s ease-in;
+    }
+    a:hover{
+      transform: scale(1.08);
+    }
+  }
+}
+
+.homepage-products{
+  margin-top: 75px;
+  &>div{
+    margin: 0 10vw;
+    h2{
+      border-bottom: 10px solid $light-pink;
+      padding-bottom: 8px;
+      width: 90%;
+      text-transform: uppercase;
+      color: $light-pink;
+      font-family: $primary-font;
+      font-size: 1.8rem;
+      opacity: 0.5;
+      cursor: pointer;
+    }
+    h2.selected{
+      opacity: 1;
+    }
+  }
+  .product-container{
+    position: relative;
+  }
+  .homepage-products-row{
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 20px;
+    img{
+      max-width: 90%;
+      height: auto;
+      border: solid 2px $light-pink;
+      opacity: 0;
+    }
+  }
+  @keyframes fadeIN{
+    from{
+      opacity: 0;
+    }
+    to{
+      opacity: 1;
+    }
+  }
+  .show img{
+    animation: fadeIN 1s 1 linear forwards;
   }
 }
