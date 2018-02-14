@@ -1,6 +1,7 @@
 @charset "UTF-8";
 html {
   font-size: 62.5%;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
 body {
@@ -13,6 +14,7 @@ body {
 
 .screen1 h1 {
   display: none; }
+
 .screen1 .logo {
   background: url(../images/logo.png);
   width: 544px;
@@ -25,14 +27,23 @@ body {
     font-family: "Della Respira", serif;
     font-size: 1.5rem;
     color: #997C6C; }
+
 .screen1 img {
   height: 100px;
   width: auto; }
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
 @keyframes fadein {
   from {
     opacity: 0; }
   to {
     opacity: 1; } }
+
 .screen1 .fade-in {
   opacity: 0;
   opacity: 1 \9;
@@ -46,155 +57,253 @@ body {
   -webkit-animation-duration: 1s;
   -moz-animation-duration: 1s;
   animation-duration: 1s; }
+
 .screen1 .pure-g {
   position: relative;
   margin: 0 90px; }
   .screen1 .pure-g div {
     text-align: center; }
   .screen1 .pure-g .first {
+    -webkit-animation-delay: 0.3s;
     animation-delay: 0.3s; }
   .screen1 .pure-g .second {
+    -webkit-animation-delay: 1s;
     animation-delay: 1s; }
   .screen1 .pure-g .third {
+    -webkit-animation-delay: 1.7s;
     animation-delay: 1.7s; }
   .screen1 .pure-g .fourth {
+    -webkit-animation-delay: 2.4s;
     animation-delay: 2.4s; }
+
 .screen1 .line1 {
   position: absolute;
   left: 15.5%;
   top: 30%;
   height: 2px;
   background: #997C6C;
+  -webkit-animation: move 1s 1 linear forwards;
   animation: move 1s 1 linear forwards;
+  -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s; }
+
 .screen1 .line2 {
   position: absolute;
   left: 41%;
   top: 30%;
   height: 2px;
   background: #997C6C;
+  -webkit-animation: move 1s 1 linear forwards;
   animation: move 1s 1 linear forwards;
+  -webkit-animation-delay: 1.3s;
   animation-delay: 1.3s; }
+
 .screen1 .line3 {
   position: absolute;
   left: 65.6%;
   top: 30%;
   height: 2px;
   background: #997C6C;
+  -webkit-animation: move3 1.7s 1 linear forwards;
   animation: move3 1.7s 1 linear forwards;
+  -webkit-animation-delay: 2.3s;
   animation-delay: 2.3s; }
+
 .screen1 .arrow-top {
   position: absolute;
   left: 94.5%;
   top: 26%;
   height: 1.5px;
   background: #997C6C;
+  -webkit-transform: rotate(35deg);
+  -ms-transform: rotate(35deg);
   transform: rotate(35deg);
+  -webkit-animation: arrowmove 1s 1 linear forwards;
   animation: arrowmove 1s 1 linear forwards;
+  -webkit-animation-delay: 4s;
   animation-delay: 4s; }
+
 .screen1 .arrow-bottom {
   position: absolute;
   left: 94.5%;
   top: 34.5%;
   height: 1.5px;
   background: #997C6C;
+  -webkit-transform: rotate(-35deg);
+  -ms-transform: rotate(-35deg);
   transform: rotate(-35deg);
+  -webkit-animation: arrowmove 1s 1 linear forwards;
   animation: arrowmove 1s 1 linear forwards;
+  -webkit-animation-delay: 4s;
   animation-delay: 4s; }
+
 .screen1 .vert1 {
   position: absolute;
   left: 12.5%;
   top: 57%;
   width: 2px;
   background: #997C6C;
+  -webkit-animation: movevert1 0.3s 1 linear forwards;
   animation: movevert1 0.3s 1 linear forwards;
+  -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s; }
+
 .screen1 .vert2 {
   position: absolute;
   left: 12.5%;
   top: 91%;
   width: 2px;
   background: #997C6C;
+  -webkit-animation: movevert2 0.8s 1 linear forwards;
   animation: movevert2 0.8s 1 linear forwards;
+  -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s; }
+
 .screen1 .line5 {
   position: absolute;
   left: 12.5%;
   top: 191%;
   height: 2px;
   background: #997C6C;
+  -webkit-animation: moveline5 1s 1 linear forwards;
   animation: moveline5 1s 1 linear forwards;
+  -webkit-animation-delay: 1.8s;
   animation-delay: 1.8s; }
+
 .screen1 .vert3 {
   position: absolute;
   left: 50%;
   top: 191%;
   width: 2px;
   background: #997C6C;
+  -webkit-animation: movevert3 1s 1 linear forwards;
   animation: movevert3 1s 1 linear forwards;
+  -webkit-animation-delay: 2.8s;
   animation-delay: 2.8s; }
+
 .screen1 .product {
   width: 50%;
   margin: 0 auto;
   text-align: center;
   margin-top: 14.5%;
+  -webkit-animation-delay: 2.4s;
   animation-delay: 2.4s; }
   .screen1 .product a {
     color: #997C6C;
     text-decoration: none; }
+
 .screen1 .arrow-left {
   position: absolute;
   left: 48.85%;
   top: 231%;
   height: 1.5px;
   background: #997C6C;
+  -webkit-transform: rotate(55deg);
+  -ms-transform: rotate(55deg);
   transform: rotate(55deg);
+  -webkit-animation: arrowmove 1s 1 linear forwards;
   animation: arrowmove 1s 1 linear forwards;
+  -webkit-animation-delay: 4s;
   animation-delay: 4s; }
+
 .screen1 .arrow-right {
   position: absolute;
   left: 49.75%;
   top: 231%;
   height: 1.5px;
   background: #997C6C;
+  -webkit-transform: rotate(-55deg);
+  -ms-transform: rotate(-55deg);
   transform: rotate(-55deg);
+  -webkit-animation: arrowmove 1s 1 linear forwards;
   animation: arrowmove 1s 1 linear forwards;
+  -webkit-animation-delay: 4s;
   animation-delay: 4s; }
+
+@-webkit-keyframes moveline5 {
+  from {
+    width: 0; }
+  to {
+    width: 37.5%; } }
+
 @keyframes moveline5 {
   from {
     width: 0; }
   to {
     width: 37.5%; } }
+
+@-webkit-keyframes movevert1 {
+  from {
+    height: 0; }
+  to {
+    height: 20%; } }
+
 @keyframes movevert1 {
   from {
     height: 0; }
   to {
     height: 20%; } }
+
+@-webkit-keyframes movevert2 {
+  from {
+    height: 0; }
+  to {
+    height: 100%; } }
+
 @keyframes movevert2 {
   from {
     height: 0; }
   to {
     height: 100%; } }
+
+@-webkit-keyframes movevert3 {
+  from {
+    height: 0; }
+  to {
+    height: 40%; } }
+
 @keyframes movevert3 {
   from {
     height: 0; }
   to {
     height: 40%; } }
+
+@-webkit-keyframes arrowmove {
+  from {
+    width: 0; }
+  to {
+    width: 1.6%; } }
+
 @keyframes arrowmove {
   from {
     width: 0; }
   to {
     width: 1.6%; } }
+
+@-webkit-keyframes move {
+  0% {
+    width: 0; }
+  100% {
+    width: 18.5%; } }
+
 @keyframes move {
   0% {
     width: 0; }
   100% {
     width: 18.5%; } }
+
+@-webkit-keyframes move3 {
+  0% {
+    width: 0; }
+  100% {
+    width: 30%; } }
+
 @keyframes move3 {
   0% {
     width: 0; }
   100% {
     width: 30%; } }
+
 .screen2 {
   height: 100vh; }
 
@@ -213,7 +322,11 @@ body {
     height: 91px; }
   .screen2 .topbar .centered {
     padding-top: 2.5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center; }
     .screen2 .topbar .centered p {
       margin: 0; }
@@ -236,8 +349,15 @@ body {
     .screen2 .topbar .icone-panier + a:hover span {
       color: #997C6C; }
   .screen2 .topbar .social {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
     justify-content: flex-end; }
     .screen2 .topbar .social .fb a {
       display: block;
@@ -262,6 +382,7 @@ body {
       background-size: 30px 30px; }
   .screen2 .topbar div {
     text-align: center; }
+
 .screen2 header ul {
   margin: 0 auto;
   width: 90.5%;
@@ -294,10 +415,15 @@ body {
         .screen2 header ul li .sub-menu > li a {
           font-size: 1.4rem; }
   .screen2 header ul li:hover .sub-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center; }
   .screen2 header ul li:hover > a {
     color: #997C6C; }
+
 .screen2 .fixedline {
   border-bottom: 2px solid #997C6C;
   width: 80.6%;
@@ -316,13 +442,19 @@ body {
     background: url(../images/triangle_rose.png);
     background-size: 25px 25px;
     background-repeat: no-repeat;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
     transform: rotate(-90deg);
     position: absolute;
     left: 19%;
     top: 50%;
     cursor: pointer;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in; }
   .slider .slider-arrow-left:hover {
+    -webkit-transform: scale(1.5) rotate(-90deg);
+    -ms-transform: scale(1.5) rotate(-90deg);
     transform: scale(1.5) rotate(-90deg); }
   .slider .slider-arrow-right {
     width: 25px;
@@ -330,18 +462,26 @@ body {
     background: url(../images/triangle_rose.png);
     background-size: 25px 25px;
     background-repeat: no-repeat;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
     transform: rotate(90deg);
     position: absolute;
     right: 19%;
     top: 50%;
     cursor: pointer;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in; }
   .slider .slider-arrow-right:hover {
+    -webkit-transform: scale(1.5) rotate(90deg);
+    -ms-transform: scale(1.5) rotate(90deg);
     transform: scale(1.5) rotate(90deg); }
   .slider .slider-index {
     position: absolute;
     left: 46%;
     bottom: -3vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex; }
     .slider .slider-index div {
       margin: 0 10px;
@@ -358,10 +498,14 @@ body {
   margin: 0 auto;
   overflow: hidden;
   border: solid 1.5px #DD8496;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex; }
   .slider-content div {
     width: 100%;
     position: relative;
+    -webkit-transition: all ease-in .75s;
+    -o-transition: all ease-in .75s;
     transition: all ease-in .75s; }
     .slider-content div a {
       display: block;
@@ -379,8 +523,12 @@ body {
       bottom: 10px;
       text-align: center;
       line-height: 200%;
+      -webkit-transition: all 0.2s ease-in;
+      -o-transition: all 0.2s ease-in;
       transition: all 0.2s ease-in; }
     .slider-content div a:hover {
+      -webkit-transform: scale(1.08);
+      -ms-transform: scale(1.08);
       transform: scale(1.08); }
 
 .homepage-products {
@@ -411,16 +559,26 @@ body {
       height: auto;
       border: solid 2px #DD8496;
       opacity: 0; }
+
+@-webkit-keyframes fadeIN {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
 @keyframes fadeIN {
   from {
     opacity: 0; }
   to {
     opacity: 1; } }
   .homepage-products .show img {
+    -webkit-animation: fadeIN 1s 1 linear forwards;
     animation: fadeIN 1s 1 linear forwards; }
 
 div.pure-g#top div.pure-u-1-2#left {
   padding-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex; }
   div.pure-g#top div.pure-u-1-2#left img.pure-u-3-4#grande {
     width: 345px;
@@ -431,6 +589,9 @@ div.pure-g#top div.pure-u-1-2#left {
     margin: 0; }
     div.pure-g#top div.pure-u-1-2#left div#goutière div#petites_images {
       margin: 0px 20px 0px 315px;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
       flex-direction: column;
       width: 105px; }
       div.pure-g#top div.pure-u-1-2#left div#goutière div#petites_images img.petite {
@@ -438,100 +599,85 @@ div.pure-g#top div.pure-u-1-2#left {
         height: 109px;
         margin-bottom: 5px;
         border: 1px solid #997C6C; }
-<<<<<<< HEAD
 
-div.pure-g#top div.pure-u-1-2#right {
-=======
-div.pure-g div.pure-u-1-2#right {
->>>>>>> 0e1a47e8d0e6cb8eab61355ae84ef24854574de7
+div.pure-g#top div.pure-u-1-2#right2 {
   padding-top: 100px; }
-  div.pure-g#top div.pure-u-1-2#right div.titre {
+  div.pure-g#top div.pure-u-1-2#right2 div.titre {
     background-color: #DD8496;
     padding: 3px;
     height: 80px;
     border-radius: 3px; }
-    div.pure-g#top div.pure-u-1-2#right div.titre h3 {
+    div.pure-g#top div.pure-u-1-2#right2 div.titre h3 {
       padding-left: 30px;
       font-family: "Della Respira", serif;
       font-size: 25px; }
-<<<<<<< HEAD
-  div.pure-g#top div.pure-u-1-2#right div.ligne {
+  div.pure-g#top div.pure-u-1-2#right2 div.ligne {
     display: -webkit-box;
     display: -ms-flexbox;
-=======
-  div.pure-g div.pure-u-1-2#right div.ligne {
->>>>>>> 0e1a47e8d0e6cb8eab61355ae84ef24854574de7
     display: flex; }
-    div.pure-g#top div.pure-u-1-2#right div.ligne img {
+    div.pure-g#top div.pure-u-1-2#right2 div.ligne img {
       width: 40px;
       height: 40px;
       padding: 30px 5px 5px 15px; }
-    div.pure-g#top div.pure-u-1-2#right div.ligne span {
+    div.pure-g#top div.pure-u-1-2#right2 div.ligne span {
       margin-top: 42px;
       font-size: 13px; }
-<<<<<<< HEAD
-  div.pure-g#top div.pure-u-1-2#right div.ligne2 {
+  div.pure-g#top div.pure-u-1-2#right2 div.ligne2 {
     display: -webkit-box;
     display: -ms-flexbox;
-=======
-  div.pure-g div.pure-u-1-2#right div.ligne2 {
->>>>>>> 0e1a47e8d0e6cb8eab61355ae84ef24854574de7
     display: flex; }
-    div.pure-g#top div.pure-u-1-2#right div.ligne2 img {
+    div.pure-g#top div.pure-u-1-2#right2 div.ligne2 img {
       width: 30px;
       height: 30px;
       padding: 10px 5px 5px 20px; }
-    div.pure-g#top div.pure-u-1-2#right div.ligne2 span {
+    div.pure-g#top div.pure-u-1-2#right2 div.ligne2 span {
       margin-top: 17px;
       margin-left: 5px;
       font-size: 13px; }
-<<<<<<< HEAD
-  div.pure-g#top div.pure-u-1-2#right div.ligne3 {
+  div.pure-g#top div.pure-u-1-2#right2 div.ligne3 {
     display: -webkit-box;
     display: -ms-flexbox;
-=======
-  div.pure-g div.pure-u-1-2#right div.ligne3 {
->>>>>>> 0e1a47e8d0e6cb8eab61355ae84ef24854574de7
     display: flex; }
-    div.pure-g#top div.pure-u-1-2#right div.ligne3 img {
+    div.pure-g#top div.pure-u-1-2#right2 div.ligne3 img {
       width: 40px;
       height: 40px;
       padding: 10px 5px 5px 15px; }
-    div.pure-g#top div.pure-u-1-2#right div.ligne3 span {
+    div.pure-g#top div.pure-u-1-2#right2 div.ligne3 span {
       margin-top: 22px;
       font-size: 13px; }
-  div.pure-g#top div.pure-u-1-2#right div.petit {
+  div.pure-g#top div.pure-u-1-2#right2 div.petit {
     padding-top: 15px;
     padding-right: 350px; }
-<<<<<<< HEAD
-    div.pure-g#top div.pure-u-1-2#right div.petit span.matiere {
+    div.pure-g#top div.pure-u-1-2#right2 div.petit span.matiere {
       display: -webkit-box;
       display: -ms-flexbox;
-=======
-    div.pure-g div.pure-u-1-2#right div.petit span.matiere {
->>>>>>> 0e1a47e8d0e6cb8eab61355ae84ef24854574de7
       display: flex;
+      -webkit-box-align: end;
+      -ms-flex-align: end;
       align-items: flex-end;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
       flex-direction: column; }
-    div.pure-g#top div.pure-u-1-2#right div.petit span.quantite {
+    div.pure-g#top div.pure-u-1-2#right2 div.petit span.quantite {
       font-size: 14px;
       margin-top: 15px; }
-    div.pure-g#top div.pure-u-1-2#right div.petit input {
+    div.pure-g#top div.pure-u-1-2#right2 div.petit input {
       width: 20px;
       height: 20px;
       margin-left: 5px;
       margin-top: 15px; }
-    div.pure-g#top div.pure-u-1-2#right div.petit span.price {
+    div.pure-g#top div.pure-u-1-2#right2 div.petit span.price {
       background-color: #DD8496;
       margin: 15px -5px 0px 210px;
       font-size: 15px;
       padding: 7px 10px; }
-    div.pure-g#top div.pure-u-1-2#right div.petit span.ajoutez_au_panier {
+    div.pure-g#top div.pure-u-1-2#right2 div.petit span.ajoutez_au_panier {
       background-color: #DD8496;
       margin-top: 15px;
       font-size: 15px;
       padding: 7px 10px; }
-    div.pure-g#top div.pure-u-1-2#right div.petit a {
+    div.pure-g#top div.pure-u-1-2#right2 div.petit a {
       text-decoration: none; }
 
 div.pure-g#middle {
@@ -583,19 +729,29 @@ div.decouvrez h4 {
   margin-top: 60px; }
 
 div.pure-g#bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   position: relative; }
   div.pure-g#bottom div.pure-u-5-8#first {
     margin-top: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: distribute;
     justify-content: space-around; }
     div.pure-g#bottom div.pure-u-5-8#first div.pure-u-1-8 img {
       width: 160px;
       height: 160px; }
   div.pure-g#bottom div.pure-u-5-8#second {
     margin-top: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
     position: absolute;
     right: 0; }
@@ -604,12 +760,13 @@ div.pure-g#bottom {
       height: 160px; }
   div.pure-g#bottom div.pure-u-5-8#third {
     margin-top: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
     position: absolute;
     right: 0; }
     div.pure-g#bottom div.pure-u-5-8#third div.pure-u-1-8 img {
       width: 160px;
       height: 160px; }
-
-/*# sourceMappingURL=style.css.map */
