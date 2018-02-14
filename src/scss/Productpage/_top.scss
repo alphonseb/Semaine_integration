@@ -1,20 +1,22 @@
 div.pure-g{
   div.pure-u-1-2#left{
+    padding-top: 100px;
     display: flex;
     img.pure-u-3-4#grande{
-      width:300px;
-      height: 300px;
+      width:345px;
+      height: 345px;
       border: 1px solid $light-brown;
     }
     div#goutière{
       padding:0;
       margin:0;
       div#petites_images{
-        margin: 0px 0px 0px 60px;
+        margin: 0px 20px 0px 300px;
         flex-direction: column;
+        width: 105px;
         img.petite{
-          width:94px;
-          height: 94px;
+          width:109px;
+          height: 109px;
           margin-bottom: 5px;
           border: 1px solid $light-brown;
         }
@@ -23,9 +25,11 @@ div.pure-g{
   }
 
   div.pure-u-1-2#right{
+    padding-top: 100px;
     div.titre{
       background-color: #DD8496;
       padding: 3px;
+      height: 80px;
       h3 {
         padding-left: 30px;
         font-family: $primary-font;
@@ -72,11 +76,11 @@ div.pure-g{
     div.petit{
       padding-top: 15px;
       padding-right: 350px;
-      display:flex;
-      align-items: flex-end;
-      flex-direction: column;
-    }
-    div.quantite_panier{
+      span.matiere{
+        display:flex;
+        align-items: flex-end;
+        flex-direction: column;
+      }
       span.quantite{
         font-size: 14px;
         margin-top: 10px;
@@ -86,11 +90,16 @@ div.pure-g{
         height: 20px;
         margin-left: 5px;
       }
-      a{
+      span.price{
         background-color: $primary-font;
+        padding-left: 270px;
+      }
+      button{
+        background-color: $primary-font;
+      }
+      a{
         text-decoration: none;
-        }
-      
+      }
     }
   }
 }
