@@ -28,27 +28,12 @@ body {
 .screen1 img {
   height: 100px;
   width: auto; }
-<<<<<<< HEAD
-
-@-webkit-keyframes fadein {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-=======
->>>>>>> 09da726f51fa696c9eceb0fea49ccb8773a397a7
 @keyframes fadein {
   from {
     opacity: 0; }
   to {
     opacity: 1; } }
-<<<<<<< HEAD
-
-.fade-in {
-=======
 .screen1 .fade-in {
->>>>>>> 09da726f51fa696c9eceb0fea49ccb8773a397a7
   opacity: 0;
   opacity: 1 \9;
   /*just in case ie*/
@@ -66,19 +51,6 @@ body {
   margin: 0 90px; }
   .screen1 .pure-g div {
     text-align: center; }
-<<<<<<< HEAD
-  .pure-g .first {
-    -webkit-animation-delay: 0.3s;
-    animation-delay: 0.3s; }
-  .pure-g .second {
-    -webkit-animation-delay: 1s;
-    animation-delay: 1s; }
-  .pure-g .third {
-    -webkit-animation-delay: 1.7s;
-    animation-delay: 1.7s; }
-  .pure-g .fourth {
-    -webkit-animation-delay: 2.4s;
-=======
   .screen1 .pure-g .first {
     animation-delay: 0.3s; }
   .screen1 .pure-g .second {
@@ -86,7 +58,6 @@ body {
   .screen1 .pure-g .third {
     animation-delay: 1.7s; }
   .screen1 .pure-g .fourth {
->>>>>>> 09da726f51fa696c9eceb0fea49ccb8773a397a7
     animation-delay: 2.4s; }
 .screen1 .line1 {
   position: absolute;
@@ -94,9 +65,7 @@ body {
   top: 30%;
   height: 2px;
   background: #997C6C;
-  -webkit-animation: move 1s 1 linear forwards;
   animation: move 1s 1 linear forwards;
-  -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s; }
 .screen1 .line2 {
   position: absolute;
@@ -104,9 +73,7 @@ body {
   top: 30%;
   height: 2px;
   background: #997C6C;
-  -webkit-animation: move 1s 1 linear forwards;
   animation: move 1s 1 linear forwards;
-  -webkit-animation-delay: 1.3s;
   animation-delay: 1.3s; }
 .screen1 .line3 {
   position: absolute;
@@ -114,9 +81,7 @@ body {
   top: 30%;
   height: 2px;
   background: #997C6C;
-  -webkit-animation: move3 1.7s 1 linear forwards;
   animation: move3 1.7s 1 linear forwards;
-  -webkit-animation-delay: 2.3s;
   animation-delay: 2.3s; }
 .screen1 .arrow-top {
   position: absolute;
@@ -124,12 +89,8 @@ body {
   top: 26%;
   height: 1.5px;
   background: #997C6C;
-  -webkit-transform: rotate(35deg);
-  -ms-transform: rotate(35deg);
   transform: rotate(35deg);
-  -webkit-animation: arrowmove 1s 1 linear forwards;
   animation: arrowmove 1s 1 linear forwards;
-  -webkit-animation-delay: 4s;
   animation-delay: 4s; }
 .screen1 .arrow-bottom {
   position: absolute;
@@ -137,22 +98,9 @@ body {
   top: 34.5%;
   height: 1.5px;
   background: #997C6C;
-  -webkit-transform: rotate(-35deg);
-  -ms-transform: rotate(-35deg);
   transform: rotate(-35deg);
-  -webkit-animation: arrowmove 1s 1 linear forwards;
   animation: arrowmove 1s 1 linear forwards;
-  -webkit-animation-delay: 4s;
   animation-delay: 4s; }
-<<<<<<< HEAD
-
-@-webkit-keyframes arrowmove {
-  from {
-    width: 0; }
-  to {
-    width: 1.6%; } }
-
-=======
 .screen1 .vert1 {
   position: absolute;
   left: 12.5%;
@@ -232,31 +180,16 @@ body {
     height: 0; }
   to {
     height: 40%; } }
->>>>>>> 09da726f51fa696c9eceb0fea49ccb8773a397a7
 @keyframes arrowmove {
   from {
     width: 0; }
   to {
     width: 1.6%; } }
-
-@-webkit-keyframes move {
-  0% {
-    width: 0; }
-  100% {
-    width: 18.5%; } }
-
 @keyframes move {
   0% {
     width: 0; }
   100% {
     width: 18.5%; } }
-
-@-webkit-keyframes move3 {
-  0% {
-    width: 0; }
-  100% {
-    width: 30%; } }
-
 @keyframes move3 {
   0% {
     width: 0; }
@@ -267,16 +200,21 @@ body {
 
 .screen2 .topbar {
   width: 83%;
-  margin: 0 auto; }
-  .screen2 .topbar p {
+  margin: 30px auto; }
+  .screen2 .topbar span {
     font-size: 1.5rem;
-    font-family: "Della Respira", serif; }
-  .screen2 .topbar .logo {
+    font-family: "Della Respira", serif;
+    color: #DD8496; }
+  .screen2 .topbar .logo a {
+    display: block;
     background: url(../images/logo.png);
-    width: 495px;
-    height: 115px; }
+    background-size: auto 97px;
+    background-repeat: no-repeat;
+    height: 91px; }
   .screen2 .topbar .centered {
-    padding-top: 4%; }
+    padding-top: 2.5%;
+    display: flex;
+    justify-content: center; }
     .screen2 .topbar .centered p {
       margin: 0; }
   .screen2 .topbar .icone-client {
@@ -284,50 +222,125 @@ body {
     height: 25px;
     background: url(../images/people_rose.png);
     background-size: 25px 25px; }
+    .screen2 .topbar .icone-client + a {
+      text-decoration: none; }
+    .screen2 .topbar .icone-client + a:hover span {
+      color: #997C6C; }
   .screen2 .topbar .icone-panier {
     width: 25px;
     height: 25px;
     background: url(../images/panier_rose.png);
     background-size: 25px 25px; }
-  .screen2 .topbar .fb {
-    margin: 0;
-    width: 30px;
-    height: 30px;
-    background: url(../images/fb_rose.png);
-    background-size: 30px 30px; }
-  .screen2 .topbar .twi {
-    margin: 0;
-    width: 30px;
-    height: 30px;
-    background: url(../images/twitter_rose.png);
-    background-size: 30px 30px; }
-  .screen2 .topbar .insta {
-    margin: 0;
-    width: 30px;
-    height: 30px;
-    background: url(../images/insta_rose.png);
-    background-size: 30px 30px; }
+    .screen2 .topbar .icone-panier + a {
+      text-decoration: none; }
+    .screen2 .topbar .icone-panier + a:hover span {
+      color: #997C6C; }
+  .screen2 .topbar .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; }
+    .screen2 .topbar .social .fb a {
+      display: block;
+      margin: 0 10px;
+      width: 30px;
+      height: 30px;
+      background: url(../images/fb_rose.png);
+      background-size: 30px 30px; }
+    .screen2 .topbar .social .twi a {
+      display: block;
+      margin: 0 10px;
+      width: 30px;
+      height: 30px;
+      background: url(../images/twitter_rose.png);
+      background-size: 30px 30px; }
+    .screen2 .topbar .social .insta a {
+      display: block;
+      margin: 0 10px;
+      width: 30px;
+      height: 30px;
+      background: url(../images/insta_rose.png);
+      background-size: 30px 30px; }
   .screen2 .topbar div {
     text-align: center; }
 .screen2 header ul {
   margin: 0 auto;
   width: 95%;
   padding: 0;
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  position: relative; }
   .screen2 header ul li {
     list-style: none;
-    text-align: center; }
+    text-align: center;
+    padding-bottom: 5px; }
     .screen2 header ul li a {
       font-family: "Della Respira", serif;
       text-decoration: none;
       color: #DD8496; }
+    .screen2 header ul li a.color-active {
+      color: #997C6C; }
+    .screen2 header ul li .sub-menu {
+      background: white;
+      width: 100%;
+      position: absolute;
+      left: -2.5%;
+      top: 25px;
+      border-top: 2px solid #997C6C;
+      border-bottom: 1.5px solid #997C6C;
+      padding: 100px 2.5vw;
+      z-index: 9999;
+      display: none; }
+      .screen2 header ul li .sub-menu > li {
+        margin: 0 30px; }
+        .screen2 header ul li .sub-menu > li a {
+          font-size: 1.4rem; }
+  .screen2 header ul li:hover .sub-menu {
+    display: flex;
+    justify-content: center; }
+  .screen2 header ul li:hover > a {
+    color: #997C6C; }
 .screen2 .fixedline {
-  height: 2px;
-  background: #997C6C;
+  border-bottom: 2px solid #997C6C;
   width: 80.6%;
   position: relative;
-  left: 7px;
+  left: 13px;
   margin: 0 auto; }
+
+.slider {
+  position: relative; }
+  .slider .slider-arrow-left {
+    width: 50px;
+    height: 50px;
+    background: url(../images/triangle_rose.png);
+    background-size: 50px 50px;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 25%;
+    top: 50%; }
+  .slider .slider-arrow-right {
+    width: 50px;
+    height: 50px;
+    background: url(../images/triangle_rose.png);
+    background-size: 50px 50px;
+    transform: rotate(90deg);
+    position: absolute;
+    right: 25%;
+    top: 50%; }
+
+.slider-content {
+  width: 850px;
+  height: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex; }
+  .slider-content img {
+    position: relative;
+    transition: all ease-in .75s; }
+
+.grid {
+  height: 100vh; }
+
+.grid main {
+  margin-top: 5vh; }
 
 div.pure-g div.pure-u-1-2 {
   display: flex; }
@@ -369,8 +382,4 @@ div.pure-g div.pure-u-1-2 {
 div.garantie_details {
   background-color: #DD8496; }
 
-<<<<<<< HEAD
-
-=======
 /*# sourceMappingURL=style.css.map */
->>>>>>> 09da726f51fa696c9eceb0fea49ccb8773a397a7
