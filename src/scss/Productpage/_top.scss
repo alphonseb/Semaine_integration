@@ -1,6 +1,9 @@
 div.pure-g#top{
-  div.pure-u-1-2#left{
-    padding-top: 100px;
+  letter-spacing: normal;
+  display: flex;
+  justify-content: center;
+  div.pure-u-1pure-u-lg-1-2#left{
+    padding: 100px 0px 0px 315px;
     display: flex;
     img.pure-u-3-4#grande{
       width:345px;
@@ -11,7 +14,7 @@ div.pure-g#top{
       padding:0;
       margin:0;
       div#petites_images{
-        margin: 0px 20px 0px 315px;
+        margin: 0px 20px 0px 0px;
         flex-direction: column;
         width: 105px;
         img.petite{
@@ -24,13 +27,16 @@ div.pure-g#top{
     }
   }
 
-  div.pure-u-1-2#right2{
+  div.pure-u-1pure-u-lg-1-2#right{
+    padding-left: 50px;
     padding-top: 100px;
     div.titre{
+      width: 520px;
       background-color: #DD8496;
       padding: 3px;
       height: 80px;
       border-radius: 3px;
+      justify-content: flex-start;
       h3 {
         padding-left: 30px;
         font-family: $primary-font;
@@ -108,5 +114,16 @@ div.pure-g#top{
         text-decoration: none;
       }
     }
+  }
+}
+
+@media screen and (max-width:1024px){
+  div.pure-u-1pure-u-lg-1-2#left{
+    padding: 0px;
+    justify-content: center;
+  }
+  div.pure-u-1pure-u-lg-1-2#right{
+    padding: 0px;
+    justify-content: center;
   }
 }
