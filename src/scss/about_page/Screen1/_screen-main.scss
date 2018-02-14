@@ -121,7 +121,7 @@
 
 .espace {
   width: 100%;
-  height: 25vh;
+  height: 10vh;
   background-color: white;
 }
 
@@ -138,16 +138,16 @@
 
 .philosophie {
   letter-spacing: normal;
-  background: url(../images/gris_rose.png);
+  background-color: #fafafa;
   margin-left: 15vh;
   margin-right: 15vh;
   text-align: justify;
-  height: 80vh;
+  height: 120vh;
 }
 
 .title_crea {
   height: 10vh;
-  background: url(../images/gris_rose.png);
+  background-color: #fafafa ;
   display: flex;
   justify-content: center;
   margin-left: 15vh;
@@ -157,23 +157,19 @@
 .title_crea p {
   margin-top: 10vh;
   font-size: 2.8rem;
-}
-
-.a_propos {
-  width: 33%;
-  height: 50vh;
-  margin-top: 10vh;
+  color: #de8496;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .a_propos h2 {
   padding-top: 4.2vh;
   font-size: 1.6rem;
-  text-align: center;
-
+  margin-left: 5vh;
 }
 
 #a_propos {
-  padding-top: 4.2vh;
+  padding-top: 2vh;
   font-size: 1.6rem;
   margin-left: 5vh;
   margin-right: 5vh;
@@ -181,39 +177,246 @@
 }
 
 .creatrice {
-    width: 33%;
-    height: 50vh;
-    margin-top: 10vh;
+  height: 35vh;
+  width: 100%;
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
 }
 
 #descriptif_crea {
   font-size: 1.4rem;
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -8vh;
 }
 
 .creatrice img{
-  height: 35vh;
+  height: 25vh;
   border-radius: 50%;
-  display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 7vh;
-}
-
-.parcours {
-  width: 33%;
-  margin-top: 10vh;
 }
 
 #parcours {
-  padding-top: 4.2vh;
+  padding-top: 2vh;
   font-size: 1.6rem;
   margin-left: 5vh;
   margin-right: 5vh;
   line-height: 2.3rem;
 }
 .parcours h2{
-  padding-top: 4.2vh;
   font-size: 1.6rem;
-  text-align: center;
+  margin-left: 5vh;
+}
+
+//
+
+
+// RESPONSIVE //
+
+
+//
+
+@media only screen and (min-width : 745px) and (max-width : 1024px)  {
+  .trait1 {
+    display: none;
+  }
+
+  .trait2 {
+    display: none;
+  }
+
+  .trait3 {
+    display: none;
+  }
+
+  .bullet {
+    width: auto;
+    margin-left: -5vh;
+    margin-right: -5vh;
+    background: url(../images/trousseau_background.png)
+  }
+
+  .image img {
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  #france {
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 5.5vh;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-left: -5vh;
+    margin-right: 10vh;
+  }
+
+  #faitmain {
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 5.5vh;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-left: -5vh;
+    margin-right: 10vh;
+  }
+
+  #attention {
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 5.5vh;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-left: -5vh;
+    margin-right: 10vh;
+  }
+
+  #quality {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 4vh;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-left: -5vh;
+    margin-right: 10vh;
+  }
+
+  #partage {
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 3vh;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-left: -5vh;
+    margin-right: 10vh;
+  }
+
+// DEUXIEME PARTIE //
+
+  .philosophie {
+    letter-spacing: normal;
+    background-color: #fafafa;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    height: 120vh;
+  }
+
+  .title_crea {
+    height: 10vh;
+    background-color: #fafafa ;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+
+
+}
+
+@media only screen and (min-width : 375px) and (max-width : 745px) {
+  .trait1 {
+    display: none;
+  }
+
+  .trait2 {
+    display: none;
+  }
+
+  .trait3 {
+    display: none;
+  }
+
+  .bullet {
+    width: auto;
+    background: url(../images/trousseau_background.png);
+    margin-left: -5vh;
+    margin-right: -5vh;
+  }
+
+  #france {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-left: 10vh;
+    margin-right: 10vh;
+  }
+
+  #faitmain {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-left: 10vh;
+    margin-right: 10vh;
+  }
+
+  #attention {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-left: 10vh;
+    margin-right: 10vh;
+  }
+
+  #quality {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-left: 10vh;
+    margin-right: 10vh;
+  }
+
+  #partage {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-left: 10vh;
+    margin-right: 10vh;
+  }
+  .image{
+    width: 100%;
+    display: flex;
+  }
+
+  .image img {
+    height: 10rem;
+    width: 10rem;
+    margin-bottom: -3vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .text{
+    width: 100%;
+  }
+
+  .philosophie {
+    letter-spacing: normal;
+    background-color: #fafafa;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-align: justify;
+    height: 120vh;
+  }
+
+  .title_crea {
+    height: 10vh;
+    background-color: #fafafa ;
+    display: flex;
+    justify-content: center;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
+
 }

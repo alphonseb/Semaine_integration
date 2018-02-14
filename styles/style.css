@@ -323,9 +323,17 @@ body {
   .screen2 .topbar .centered {
     padding-top: 2.5%;
     display: -webkit-box;
+<<<<<<< HEAD
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
+=======
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+>>>>>>> 3155246e87c8d08cf13d90deddff44343617d8ef
     -ms-flex-pack: center;
     justify-content: center; }
     .screen2 .topbar .centered p {
@@ -350,13 +358,25 @@ body {
       color: #997C6C; }
   .screen2 .topbar .social {
     display: -webkit-box;
+<<<<<<< HEAD
+=======
+    display: -webkit-flex;
+>>>>>>> 3155246e87c8d08cf13d90deddff44343617d8ef
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
+<<<<<<< HEAD
     -ms-flex-direction: row;
     flex-direction: row;
     -webkit-box-pack: end;
+=======
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+>>>>>>> 3155246e87c8d08cf13d90deddff44343617d8ef
     -ms-flex-pack: end;
     justify-content: flex-end; }
     .screen2 .topbar .social .fb a {
@@ -416,9 +436,17 @@ body {
           font-size: 1.4rem; }
   .screen2 header ul li:hover .sub-menu {
     display: -webkit-box;
+<<<<<<< HEAD
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
+=======
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+>>>>>>> 3155246e87c8d08cf13d90deddff44343617d8ef
     -ms-flex-pack: center;
     justify-content: center; }
   .screen2 header ul li:hover > a {
@@ -481,6 +509,10 @@ body {
     left: 46%;
     bottom: -3vh;
     display: -webkit-box;
+<<<<<<< HEAD
+=======
+    display: -webkit-flex;
+>>>>>>> 3155246e87c8d08cf13d90deddff44343617d8ef
     display: -ms-flexbox;
     display: flex; }
     .slider .slider-index div {
@@ -499,6 +531,10 @@ body {
   overflow: hidden;
   border: solid 1.5px #DD8496;
   display: -webkit-box;
+<<<<<<< HEAD
+=======
+  display: -webkit-flex;
+>>>>>>> 3155246e87c8d08cf13d90deddff44343617d8ef
   display: -ms-flexbox;
   display: flex; }
   .slider-content div {
@@ -575,9 +611,473 @@ body {
     -webkit-animation: fadeIN 1s 1 linear forwards;
     animation: fadeIN 1s 1 linear forwards; }
 
+.grid {
+  height: 100vh;
+  font-size: 62.5%;
+  font-family: "Della Respira", serif;
+  position: relative; }
+
+.titre {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 20vh; }
+
+.titre p {
+  font-size: 4rem;
+  font-style: italic;
+  color: #de8496;
+  margin-bottom: 2vh; }
+
+.trait1 {
+  top: 168px;
+  height: 1px;
+  background-color: black;
+  width: 250px;
+  position: absolute;
+  z-index: 1; }
+
+.trait2 {
+  top: 168px;
+  left: 250px;
+  height: 705px;
+  background-color: black;
+  width: 1px;
+  position: absolute;
+  z-index: 1; }
+
+.trait3 {
+  top: 872px;
+  height: 1px;
+  background-color: black;
+  width: 250px;
+  position: absolute;
+  z-index: 1; }
+
+.bullet {
+  margin-left: 15vh;
+  margin-top: 7px;
+  margin-right: 15vh;
+  z-index: 2;
+  background: url(../images/trousseau_background.png); }
+
+.image img {
+  height: 10rem;
+  width: 10rem;
+  margin: 2.5vh 10vh; }
+
+#france {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  padding-top: 5.5vh;
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-left: -5vh;
+  margin-right: 10vh; }
+
+#faitmain {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  padding-top: 5.5vh;
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-left: -5vh;
+  margin-right: 10vh; }
+
+#attention {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  padding-top: 5.5vh;
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-left: -5vh;
+  margin-right: 10vh; }
+
+#quality {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  margin-top: 4vh;
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-left: -5vh;
+  margin-right: 10vh; }
+
+#partage {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  padding-top: 3vh;
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-left: -5vh;
+  margin-right: 10vh; }
+
+.image {
+  width: auto;
+  z-index: 3; }
+
+.text {
+  width: 65%; }
+
+.espace {
+  width: 100%;
+  height: 10vh;
+  background-color: white; }
+
+.philosophie {
+  letter-spacing: normal;
+  background-color: #fafafa;
+  margin-left: 15vh;
+  margin-right: 15vh;
+  text-align: justify;
+  height: 120vh; }
+
+.title_crea {
+  height: 10vh;
+  background-color: #fafafa;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-left: 15vh;
+  margin-right: 15vh; }
+
+.title_crea p {
+  margin-top: 10vh;
+  font-size: 2.8rem;
+  color: #de8496;
+  margin-left: auto;
+  margin-right: auto; }
+
+.a_propos h2 {
+  padding-top: 4.2vh;
+  font-size: 1.6rem;
+  margin-left: 5vh; }
+
+#a_propos {
+  padding-top: 2vh;
+  font-size: 1.6rem;
+  margin-left: 5vh;
+  margin-right: 5vh;
+  line-height: 2.3rem; }
+
+.creatrice {
+  height: 35vh;
+  width: 100%;
+  margin-top: 10vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+#descriptif_crea {
+  font-size: 1.4rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -8vh; }
+
+.creatrice img {
+  height: 25vh;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto; }
+
+#parcours {
+  padding-top: 2vh;
+  font-size: 1.6rem;
+  margin-left: 5vh;
+  margin-right: 5vh;
+  line-height: 2.3rem; }
+
+.parcours h2 {
+  font-size: 1.6rem;
+  margin-left: 5vh; }
+
+@media only screen and (min-width: 745px) and (max-width: 1024px) {
+  .trait1 {
+    display: none; }
+  .trait2 {
+    display: none; }
+  .trait3 {
+    display: none; }
+  .bullet {
+    width: auto;
+    margin-left: -5vh;
+    margin-right: -5vh;
+    background: url(../images/trousseau_background.png); }
+  .image img {
+    height: 10rem;
+    width: 10rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  #france {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    padding-top: 5.5vh;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-left: -5vh;
+    margin-right: 10vh; }
+  #faitmain {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    padding-top: 5.5vh;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-left: -5vh;
+    margin-right: 10vh; }
+  #attention {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    padding-top: 5.5vh;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-left: -5vh;
+    margin-right: 10vh; }
+  #quality {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin-top: 4vh;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-left: -5vh;
+    margin-right: 10vh; }
+  #partage {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    padding-top: 3vh;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-left: -5vh;
+    margin-right: 10vh; }
+  .philosophie {
+    letter-spacing: normal;
+    background-color: #fafafa;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    height: 120vh; }
+  .title_crea {
+    height: 10vh;
+    background-color: #fafafa;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px; } }
+
+@media only screen and (min-width: 375px) and (max-width: 745px) {
+  .trait1 {
+    display: none; }
+  .trait2 {
+    display: none; }
+  .trait3 {
+    display: none; }
+  .bullet {
+    width: auto;
+    background: url(../images/trousseau_background.png);
+    margin-left: -5vh;
+    margin-right: -5vh; }
+  #france {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-left: 10vh;
+    margin-right: 10vh; }
+  #faitmain {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-left: 10vh;
+    margin-right: 10vh; }
+  #attention {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-left: 10vh;
+    margin-right: 10vh; }
+  #quality {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-left: 10vh;
+    margin-right: 10vh; }
+  #partage {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-left: 10vh;
+    margin-right: 10vh; }
+  .image {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+  .image img {
+    height: 10rem;
+    width: 10rem;
+    margin-bottom: -3vh;
+    margin-left: auto;
+    margin-right: auto; }
+  .text {
+    width: 100%; }
+  .philosophie {
+    letter-spacing: normal;
+    background-color: #fafafa;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-align: justify;
+    height: 120vh; }
+  .title_crea {
+    height: 10vh;
+    background-color: #fafafa;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-left: 2px;
+    margin-right: 2px; } }
+
 div.pure-g#top div.pure-u-1-2#left {
   padding-top: 100px;
   display: -webkit-box;
+<<<<<<< HEAD
+=======
+  display: -webkit-flex;
+>>>>>>> 3155246e87c8d08cf13d90deddff44343617d8ef
   display: -ms-flexbox;
   display: flex; }
   div.pure-g#top div.pure-u-1-2#left img.pure-u-3-4#grande {
@@ -591,6 +1091,10 @@ div.pure-g#top div.pure-u-1-2#left {
       margin: 0px 20px 0px 315px;
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
+<<<<<<< HEAD
+=======
+      -webkit-flex-direction: column;
+>>>>>>> 3155246e87c8d08cf13d90deddff44343617d8ef
       -ms-flex-direction: column;
       flex-direction: column;
       width: 105px; }
@@ -600,7 +1104,11 @@ div.pure-g#top div.pure-u-1-2#left {
         margin-bottom: 5px;
         border: 1px solid #997C6C; }
 
+<<<<<<< HEAD
 div.pure-g#top div.pure-u-1-2#right2 {
+=======
+div.pure-g#top div.pure-u-1-2#right {
+>>>>>>> 3155246e87c8d08cf13d90deddff44343617d8ef
   padding-top: 100px; }
   div.pure-g#top div.pure-u-1-2#right2 div.titre {
     background-color: #DD8496;
@@ -611,8 +1119,13 @@ div.pure-g#top div.pure-u-1-2#right2 {
       padding-left: 30px;
       font-family: "Della Respira", serif;
       font-size: 25px; }
+<<<<<<< HEAD
   div.pure-g#top div.pure-u-1-2#right2 div.ligne {
+=======
+  div.pure-g#top div.pure-u-1-2#right div.ligne {
+>>>>>>> 3155246e87c8d08cf13d90deddff44343617d8ef
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
     div.pure-g#top div.pure-u-1-2#right2 div.ligne img {
@@ -622,8 +1135,13 @@ div.pure-g#top div.pure-u-1-2#right2 {
     div.pure-g#top div.pure-u-1-2#right2 div.ligne span {
       margin-top: 42px;
       font-size: 13px; }
+<<<<<<< HEAD
   div.pure-g#top div.pure-u-1-2#right2 div.ligne2 {
+=======
+  div.pure-g#top div.pure-u-1-2#right div.ligne2 {
+>>>>>>> 3155246e87c8d08cf13d90deddff44343617d8ef
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
     div.pure-g#top div.pure-u-1-2#right2 div.ligne2 img {
@@ -634,8 +1152,13 @@ div.pure-g#top div.pure-u-1-2#right2 {
       margin-top: 17px;
       margin-left: 5px;
       font-size: 13px; }
+<<<<<<< HEAD
   div.pure-g#top div.pure-u-1-2#right2 div.ligne3 {
+=======
+  div.pure-g#top div.pure-u-1-2#right div.ligne3 {
+>>>>>>> 3155246e87c8d08cf13d90deddff44343617d8ef
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
     div.pure-g#top div.pure-u-1-2#right2 div.ligne3 img {
@@ -648,15 +1171,28 @@ div.pure-g#top div.pure-u-1-2#right2 {
   div.pure-g#top div.pure-u-1-2#right2 div.petit {
     padding-top: 15px;
     padding-right: 350px; }
+<<<<<<< HEAD
     div.pure-g#top div.pure-u-1-2#right2 div.petit span.matiere {
+=======
+    div.pure-g#top div.pure-u-1-2#right div.petit span.matiere {
+>>>>>>> 3155246e87c8d08cf13d90deddff44343617d8ef
       display: -webkit-box;
+      display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
       -webkit-box-align: end;
+<<<<<<< HEAD
+=======
+      -webkit-align-items: flex-end;
+>>>>>>> 3155246e87c8d08cf13d90deddff44343617d8ef
       -ms-flex-align: end;
       align-items: flex-end;
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
+<<<<<<< HEAD
+=======
+      -webkit-flex-direction: column;
+>>>>>>> 3155246e87c8d08cf13d90deddff44343617d8ef
       -ms-flex-direction: column;
       flex-direction: column; }
     div.pure-g#top div.pure-u-1-2#right2 div.petit span.quantite {
@@ -730,17 +1266,32 @@ div.decouvrez h4 {
 
 div.pure-g#bottom {
   display: -webkit-box;
+<<<<<<< HEAD
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
+=======
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+>>>>>>> 3155246e87c8d08cf13d90deddff44343617d8ef
   -ms-flex-pack: center;
   justify-content: center;
   position: relative; }
   div.pure-g#bottom div.pure-u-5-8#first {
     margin-top: 40px;
     display: -webkit-box;
+<<<<<<< HEAD
     display: -ms-flexbox;
     display: flex;
+=======
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+>>>>>>> 3155246e87c8d08cf13d90deddff44343617d8ef
     -ms-flex-pack: distribute;
     justify-content: space-around; }
     div.pure-g#bottom div.pure-u-5-8#first div.pure-u-1-8 img {
@@ -749,8 +1300,15 @@ div.pure-g#bottom {
   div.pure-g#bottom div.pure-u-5-8#second {
     margin-top: 40px;
     display: -webkit-box;
+<<<<<<< HEAD
     display: -ms-flexbox;
     display: flex;
+=======
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+>>>>>>> 3155246e87c8d08cf13d90deddff44343617d8ef
     -ms-flex-pack: distribute;
     justify-content: space-around;
     position: absolute;
@@ -761,8 +1319,15 @@ div.pure-g#bottom {
   div.pure-g#bottom div.pure-u-5-8#third {
     margin-top: 40px;
     display: -webkit-box;
+<<<<<<< HEAD
     display: -ms-flexbox;
     display: flex;
+=======
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+>>>>>>> 3155246e87c8d08cf13d90deddff44343617d8ef
     -ms-flex-pack: distribute;
     justify-content: space-around;
     position: absolute;
