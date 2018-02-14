@@ -1,54 +1,218 @@
 .grid {
   height : 100vh;
+  font-size: 62.5%;
+  font-family: "Della Respira", serif;
+  position: relative;
 }
 
-.grid main {
-  margin-top: 5vh;
+.titre {
+  display: flex;
+  justify-content: center;
+  height: 20vh;
 }
 
-img {
+.titre p {
+  font-size: 4rem;
+  font-style: italic;
+  color: #de8496;
+  margin-bottom: 2vh;
+}
+
+.trait1 {
+  top: 168px;
+  height: 1px;
+  background-color: black;
+  width : 250px;
+  position: absolute;
+  z-index: 1;
+}
+
+.trait2 {
+  top: 168px;
+  left: 250px;
+  height: 705px;
+  background-color: black;
+  width: 1px;
+  position: absolute;
+  z-index: 1;
+}
+
+.trait3 {
+  top: 872px;
+  height: 1px;
+  background-color: black;
+  width : 250px;
+  position: absolute;
+  z-index: 1;
+}
+
+.bullet {
+  margin-left: 15vh;
+  margin-top: 7px;
+  margin-right: 15vh;
+  z-index: 2;
+  background: url(../images/trousseau_background.png)
+}
+
+.image img {
   height: 10rem;
   width: 10rem;
-  margin: 5vh 10vh;
+  margin: 2.5vh 10vh;
 }
 
-.caption {
-  font-size: 1.7rem;
-  padding-top: 8vh;
+#france {
+  display: flex;
+  flex-flow: row wrap;
+  padding-top: 5.5vh;
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-left: -5vh;
+  margin-right: 10vh;
+}
+
+#faitmain {
+  display: flex;
+  flex-flow: row wrap;
+  padding-top: 5.5vh;
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-left: -5vh;
+  margin-right: 10vh;
+}
+
+#attention {
+  display: flex;
+  flex-flow: row wrap;
+  padding-top: 5.5vh;
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-left: -5vh;
+  margin-right: 10vh;
+}
+
+#quality {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 4vh;
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-left: -5vh;
+  margin-right: 10vh;
+}
+
+#partage {
+  display: flex;
+  flex-flow: row wrap;
+  padding-top: 3vh;
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-left: -5vh;
+  margin-right: 10vh;
 }
 
 .image{
   width: auto;
+  z-index: 3;
 }
 
 .text{
-  width: 80%;
+  width: 65%;
 }
 
 .espace {
   width: 100%;
-  height: 70vh;
-  background-color: black;
+  height: 25vh;
+  background-color: white;
 }
 
-#creatrice {
-  height: 45vh;
-  width: 75vh;
+
+//
+
+
+
+// SECONDE PARTIE
+
+
+
+//
+
+.philosophie {
+  letter-spacing: normal;
+  background-color: rgba(211,211,211,0.8);
+  margin-left: 15vh;
+  margin-right: 15vh;
+  text-align: justify;
 }
 
-.pure-u.pure-u-lg-4-9 {
-  width: auto;
+.title_crea {
+  height: 10vh;
+  background-color: rgba(211,211,211,0.8);
+  display: flex;
+  justify-content: center;
+  margin-left: 15vh;
+  margin-right: 15vh;
 }
 
-.pure-u.pure-u-lg-5-9 {
-  width: 42%;
+.title_crea p {
+  margin-top: 10vh;
+  margin-left: -5vh;
+  font-size: 2.8rem;
 }
 
-.mot_de_la_creatrice {
-  font-size: 1.2rem;
-  width: auto;
-  padding-top: 6vh;
+.a_propos {
+  width: 33%;
+  height: 50vh;
+  margin-top: 10vh;
 }
 
-.mot_de_la_creatrice p {
+.a_propos h2 {
+  padding-top: 4.2vh;
+  font-size: 1.5rem;
+  margin-left: 5vh;
+  margin-right: 5vh;
+}
+
+#a_propos {
+  padding-top: 4.2vh;
+  font-size: 1.5rem;
+  margin-left: 5vh;
+  margin-right: 5vh;
+}
+
+.creatrice {
+    width: 33%;
+    height: 50vh;
+    margin-top: 10vh;
+}
+
+#descriptif_crea {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.creatrice img{
+  height: 35vh;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7vh;
+}
+
+.parcours {
+  width: 33%;
+  margin-top: 10vh;
+}
+
+#parcours {
+  padding-top: 4.2vh;
+  font-size: 1.5rem;
+  margin-left: 5vh;
+  margin-right: 5vh;
+}
+.parcours h2{
+  padding-top: 4.2vh;
+  font-size: 1.5rem;
+  margin-left: 5vh;
+  margin-right: 5vh;
 }
