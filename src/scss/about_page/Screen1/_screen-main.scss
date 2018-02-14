@@ -1,5 +1,7 @@
 .grid {
   height : 100vh;
+  font-size: 62.5%;
+  font-family: "Della Respira", serif;
 }
 
 .grid main {
@@ -90,45 +92,82 @@
   background-color: white;
 }
 
-.block {
-  border-radius: 15px;
-  background-color: rgba(192, 80, 128, 0.8);
-  margin: 0vh 10vh 0vh 10vh;
-  width: 89%;
-  height: 65vh;
+
+// SECONDE PARTIE //
+
+.philosophie {
+  letter-spacing: normal;
+  background-color: rgba(211,211,211,0.8);
 }
 
-#creatrice {
-  height: 45vh;
-  width: 35vh;
-  margin: 10vh 15vh 20vh 20vh;
-
+.title_crea {
+  height: 10vh;
+  background-color: rgba(211,211,211,0.8);
+  display: flex;
+  justify-content: center;
+  margin-left: -20vh;
 }
 
-.im_crea {
-  width: auto;
+.title_crea p {
+  margin-top: 10vh;
+  font-size: 2.8rem;
 }
 
-.caption_crea {
-  width: 50%;
 
+.a_propos {
+  width: 30%;
+  height: 50vh;
+  margin-top: 10vh;
 }
 
-.mot_de_la_creatrice {
-  font-size: 1.2rem;
-  width: auto;
-  margin-top: 17vh;
+.a_propos h2 {
+  padding-top: 4.2vh;
+  font-size: 1.5rem;
+  margin-left: 10vh;
+  margin-right: 5vh;
 }
 
-.mot_de_la_creatrice h2 {
-  margin-bottom: 5vh;
-
+#a_propos {
+  padding-top: 4.2vh;
+  font-size: 1.5rem;
+  margin-left: 10vh;
+  margin-right: 5vh;
 }
 
-.mot_de_la_creatrice p {
-  font-size: 1.6rem;
-  font-style: italic;
-  color: white;
-  font-weight: lighter;
+.creatrice {
+    width: 30%;
+    height: 50vh;
+    margin-top: 10vh;
+}
 
+#descriptif_crea {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.creatrice img{
+  height: 35vh;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7vh;
+}
+
+.description {
+  width: 30%;
+  margin-top: 10vh;
+}
+
+#description {
+  padding-top: 4.2vh;
+  font-size: 1.5rem;
+  margin-left: 10vh;
+  margin-right: 5vh;
+}
+.description h2{
+  padding-top: 4.2vh;
+  font-size: 1.5rem;
+  margin-left: 10vh;
+  margin-right: 5vh;
 }
