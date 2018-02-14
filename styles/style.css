@@ -634,14 +634,15 @@ body {
 
 .philosophie {
   letter-spacing: normal;
-  background-color: rgba(211, 211, 211, 0.8);
+  background: url(../images/gris_rose.png);
   margin-left: 15vh;
   margin-right: 15vh;
-  text-align: justify; }
+  text-align: justify;
+  height: 80vh; }
 
 .title_crea {
   height: 10vh;
-  background-color: rgba(211, 211, 211, 0.8);
+  background: url(../images/gris_rose.png);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -655,7 +656,6 @@ body {
 
 .title_crea p {
   margin-top: 10vh;
-  margin-left: -5vh;
   font-size: 2.8rem; }
 
 .a_propos {
@@ -665,15 +665,15 @@ body {
 
 .a_propos h2 {
   padding-top: 4.2vh;
-  font-size: 1.5rem;
-  margin-left: 5vh;
-  margin-right: 5vh; }
+  font-size: 1.6rem;
+  text-align: center; }
 
 #a_propos {
   padding-top: 4.2vh;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   margin-left: 5vh;
-  margin-right: 5vh; }
+  margin-right: 5vh;
+  line-height: 2.3rem; }
 
 .creatrice {
   width: 33%;
@@ -681,7 +681,7 @@ body {
   margin-top: 10vh; }
 
 #descriptif_crea {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   text-align: center; }
 
 .creatrice img {
@@ -698,15 +698,15 @@ body {
 
 #parcours {
   padding-top: 4.2vh;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   margin-left: 5vh;
-  margin-right: 5vh; }
+  margin-right: 5vh;
+  line-height: 2.3rem; }
 
 .parcours h2 {
   padding-top: 4.2vh;
-  font-size: 1.5rem;
-  margin-left: 5vh;
-  margin-right: 5vh; }
+  font-size: 1.6rem;
+  text-align: center; }
 
 div.pure-g div.pure-u-1-2#left {
   padding-top: 100px;
