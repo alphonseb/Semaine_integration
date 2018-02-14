@@ -472,6 +472,142 @@ body {
     -o-transition: all ease-in .75s;
     transition: all ease-in .75s; }
 
+.grid {
+  height: 100vh; }
+
+.titre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 20vh; }
+
+.titre p {
+  font-size: 4rem;
+  font-style: italic;
+  color: #de8496;
+  margin-bottom: 2vh; }
+
+.image img {
+  height: 10rem;
+  width: 10rem;
+  margin: 2.5vh 20vh; }
+
+#france {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  padding-top: 5.5vh;
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-left: -10vh;
+  margin-right: 10vh; }
+
+#faitmain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  padding-top: 5.5vh;
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-left: -10vh;
+  margin-right: 10vh; }
+
+#attention {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  padding-top: 5.5vh;
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-left: -10vh;
+  margin-right: 10vh; }
+
+#quality {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  margin-top: 4.2vh;
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-left: -10vh;
+  margin-right: 10vh; }
+
+#partage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  padding-top: 4.2vh;
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-left: -10vh;
+  margin-right: 10vh; }
+
+.image {
+  width: auto; }
+
+.text {
+  width: 65%; }
+
+.espace {
+  width: 100%;
+  height: 25vh;
+  background-color: white; }
+
+.block {
+  border-radius: 15px;
+  background-color: rgba(192, 80, 128, 0.8);
+  margin: 0vh 10vh 0vh 10vh;
+  width: 89%;
+  height: 65vh; }
+
+#creatrice {
+  height: 45vh;
+  width: 35vh;
+  margin: 10vh 15vh 20vh 20vh; }
+
+.im_crea {
+  width: auto; }
+
+.caption_crea {
+  width: 50%; }
+
+.mot_de_la_creatrice {
+  font-size: 1.2rem;
+  width: auto;
+  margin-top: 17vh; }
+
+.mot_de_la_creatrice h2 {
+  margin-bottom: 5vh; }
+
+.mot_de_la_creatrice p {
+  font-size: 1.6rem;
+  font-style: italic;
+  color: white;
+  font-weight: lighter; }
+
 div.pure-g div.pure-u-1-2#left {
   display: -webkit-box;
   display: -ms-flexbox;
