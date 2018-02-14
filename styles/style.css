@@ -586,11 +586,9 @@ body {
   height: 10vh;
   background-color: rgba(211, 211, 211, 0.8);
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
   margin-left: -20vh; }
@@ -754,7 +752,8 @@ div.pure-g#middle {
     background-color: #DD8496;
     text-align: center;
     margin: auto;
-    border-radius: 3px; }
+    border-radius: 3px;
+    padding-top: 0px; }
     div.pure-g#middle div.pure-u-5-8#description h3 {
       font-family: "Della Respira", serif;
       font-size: 22px; }
