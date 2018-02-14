@@ -1,6 +1,7 @@
 @charset "UTF-8";
 html {
   font-size: 62.5%;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
 body {
@@ -13,6 +14,7 @@ body {
 
 .screen1 h1 {
   display: none; }
+
 .screen1 .logo {
   background: url(../images/logo.png);
   width: 544px;
@@ -25,14 +27,23 @@ body {
     font-family: "Della Respira", serif;
     font-size: 1.5rem;
     color: #997C6C; }
+
 .screen1 img {
   height: 100px;
   width: auto; }
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
 @keyframes fadein {
   from {
     opacity: 0; }
   to {
     opacity: 1; } }
+
 .screen1 .fade-in {
   opacity: 0;
   opacity: 1 \9;
@@ -46,155 +57,253 @@ body {
   -webkit-animation-duration: 1s;
   -moz-animation-duration: 1s;
   animation-duration: 1s; }
+
 .screen1 .pure-g {
   position: relative;
   margin: 0 90px; }
   .screen1 .pure-g div {
     text-align: center; }
   .screen1 .pure-g .first {
+    -webkit-animation-delay: 0.3s;
     animation-delay: 0.3s; }
   .screen1 .pure-g .second {
+    -webkit-animation-delay: 1s;
     animation-delay: 1s; }
   .screen1 .pure-g .third {
+    -webkit-animation-delay: 1.7s;
     animation-delay: 1.7s; }
   .screen1 .pure-g .fourth {
+    -webkit-animation-delay: 2.4s;
     animation-delay: 2.4s; }
+
 .screen1 .line1 {
   position: absolute;
   left: 15.5%;
   top: 30%;
   height: 2px;
   background: #997C6C;
+  -webkit-animation: move 1s 1 linear forwards;
   animation: move 1s 1 linear forwards;
+  -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s; }
+
 .screen1 .line2 {
   position: absolute;
   left: 41%;
   top: 30%;
   height: 2px;
   background: #997C6C;
+  -webkit-animation: move 1s 1 linear forwards;
   animation: move 1s 1 linear forwards;
+  -webkit-animation-delay: 1.3s;
   animation-delay: 1.3s; }
+
 .screen1 .line3 {
   position: absolute;
   left: 65.6%;
   top: 30%;
   height: 2px;
   background: #997C6C;
+  -webkit-animation: move3 1.7s 1 linear forwards;
   animation: move3 1.7s 1 linear forwards;
+  -webkit-animation-delay: 2.3s;
   animation-delay: 2.3s; }
+
 .screen1 .arrow-top {
   position: absolute;
   left: 94.5%;
   top: 26%;
   height: 1.5px;
   background: #997C6C;
+  -webkit-transform: rotate(35deg);
+  -ms-transform: rotate(35deg);
   transform: rotate(35deg);
+  -webkit-animation: arrowmove 1s 1 linear forwards;
   animation: arrowmove 1s 1 linear forwards;
+  -webkit-animation-delay: 4s;
   animation-delay: 4s; }
+
 .screen1 .arrow-bottom {
   position: absolute;
   left: 94.5%;
   top: 34.5%;
   height: 1.5px;
   background: #997C6C;
+  -webkit-transform: rotate(-35deg);
+  -ms-transform: rotate(-35deg);
   transform: rotate(-35deg);
+  -webkit-animation: arrowmove 1s 1 linear forwards;
   animation: arrowmove 1s 1 linear forwards;
+  -webkit-animation-delay: 4s;
   animation-delay: 4s; }
+
 .screen1 .vert1 {
   position: absolute;
   left: 12.5%;
   top: 57%;
   width: 2px;
   background: #997C6C;
+  -webkit-animation: movevert1 0.3s 1 linear forwards;
   animation: movevert1 0.3s 1 linear forwards;
+  -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s; }
+
 .screen1 .vert2 {
   position: absolute;
   left: 12.5%;
   top: 91%;
   width: 2px;
   background: #997C6C;
+  -webkit-animation: movevert2 0.8s 1 linear forwards;
   animation: movevert2 0.8s 1 linear forwards;
+  -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s; }
+
 .screen1 .line5 {
   position: absolute;
   left: 12.5%;
   top: 191%;
   height: 2px;
   background: #997C6C;
+  -webkit-animation: moveline5 1s 1 linear forwards;
   animation: moveline5 1s 1 linear forwards;
+  -webkit-animation-delay: 1.8s;
   animation-delay: 1.8s; }
+
 .screen1 .vert3 {
   position: absolute;
   left: 50%;
   top: 191%;
   width: 2px;
   background: #997C6C;
+  -webkit-animation: movevert3 1s 1 linear forwards;
   animation: movevert3 1s 1 linear forwards;
+  -webkit-animation-delay: 2.8s;
   animation-delay: 2.8s; }
+
 .screen1 .product {
   width: 50%;
   margin: 0 auto;
   text-align: center;
   margin-top: 14.5%;
+  -webkit-animation-delay: 2.4s;
   animation-delay: 2.4s; }
   .screen1 .product a {
     color: #997C6C;
     text-decoration: none; }
+
 .screen1 .arrow-left {
   position: absolute;
   left: 48.85%;
   top: 231%;
   height: 1.5px;
   background: #997C6C;
+  -webkit-transform: rotate(55deg);
+  -ms-transform: rotate(55deg);
   transform: rotate(55deg);
+  -webkit-animation: arrowmove 1s 1 linear forwards;
   animation: arrowmove 1s 1 linear forwards;
+  -webkit-animation-delay: 4s;
   animation-delay: 4s; }
+
 .screen1 .arrow-right {
   position: absolute;
   left: 49.75%;
   top: 231%;
   height: 1.5px;
   background: #997C6C;
+  -webkit-transform: rotate(-55deg);
+  -ms-transform: rotate(-55deg);
   transform: rotate(-55deg);
+  -webkit-animation: arrowmove 1s 1 linear forwards;
   animation: arrowmove 1s 1 linear forwards;
+  -webkit-animation-delay: 4s;
   animation-delay: 4s; }
+
+@-webkit-keyframes moveline5 {
+  from {
+    width: 0; }
+  to {
+    width: 37.5%; } }
+
 @keyframes moveline5 {
   from {
     width: 0; }
   to {
     width: 37.5%; } }
+
+@-webkit-keyframes movevert1 {
+  from {
+    height: 0; }
+  to {
+    height: 20%; } }
+
 @keyframes movevert1 {
   from {
     height: 0; }
   to {
     height: 20%; } }
+
+@-webkit-keyframes movevert2 {
+  from {
+    height: 0; }
+  to {
+    height: 100%; } }
+
 @keyframes movevert2 {
   from {
     height: 0; }
   to {
     height: 100%; } }
+
+@-webkit-keyframes movevert3 {
+  from {
+    height: 0; }
+  to {
+    height: 40%; } }
+
 @keyframes movevert3 {
   from {
     height: 0; }
   to {
     height: 40%; } }
+
+@-webkit-keyframes arrowmove {
+  from {
+    width: 0; }
+  to {
+    width: 1.6%; } }
+
 @keyframes arrowmove {
   from {
     width: 0; }
   to {
     width: 1.6%; } }
+
+@-webkit-keyframes move {
+  0% {
+    width: 0; }
+  100% {
+    width: 18.5%; } }
+
 @keyframes move {
   0% {
     width: 0; }
   100% {
     width: 18.5%; } }
+
+@-webkit-keyframes move3 {
+  0% {
+    width: 0; }
+  100% {
+    width: 30%; } }
+
 @keyframes move3 {
   0% {
     width: 0; }
   100% {
     width: 30%; } }
+
 .screen2 {
   height: 100vh; }
 
@@ -213,7 +322,11 @@ body {
     height: 91px; }
   .screen2 .topbar .centered {
     padding-top: 2.5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center; }
     .screen2 .topbar .centered p {
       margin: 0; }
@@ -236,8 +349,15 @@ body {
     .screen2 .topbar .icone-panier + a:hover span {
       color: #997C6C; }
   .screen2 .topbar .social {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
     justify-content: flex-end; }
     .screen2 .topbar .social .fb a {
       display: block;
@@ -262,6 +382,7 @@ body {
       background-size: 30px 30px; }
   .screen2 .topbar div {
     text-align: center; }
+
 .screen2 header ul {
   margin: 0 auto;
   width: 95%;
@@ -294,10 +415,15 @@ body {
         .screen2 header ul li .sub-menu > li a {
           font-size: 1.4rem; }
   .screen2 header ul li:hover .sub-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center; }
   .screen2 header ul li:hover > a {
     color: #997C6C; }
+
 .screen2 .fixedline {
   border-bottom: 2px solid #997C6C;
   width: 80.6%;
@@ -312,6 +438,8 @@ body {
     height: 50px;
     background: url(../images/triangle_rose.png);
     background-size: 50px 50px;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
     transform: rotate(-90deg);
     position: absolute;
     left: 25%;
@@ -322,6 +450,8 @@ body {
     height: 50px;
     background: url(../images/triangle_rose.png);
     background-size: 50px 50px;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
     transform: rotate(90deg);
     position: absolute;
     right: 25%;
@@ -333,12 +463,18 @@ body {
   height: 400px;
   margin: 0 auto;
   overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex; }
   .slider-content img {
     position: relative;
+    -webkit-transition: all ease-in .75s;
+    -o-transition: all ease-in .75s;
     transition: all ease-in .75s; }
 
 div.pure-g div.pure-u-1-2#left {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex; }
   div.pure-g div.pure-u-1-2#left img.pure-u-3-4#grande {
     width: 300px;
@@ -348,30 +484,88 @@ div.pure-g div.pure-u-1-2#left {
     padding: 0;
     margin: 0; }
     div.pure-g div.pure-u-1-2#left div#goutière div#petites_images {
-      margin: 0;
+      margin: 0px 0px 0px 60px;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
       flex-direction: column; }
       div.pure-g div.pure-u-1-2#left div#goutière div#petites_images img.petite {
         width: 94px;
         height: 94px;
         margin-bottom: 5px;
         border: 1px solid #997C6C; }
+
 div.pure-g div.pure-u-1-2#right div.titre {
-  background-color: #DD8496; }
+  background-color: #DD8496;
+  padding: 3px; }
   div.pure-g div.pure-u-1-2#right div.titre h3 {
+    padding-left: 30px;
     font-family: "Della Respira", serif;
-    font-size: 20px; }
-div.pure-g div.pure-u-1-2#right div.ligne img {
-  width: 40px;
-  height: 40px; }
-div.pure-g div.pure-u-1-2#right div.ligne2 img {
-  width: 35px;
-  height: 35px; }
-div.pure-g div.pure-u-1-2#right div.ligne3 img {
-  width: 40px;
-  height: 40px; }
-div.pure-g div.pure-u-1-2#right div.moitie {
+    font-size: 25px; }
+
+div.pure-g div.pure-u-1-2#right div.ligne {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  div.pure-g div.pure-u-1-2#right div.ligne img {
+    width: 40px;
+    height: 40px;
+    padding: 30px 5px 5px 15px; }
+  div.pure-g div.pure-u-1-2#right div.ligne span {
+    margin-top: 42px;
+    font-size: 13px; }
+
+div.pure-g div.pure-u-1-2#right div.ligne2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  div.pure-g div.pure-u-1-2#right div.ligne2 img {
+    width: 30px;
+    height: 30px;
+    padding: 10px 5px 5px 20px; }
+  div.pure-g div.pure-u-1-2#right div.ligne2 span {
+    margin-top: 17px;
+    margin-left: 5px;
+    font-size: 13px; }
+
+div.pure-g div.pure-u-1-2#right div.ligne3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  div.pure-g div.pure-u-1-2#right div.ligne3 img {
+    width: 40px;
+    height: 40px;
+    padding: 10px 5px 5px 15px; }
+  div.pure-g div.pure-u-1-2#right div.ligne3 span {
+    margin-top: 22px;
+    font-size: 13px; }
+
+div.pure-g div.pure-u-1-2#right div.petit {
+  padding-top: 15px;
+  padding-right: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row; }
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+div.pure-g div.pure-u-1-2#right div.quantite_panier span.quantite {
+  font-size: 14px;
+  margin-top: 10px; }
+
+div.pure-g div.pure-u-1-2#right div.quantite_panier input {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px; }
+
+div.pure-g div.pure-u-1-2#right div.quantite_panier a {
+  background-color: "Della Respira", serif;
+  text-decoration: none; }
 
 div.pure-g#middle {
   padding-top: 100px; }
@@ -389,9 +583,13 @@ div.pure-g#middle {
   div.pure-g#middle div.pure-g#garantie_details {
     text-align: center;
     margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex; }
     div.pure-g#middle div.pure-g#garantie_details div.pure-u-1-3#détails_entretien {
       background-color: #DD8496;
+      -webkit-box-pack: end;
+      -ms-flex-pack: end;
       justify-content: flex-end;
       margin: 50px 50px 0px 140px;
       height: 173px; }
@@ -414,4 +612,129 @@ div.pure-g#middle {
         text-align: left;
         margin: 40px 60px 30px 60px; }
 
-/*# sourceMappingURL=style.css.map */
+.screen2 {
+  height: 100vh; }
+
+.screen2 .topbar {
+  width: 83%;
+  margin: 30px auto; }
+  .screen2 .topbar span {
+    font-size: 1.5rem;
+    font-family: "Della Respira", serif;
+    color: #DD8496; }
+  .screen2 .topbar .logo a {
+    display: block;
+    background: url(../images/logo.png);
+    background-size: auto 97px;
+    background-repeat: no-repeat;
+    height: 91px; }
+  .screen2 .topbar .centered {
+    padding-top: 2.5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .screen2 .topbar .centered p {
+      margin: 0; }
+  .screen2 .topbar .icone-client {
+    width: 25px;
+    height: 25px;
+    background: url(../images/people_rose.png);
+    background-size: 25px 25px; }
+    .screen2 .topbar .icone-client + a {
+      text-decoration: none; }
+    .screen2 .topbar .icone-client + a:hover span {
+      color: #997C6C; }
+  .screen2 .topbar .icone-panier {
+    width: 25px;
+    height: 25px;
+    background: url(../images/panier_rose.png);
+    background-size: 25px 25px; }
+    .screen2 .topbar .icone-panier + a {
+      text-decoration: none; }
+    .screen2 .topbar .icone-panier + a:hover span {
+      color: #997C6C; }
+  .screen2 .topbar .social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end; }
+    .screen2 .topbar .social .fb a {
+      display: block;
+      margin: 0 10px;
+      width: 30px;
+      height: 30px;
+      background: url(../images/fb_rose.png);
+      background-size: 30px 30px; }
+    .screen2 .topbar .social .twi a {
+      display: block;
+      margin: 0 10px;
+      width: 30px;
+      height: 30px;
+      background: url(../images/twitter_rose.png);
+      background-size: 30px 30px; }
+    .screen2 .topbar .social .insta a {
+      display: block;
+      margin: 0 10px;
+      width: 30px;
+      height: 30px;
+      background: url(../images/insta_rose.png);
+      background-size: 30px 30px; }
+  .screen2 .topbar div {
+    text-align: center; }
+
+.screen2 header ul {
+  margin: 0 auto;
+  width: 95%;
+  padding: 0;
+  font-size: 1.5rem;
+  position: relative; }
+  .screen2 header ul li {
+    list-style: none;
+    text-align: center;
+    padding-bottom: 5px; }
+    .screen2 header ul li a {
+      font-family: "Della Respira", serif;
+      text-decoration: none;
+      color: #DD8496; }
+    .screen2 header ul li a.color-active {
+      color: #997C6C; }
+    .screen2 header ul li .sub-menu {
+      background: white;
+      width: 100%;
+      position: absolute;
+      left: -2.5%;
+      top: 25px;
+      border-top: 2px solid #997C6C;
+      border-bottom: 1.5px solid #997C6C;
+      padding: 100px 2.5vw;
+      z-index: 9999;
+      display: none; }
+      .screen2 header ul li .sub-menu > li {
+        margin: 0 30px; }
+        .screen2 header ul li .sub-menu > li a {
+          font-size: 1.4rem; }
+  .screen2 header ul li:hover .sub-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .screen2 header ul li:hover > a {
+    color: #997C6C; }
+
+.screen2 .fixedline {
+  border-bottom: 2px solid #997C6C;
+  width: 80.6%;
+  position: relative;
+  left: 13px;
+  margin: 0 auto; }

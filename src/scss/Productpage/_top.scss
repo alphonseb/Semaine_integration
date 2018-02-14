@@ -10,7 +10,7 @@ div.pure-g{
       padding:0;
       margin:0;
       div#petites_images{
-        margin: 0;
+        margin: 0px 0px 0px 60px;
         flex-direction: column;
         img.petite{
           width:94px;
@@ -25,32 +25,72 @@ div.pure-g{
   div.pure-u-1-2#right{
     div.titre{
       background-color: #DD8496;
+      padding: 3px;
       h3 {
+        padding-left: 30px;
         font-family: $primary-font;
-        font-size: 20px;
+        font-size: 25px;
       }
     }
     div.ligne{
+      display: flex;
       img{
         width:40px;
         height: 40px;
+        padding: 30px 5px 5px 15px;
+      }
+      span{
+        margin-top: 42px;
+        font-size: 13px;
       }
     }
     div.ligne2{
+      display: flex;
       img{
-        width:35px;
-        height: 35px;
+        width:30px;
+        height: 30px;
+        padding: 10px 5px 5px 20px;
+      }
+      span{
+        margin-top: 17px;
+        margin-left: 5px;
+        font-size: 13px;
       }
     }
     div.ligne3{
+      display: flex;
       img{
         width:40px;
         height: 40px;
+        padding: 10px 5px 5px 15px;
+      }
+      span{
+        margin-top: 22px;
+        font-size: 13px;
       }
     }
-    div.moitie{
-      display: flex;
-      flex-direction: row;
+    div.petit{
+      padding-top: 15px;
+      padding-right: 350px;
+      display:flex;
+      align-items: flex-end;
+      flex-direction: column;
+    }
+    div.quantite_panier{
+      span.quantite{
+        font-size: 14px;
+        margin-top: 10px;
+      }
+      input{
+        width:20px;
+        height: 20px;
+        margin-left: 5px;
+      }
+      a{
+        background-color: $primary-font;
+        text-decoration: none;
+        }
+      
     }
   }
 }
