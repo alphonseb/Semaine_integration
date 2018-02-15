@@ -99,31 +99,53 @@ div.pure-g#top{
         margin-top: 15px;
       }
       span.price{
-        background-color: $light-pink;
-        margin: 15px -5px 0px 210px;
+        background-color: #FAFAFA;
+        margin: 15px -5px -5px 210px;
         font-size: 15px;
         padding: 7px 10px;
       }
-      span.ajoutez_au_panier{
-        background-color: $light-pink;
-        margin-top: 15px;
+      button.pure-button#button_panier{
+        background-color: #FAFAFA;
         font-size: 15px;
         padding: 7px 10px;
-      }
-      a{
-        text-decoration: none;
+        margin-bottom: 5px;
       }
     }
   }
 }
 
 @media screen and (max-width:1024px){
-  div.pure-u-1pure-u-lg-1-2#left{
-    padding: 0px;
-    justify-content: center;
+  body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
   }
-  div.pure-u-1pure-u-lg-1-2#right{
-    padding: 0px;
-    justify-content: center;
+  div.pure-g#top{
+    div.pure-u-1pure-u-lg-1-2#left{
+      margin: 50px 0px 0px 0px;
+      padding: 0;
+      justify-content: center;
+      img.pure-u-3-4#grande{
+        width:445px;
+        height: 445px;
+      }
+      div.pure-g#goutière{
+        div.pure-u-1-4#petites_images{
+          width: 155px;
+          img.petite{
+            width:142px;
+            height: 142px;
+            }
+          }
+      }
+    }
+    div.pure-u-1pure-u-lg-1-2#right{
+      margin: 0px auto;
+      width: 550px;
+      justify-content: center;
+      div.petit{
+        width: 490px;
+      }
+    }
   }
 }
