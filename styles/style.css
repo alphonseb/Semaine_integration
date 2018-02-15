@@ -854,12 +854,13 @@ header {
 
   .description_image {
     font-size: 1.8rem;
-    margin-left: 5vh;
-    margin-right: 5vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
     width: 100%; }
 
   .description_image p {
-    text-align: center; }
+    text-align: center;
+    width: auto; }
 
   .text p {
     display: flex;
@@ -1262,36 +1263,29 @@ footer {
   color: black; }
 
 @media only screen and (max-width: 1280px) and (min-width: 1024px) {
-  footer {
-    margin-top: 50px;
+  footer .pure-g {
     width: 100%;
-    background: #DD8496;
-    color: white;
-    font-size: 1.6rem;
-    display: flex; }
-    footer .pure-g {
-      width: 100%;
-      display: flex;
-      justify-content: center; }
-    footer > div {
-      margin: 0 0%;
-      padding: 2% 0; }
-      footer > div div:first-child {
-        text-align: center;
-        margin-right: 100px; }
-        footer > div div:first-child p {
-          margin: 2% 0; }
-        footer > div div:first-child form {
-          margin-top: 4%; }
-        footer > div div:first-child button {
-          margin-top: 3%;
-          color: black;
-          font-family: Arial, sans-serif; }
-      footer > div div:nth-child(2), footer > div div:nth-child(4) {
-        padding-top: 0.7%;
-        margin-right: 70px; }
-      footer > div div:nth-child(5) {
-        margin-left: 20px; }
+    display: flex;
+    justify-content: center; }
+  footer > div {
+    margin: 0 0%;
+    padding: 2% 0; }
+    footer > div div:first-child {
+      text-align: center;
+      margin-right: 100px; }
+      footer > div div:first-child p {
+        margin: 2% 0; }
+      footer > div div:first-child form {
+        margin-top: 4%; }
+      footer > div div:first-child button {
+        margin-top: 3%;
+        color: black;
+        font-family: Arial, sans-serif; }
+    footer > div div:nth-child(2), footer > div div:nth-child(4) {
+      padding-top: 0.7%;
+      margin-right: 70px; }
+    footer > div div:nth-child(5) {
+      margin-left: 20px; }
 
   .last {
     flex-direction: column; }
@@ -1323,7 +1317,7 @@ footer {
         height: 30px;
         width: 30px;
         margin: 0 10px; } }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1000px) {
   footer {
     width: 100%; }
     footer > div {
@@ -1356,5 +1350,20 @@ footer {
       width: auto; }
     footer div:nth-child(1) {
       margin-bottom: 40px; } }
+@media only screen and (max-device-width: 375px) {
+  footer {
+    width: 100%; }
+    footer .pure-g {
+      width: auto; }
+    footer div:nth-child(2), footer div:nth-child(4) {
+      margin: 0px 0px 40px 70px; }
+
+  .last {
+    flex-direction: column; }
+    .last .social {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-right: 70px; } }
 
 /*# sourceMappingURL=style.css.map */
