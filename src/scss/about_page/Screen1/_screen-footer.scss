@@ -1,0 +1,17 @@
+@media only screen and (max-width : 1280px)  {
+  footer {
+    div:nth-child(2) {
+      margin-top: 10px;
+    }
+    div:nth-child(4) {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+      
+    }
+  }
+.last {
+  width: 100%;
+  }
+
+}
