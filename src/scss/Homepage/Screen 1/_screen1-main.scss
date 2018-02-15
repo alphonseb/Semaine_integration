@@ -1,6 +1,25 @@
+.fade-in {
+ opacity:0;
+ opacity: 1 \9;
+ /*just in case ie*/
+ -webkit-animation:fadein ease-in 1;
+ -moz-animation:fadein ease-in 1;
+ animation:fadein ease-in 1;
+
+ -webkit-animation-fill-mode:forwards;
+ -moz-animation-fill-mode:forwards;
+ animation-fill-mode:forwards;
+
+ -webkit-animation-duration:1s;
+ -moz-animation-duration:1s;
+ animation-duration:1s;
+}
+
 .screen1{
+  position: relative;
+  z-index: 1;
   main{
-  margin-top: 15vh;
+  margin-top: 5vh;
   p, span{
     font-family: $primary-font;
     font-size: 1.5rem;
@@ -20,42 +39,57 @@
     to {opacity: 1;}
   }
 
-   .fade-in {
-    opacity:0;
-    opacity: 1 \9;
-    /*just in case ie*/
-    -webkit-animation:fadein ease-in 1;
-    -moz-animation:fadein ease-in 1;
-    animation:fadein ease-in 1;
-
-    -webkit-animation-fill-mode:forwards;
-    -moz-animation-fill-mode:forwards;
-    animation-fill-mode:forwards;
-
-    -webkit-animation-duration:1s;
-    -moz-animation-duration:1s;
-    animation-duration:1s;
-  }
 
  .pure-g{
     position: relative;
     margin: 0 90px;
+
     div{
-    text-align: center;
+      margin: 0 auto;
+        p.phrase{
+          opacity: 0;
+          animation-delay: 1.3s;
+          text-align: center;
+          font-size: 1.9rem;
+        }
+      div{
+        text-align: center;
+      }
     }
     .first{
       animation-delay: 0.3s;
     }
     .second{
-      animation-delay: 1s;
+      animation-delay: .6s;
     }
     .third{
-      animation-delay: 1.7s;
-    }
-    .fourth{
-      animation-delay: 2.4s;
+      animation-delay: .9s;
     }
   }
+
+main>div:nth-child(2){
+  text-align: center;
+  width: 20%;
+  margin: 0 auto;
+  animation-delay: 1.3s;
+  margin-top: 20px;
+  a{
+    display: block;
+    text-decoration: none;
+    width: 88%;
+    background: $light-brown;
+    color: $white;
+    border: solid thick $white;
+    outline: solid 1px $light-brown;
+    margin: 0 auto;
+    padding: 5%;
+    font-size: 2.5rem;
+    transition: all .2s ease-in;
+  }
+  a:hover{
+    transform: scale(1.08);
+  }
+}
 
   .line1{
     position: absolute;

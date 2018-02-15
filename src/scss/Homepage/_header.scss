@@ -1,9 +1,10 @@
-#home{
-  display: none;
+header{
+  border-bottom: solid 2px $light-pink;
 }
   .topbar{
     width: 83%;
-    margin: 30px auto;
+    margin: 0 auto;
+    margin-bottom: 30px;
     span{
       font-size: 1.7rem;
       font-family: $primary-font;
@@ -93,14 +94,19 @@
       li{
         list-style: none;
         text-align: center;
-        padding-bottom: 5px;
         a{
           font-family: $primary-font;
           text-decoration: none;
           color: $light-pink;
+          display: block;
+          background: $white;
+          width: 80%;
+          padding: 5px 0;
+          margin: 0 auto;
         }
         a.color-active{
-          color: $light-brown;
+          color: $white;
+          background: $light-pink;
         }
         .sub-menu{
           background: $white;
@@ -108,8 +114,8 @@
           position: absolute;
           left: 0;
           top: 98%;
-          border-top: 2px solid $light-brown;
-          border-bottom: 1.5px solid $light-brown;
+          border-top: 2px solid $light-pink;
+          border-bottom: 1.5px solid $light-pink;
           padding: 70px 2.5vw;
           z-index: 9999;
           display: none;
@@ -126,7 +132,8 @@
         justify-content: center;
       }
       li:hover>a{
-        color: $light-brown;
+        color: $white;
+        background: $light-pink;
       }
     }
 

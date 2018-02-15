@@ -99,19 +99,16 @@ div.pure-g#top{
         margin-top: 15px;
       }
       span.price{
-        background-color: $light-pink;
-        margin: 15px -5px 0px 210px;
+        background-color: #FAFAFA;
+        margin: 15px -5px -5px 210px;
         font-size: 15px;
         padding: 7px 10px;
       }
-      span.ajoutez_au_panier{
-        background-color: $light-pink;
-        margin-top: 15px;
+      button.pure-button#button_panier{
+        background-color: #FAFAFA;
         font-size: 15px;
         padding: 7px 10px;
-      }
-      a{
-        text-decoration: none;
+        margin-bottom: 5px;
       }
     }
   }
