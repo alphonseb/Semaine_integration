@@ -1,13 +1,11 @@
-.screen2{
-  height: 100vh;
+#home{
+  display: none;
 }
-
-.screen2{
   .topbar{
     width: 83%;
     margin: 30px auto;
     span{
-      font-size: 1.5rem;
+      font-size: 1.7rem;
       font-family: $primary-font;
       color: $light-pink;
     }
@@ -85,12 +83,13 @@
     }
   }
   header {
+    position: relative;
     ul {
       margin: 0 auto;
       width: 90.5%;
       padding: 0;
-      font-size: 1.5rem;
-      position: relative;
+      font-size: 2rem;
+
       li{
         list-style: none;
         text-align: center;
@@ -107,8 +106,8 @@
           background: $white;
           width: 100%;
           position: absolute;
-          left: -2.5%;
-          top: 25px;
+          left: 0;
+          top: 98%;
           border-top: 2px solid $light-brown;
           border-bottom: 1.5px solid $light-brown;
           padding: 70px 2.5vw;
@@ -117,7 +116,7 @@
           &>li{
             margin: 0 30px;
             a{
-              font-size: 1.4rem;
+              font-size: 1.7rem;
             }
           }
         }
@@ -139,4 +138,3 @@
     left: 13px;
     margin: 0 auto;
   }
-}

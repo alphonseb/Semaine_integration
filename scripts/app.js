@@ -10,7 +10,7 @@ sliderIndex[0].classList.add('pink-background')
 
 let sliderTimer = setInterval(
     function(){ slidePerm()},
-    5000
+    10000
   )
 
 function slidePerm(){
