@@ -38,7 +38,8 @@
   }
   .slider-index {
     position: absolute;
-    left: 46%;
+    left: 50%;
+    transform: translateX(-50%);
     bottom: -3vh;
     display: flex;
     div{
@@ -57,11 +58,14 @@
 
 .slider-content{
   max-width: 100%;
-  height: 55vh;
+  height: 52vh;
   margin: 0 auto;
   overflow: hidden;
   // border: solid 1.5px $light-pink;
   display: flex;
+  @media screen and (max-width: 800px){
+    height: auto;
+  }
   div{
     width: 100%;
     position: relative;
@@ -89,6 +93,11 @@
       text-align: center;
       line-height: 200%;
       transition: all 0.2s ease-in;
+      padding: 5px;
+      @media screen and (max-width: 414px){
+        width: 90%;
+        height: 20%;
+      }
     }
     a:hover{
       transform: scale(1.08);

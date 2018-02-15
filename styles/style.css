@@ -407,7 +407,8 @@ header {
     transform: scale(1.5) rotate(90deg); }
   .slider .slider-index {
     position: absolute;
-    left: 46%;
+    left: 50%;
+    transform: translateX(-50%);
     bottom: -3vh;
     display: flex; }
     .slider .slider-index div {
@@ -422,10 +423,13 @@ header {
 
 .slider-content {
   max-width: 100%;
-  height: 55vh;
+  height: 52vh;
   margin: 0 auto;
   overflow: hidden;
   display: flex; }
+  @media screen and (max-width: 800px) {
+    .slider-content {
+      height: auto; } }
   .slider-content div {
     width: 100%;
     position: relative;
@@ -450,7 +454,12 @@ header {
       bottom: 10px;
       text-align: center;
       line-height: 200%;
-      transition: all 0.2s ease-in; }
+      transition: all 0.2s ease-in;
+      padding: 5px; }
+      @media screen and (max-width: 414px) {
+        .slider-content div a {
+          width: 90%;
+          height: 20%; } }
     .slider-content div a:hover {
       transform: scale(1.08); }
 
