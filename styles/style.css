@@ -348,17 +348,9 @@ header {
   .topbar .centered {
     padding-top: 2.5%;
     display: -webkit-box;
-<<<<<<< HEAD
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-=======
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
     -ms-flex-pack: center;
     justify-content: center; }
     .topbar .centered p {
@@ -383,25 +375,13 @@ header {
       color: #997C6C; }
   .topbar .social {
     display: -webkit-box;
-<<<<<<< HEAD
-=======
-    display: -webkit-flex;
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-<<<<<<< HEAD
     -ms-flex-direction: row;
     flex-direction: row;
     -webkit-box-pack: end;
-=======
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-pack: end;
-    -webkit-justify-content: flex-end;
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
     -ms-flex-pack: end;
     justify-content: flex-end; }
     .topbar .social .fb a {
@@ -474,17 +454,9 @@ header {
             background: white; }
     header ul li:hover .sub-menu {
       display: -webkit-box;
-<<<<<<< HEAD
       display: -ms-flexbox;
       display: flex;
       -webkit-box-pack: center;
-=======
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-      -webkit-justify-content: center;
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
       -ms-flex-pack: center;
       justify-content: center; }
     header ul li:hover > a {
@@ -548,10 +520,6 @@ header {
     left: 46%;
     bottom: -3vh;
     display: -webkit-box;
-<<<<<<< HEAD
-=======
-    display: -webkit-flex;
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
     display: -ms-flexbox;
     display: flex; }
     .slider .slider-index div {
@@ -569,10 +537,6 @@ header {
   margin: 0 auto;
   overflow: hidden;
   display: -webkit-box;
-<<<<<<< HEAD
-=======
-  display: -webkit-flex;
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
   display: -ms-flexbox;
   display: flex; }
   .slider-content div {
@@ -638,15 +602,10 @@ header {
     .homepage-products .homepage-products-row img {
       max-width: 90%;
       height: auto;
-<<<<<<< HEAD
-      border: solid 1px black;
-      opacity: 0; }
-=======
       border: solid 1px black; }
     .homepage-products .homepage-products-row p {
       font-family: Arial, sans-serif;
       font-size: 1.7rem; }
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
 
 @-webkit-keyframes fadeIN {
   from {
@@ -659,11 +618,7 @@ header {
     opacity: 0; }
   to {
     opacity: 1; } }
-<<<<<<< HEAD
-  .homepage-products .show img {
-=======
   .homepage-products .show div {
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
     -webkit-animation: fadeIN 1s 1 linear forwards;
     animation: fadeIN 1s 1 linear forwards; }
 
@@ -673,17 +628,9 @@ header {
 
 .titre {
   display: -webkit-box;
-<<<<<<< HEAD
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-=======
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
   -ms-flex-pack: center;
   justify-content: center;
   height: 176px;
@@ -721,10 +668,6 @@ header {
 
 .bullet {
   display: -webkit-box;
-<<<<<<< HEAD
-=======
-  display: -webkit-flex;
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
   display: -ms-flexbox;
   display: flex;
   margin-left: 15vh;
@@ -748,27 +691,15 @@ header {
 .text {
   width: 65%;
   display: -webkit-box;
-<<<<<<< HEAD
-=======
-  display: -webkit-flex;
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
   display: -ms-flexbox;
   display: flex;
   height: 162px; }
 
 .text p {
   display: -webkit-box;
-<<<<<<< HEAD
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-=======
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
   -ms-flex-align: center;
   align-items: center; }
 
@@ -789,17 +720,9 @@ header {
   height: 10vh;
   background-color: #fafafa;
   display: -webkit-box;
-<<<<<<< HEAD
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-=======
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
   -ms-flex-pack: center;
   justify-content: center;
   margin-left: 15vh;
@@ -828,27 +751,15 @@ header {
   width: 100%;
   margin-top: 10vh;
   display: -webkit-box;
-<<<<<<< HEAD
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-=======
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
   -ms-flex-pack: center;
   justify-content: center; }
 
 .descriptif_crea {
   height: 100px;
   display: -webkit-box;
-<<<<<<< HEAD
-=======
-  display: -webkit-flex;
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
   display: -ms-flexbox;
   display: flex;
   margin-top: -10px;
@@ -880,11 +791,9 @@ header {
 
 .discover_products a {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
   text-decoration: none;
@@ -923,17 +832,9 @@ header {
     height: 10rem;
     width: 10rem;
     display: -webkit-box;
-<<<<<<< HEAD
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-=======
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
     -ms-flex-pack: center;
     justify-content: center; }
   .image {
@@ -952,27 +853,15 @@ header {
     height: 10vh;
     background-color: #fafafa;
     display: -webkit-box;
-<<<<<<< HEAD
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    margin-left: 10px;
-    margin-right: 10px; } }
-=======
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
     margin-left: 10px;
     margin-right: 10px; }
   .logo-white {
     display: none; } }
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
 
 @media only screen and (max-device-width: 769px) {
   .trait1 {
@@ -991,10 +880,6 @@ header {
   .image {
     width: 100%;
     display: -webkit-box;
-<<<<<<< HEAD
-=======
-    display: -webkit-flex;
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
     display: -ms-flexbox;
     display: flex;
     height: 100px; }
@@ -1007,10 +892,6 @@ header {
   .text {
     width: 100%;
     display: -webkit-box;
-<<<<<<< HEAD
-=======
-    display: -webkit-flex;
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
     display: -ms-flexbox;
     display: flex;
     height: 300px;
@@ -1022,17 +903,9 @@ header {
     width: 100%; }
   .text p {
     display: -webkit-box;
-<<<<<<< HEAD
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-=======
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
     -ms-flex-align: center;
     align-items: center; }
   .philosophie {
@@ -1046,17 +919,9 @@ header {
     height: 10vh;
     background-color: #fafafa;
     display: -webkit-box;
-<<<<<<< HEAD
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-=======
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
     -ms-flex-pack: center;
     justify-content: center;
     margin-left: 2px;
@@ -1079,10 +944,6 @@ header {
   .image {
     width: 100%;
     display: -webkit-box;
-<<<<<<< HEAD
-=======
-    display: -webkit-flex;
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
     display: -ms-flexbox;
     display: flex;
     height: 100px; }
@@ -1095,10 +956,6 @@ header {
   .text {
     width: 100%;
     display: -webkit-box;
-<<<<<<< HEAD
-=======
-    display: -webkit-flex;
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
     display: -ms-flexbox;
     display: flex;
     height: 300px; }
@@ -1111,17 +968,9 @@ header {
     text-align: center; }
   .text p {
     display: -webkit-box;
-<<<<<<< HEAD
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-=======
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
     -ms-flex-align: center;
     align-items: center; }
   .philosophie {
@@ -1135,17 +984,9 @@ header {
     height: 10vh;
     background-color: #fafafa;
     display: -webkit-box;
-<<<<<<< HEAD
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-=======
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
     -ms-flex-pack: center;
     justify-content: center;
     margin-left: 2px;
@@ -1154,26 +995,14 @@ header {
 div.pure-g#top {
   letter-spacing: normal;
   display: -webkit-box;
-<<<<<<< HEAD
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-=======
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
   -ms-flex-pack: center;
   justify-content: center; }
   div.pure-g#top div.pure-u-1pure-u-lg-1-2#left {
     padding: 100px 0px 0px 115px;
     display: -webkit-box;
-<<<<<<< HEAD
-=======
-    display: -webkit-flex;
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
     display: -ms-flexbox;
     display: flex; }
     div.pure-g#top div.pure-u-1pure-u-lg-1-2#left img.pure-u-3-4#grande {
@@ -1187,10 +1016,6 @@ div.pure-g#top {
         margin: 0px 20px 0px 0px;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-<<<<<<< HEAD
-=======
-        -webkit-flex-direction: column;
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
         -ms-flex-direction: column;
         flex-direction: column;
         width: 105px; }
@@ -1209,10 +1034,6 @@ div.pure-g#top {
       height: 80px;
       border-radius: 3px;
       -webkit-box-pack: start;
-<<<<<<< HEAD
-=======
-      -webkit-justify-content: flex-start;
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
       -ms-flex-pack: start;
       justify-content: flex-start; }
       div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.titre h3 {
@@ -1230,25 +1051,13 @@ div.pure-g#top {
       padding-right: 100px; }
       div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.petit span.matiere {
         display: -webkit-box;
-<<<<<<< HEAD
         display: -ms-flexbox;
         display: flex;
         -webkit-box-align: end;
-=======
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: end;
-        -webkit-align-items: flex-end;
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
         -ms-flex-align: end;
         align-items: flex-end;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-<<<<<<< HEAD
-=======
-        -webkit-flex-direction: column;
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
         -ms-flex-direction: column;
         flex-direction: column; }
       div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.petit span.quantite {
@@ -1280,10 +1089,6 @@ div.pure-g#top {
     margin: 50px 0px 0px 0px;
     padding: 0;
     -webkit-box-pack: center;
-<<<<<<< HEAD
-=======
-    -webkit-justify-content: center;
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
     -ms-flex-pack: center;
     justify-content: center; }
     div.pure-g#top div.pure-u-1pure-u-lg-1-2#left img.pure-u-3-4#grande {
@@ -1297,16 +1102,13 @@ div.pure-g#top {
   div.pure-g#top div.pure-u-1pure-u-lg-1-2#right {
     margin: 0px auto;
     -webkit-box-pack: center;
-    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column; }
     div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.titre {
@@ -1320,7 +1122,6 @@ div.pure-g#top {
       margin-right: 150px;
       width: 450px;
       -webkit-box-pack: center;
-      -webkit-justify-content: center;
       -ms-flex-pack: center;
       justify-content: center; }
     div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.petit {
@@ -1349,37 +1150,21 @@ div.pure-g#middle {
     border-radius: 3px;
     padding-top: 0px;
     display: -webkit-box;
-<<<<<<< HEAD
-=======
-    display: -webkit-flex;
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-<<<<<<< HEAD
-=======
-    -webkit-flex-direction: row;
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
     -ms-flex-direction: row;
     flex-direction: row; }
     div.pure-g#middle div.pure-u-5-8#description h3 {
       font-family: "Della Respira", serif;
       font-size: 22px;
       -webkit-box-pack: center;
-<<<<<<< HEAD
-=======
-      -webkit-justify-content: center;
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
       -ms-flex-pack: center;
       justify-content: center;
       margin-left: 15px; }
     div.pure-g#middle div.pure-u-5-8#description div.ligne {
       display: -webkit-box;
-<<<<<<< HEAD
-=======
-      display: -webkit-flex;
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
       display: -ms-flexbox;
       display: flex;
       margin-left: 50px; }
@@ -1392,10 +1177,6 @@ div.pure-g#middle {
         font-size: 13px; }
     div.pure-g#middle div.pure-u-5-8#description div.ligne2 {
       display: -webkit-box;
-<<<<<<< HEAD
-=======
-      display: -webkit-flex;
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
       display: -ms-flexbox;
       display: flex;
       margin-left: 50px; }
@@ -1409,10 +1190,6 @@ div.pure-g#middle {
         font-size: 13px; }
     div.pure-g#middle div.pure-u-5-8#description div.ligne3 {
       display: -webkit-box;
-<<<<<<< HEAD
-=======
-      display: -webkit-flex;
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
       display: -ms-flexbox;
       display: flex;
       margin-left: 50px; }
@@ -1468,28 +1245,23 @@ div.pure-g#middle {
     width: 100%;
     margin: 50px 0px 0px 0px;
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column; }
     div.pure-g#middle div.pure-u-5-8#description h3 {
       font-size: 45px; }
     div.pure-g#middle div.pure-u-5-8#description div.ligne {
       display: -webkit-box;
-      display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
-      -webkit-flex-direction: column;
       -ms-flex-direction: column;
       flex-direction: column;
       -webkit-box-align: center;
-      -webkit-align-items: center;
       -ms-flex-align: center;
       align-items: center;
       margin-left: 0; }
@@ -1500,16 +1272,13 @@ div.pure-g#middle {
         font-size: 30px; }
     div.pure-g#middle div.pure-u-5-8#description div.ligne2 {
       display: -webkit-box;
-      display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
-      -webkit-flex-direction: column;
       -ms-flex-direction: column;
       flex-direction: column;
       -webkit-box-align: center;
-      -webkit-align-items: center;
       -ms-flex-align: center;
       align-items: center;
       margin-left: 0; }
@@ -1520,16 +1289,13 @@ div.pure-g#middle {
         height: 130px; }
     div.pure-g#middle div.pure-u-5-8#description div.ligne3 {
       display: -webkit-box;
-      display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
-      -webkit-flex-direction: column;
       -ms-flex-direction: column;
       flex-direction: column;
       -webkit-box-align: center;
-      -webkit-align-items: center;
       -ms-flex-align: center;
       align-items: center;
       margin-left: 0; }
@@ -1539,7 +1305,6 @@ div.pure-g#middle {
       div.pure-g#middle div.pure-u-5-8#description div.ligne3 img {
         width: 160px;
         height: 160px; }
-<<<<<<< HEAD
   div.pure-g#middle div.pure-u-5-8#garantie_details {
     margin: 0;
     width: 100%;
@@ -1567,32 +1332,6 @@ div.pure-g#middle {
         padding: 0px 20px;
         text-align: center;
         font-size: 30px; } }
-=======
-  div.pure-g#middle div.pure-g#garantie_details div.pure-u-1-3#garantie {
-    width: 100%;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    margin: 50px 0px 0px 0px;
-    height: auto; }
-    div.pure-g#middle div.pure-g#garantie_details div.pure-u-1-3#garantie h3 {
-      font-size: 45px; }
-    div.pure-g#middle div.pure-g#garantie_details div.pure-u-1-3#garantie p {
-      font-size: 30px;
-      padding: 0px 20px;
-      text-align: center; }
-  div.pure-g#middle div.pure-g#garantie_details div.pure-u-1-3#détails_entretien {
-    width: 100%;
-    margin: 50px 0px 0px 0px;
-    height: auto; }
-    div.pure-g#middle div.pure-g#garantie_details div.pure-u-1-3#détails_entretien h3 {
-      font-size: 45px; }
-    div.pure-g#middle div.pure-g#garantie_details div.pure-u-1-3#détails_entretien p {
-      padding: 0px 20px;
-      text-align: center;
-      font-size: 30px; } }
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
 
 div.decouvrez h4 {
   text-align: center;
@@ -1601,32 +1340,17 @@ div.decouvrez h4 {
 
 div.pure-g#bottom {
   display: -webkit-box;
-<<<<<<< HEAD
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-=======
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
   -ms-flex-pack: center;
   justify-content: center;
   position: relative; }
   div.pure-g#bottom div.pure-u-5-8#first {
     margin-top: 40px;
     display: -webkit-box;
-<<<<<<< HEAD
     display: -ms-flexbox;
     display: flex;
-=======
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-justify-content: space-around;
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
     -ms-flex-pack: distribute;
     justify-content: space-around; }
     div.pure-g#bottom div.pure-u-5-8#first div.pure-u-1-8 img {
@@ -1635,15 +1359,8 @@ div.pure-g#bottom {
   div.pure-g#bottom div.pure-u-5-8#second {
     margin-top: 40px;
     display: -webkit-box;
-<<<<<<< HEAD
     display: -ms-flexbox;
     display: flex;
-=======
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-justify-content: space-around;
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
     -ms-flex-pack: distribute;
     justify-content: space-around;
     position: absolute;
@@ -1654,15 +1371,8 @@ div.pure-g#bottom {
   div.pure-g#bottom div.pure-u-5-8#third {
     margin-top: 40px;
     display: -webkit-box;
-<<<<<<< HEAD
     display: -ms-flexbox;
     display: flex;
-=======
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-justify-content: space-around;
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
     -ms-flex-pack: distribute;
     justify-content: space-around;
     position: absolute;
@@ -1725,10 +1435,6 @@ footer {
 .last {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-<<<<<<< HEAD
-=======
-  -webkit-flex-direction: column;
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
   -ms-flex-direction: column;
   flex-direction: column; }
   .last .info p {
@@ -1737,25 +1443,13 @@ footer {
     margin-bottom: 9%; }
   .last .social {
     display: -webkit-box;
-<<<<<<< HEAD
-=======
-    display: -webkit-flex;
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-<<<<<<< HEAD
     -ms-flex-direction: row;
     flex-direction: row;
     -webkit-box-pack: center;
-=======
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
     -ms-flex-pack: center;
     justify-content: center; }
     .last .social .fb-white {
@@ -1776,8 +1470,6 @@ footer {
 .newsletter input {
   font-family: Arial, sans-serif;
   color: black; }
-<<<<<<< HEAD
-=======
 
 @media only screen and (max-width: 1280px) {
   footer {
@@ -1787,7 +1479,6 @@ footer {
       padding: 0% 0; }
     footer .pure-g {
       display: -webkit-box;
-      display: -webkit-flex;
       display: -ms-flexbox;
       display: flex; }
     footer div:nth-child(1) {
@@ -1795,25 +1486,20 @@ footer {
     footer div:nth-child(4) {
       width: 49%;
       display: -webkit-box;
-      display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
-      -webkit-flex-direction: column;
       -ms-flex-direction: column;
       flex-direction: column;
       -webkit-box-align: center;
-      -webkit-align-items: center;
       -ms-flex-align: center;
       align-items: center; }
   .last {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     margin-left: auto;
     margin-right: auto;
     width: 300px;
     height: 300px; } }
->>>>>>> f2c92950a4367291e02c6ee2e9c81603a25e3980
