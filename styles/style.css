@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset "UTF-8";
 html {
   font-size: 62.5%;
@@ -1318,3 +1319,62 @@ footer {
 .newsletter input {
   font-family: Arial, sans-serif;
   color: black; }
+=======
+/*
+Error: File to import not found or unreadable: Homepage/header.
+       Load path: C:/Users/Alphonse/Google Drive/HETIC/Semaine intensive/Semaine_integration/src/scss
+        on line 8 of C:\Users\Alphonse\Google Drive\HETIC\Semaine intensive\Semaine_integration\src\scss\app.scss
+
+3: 
+4: @import "Homepage/Screen 1/screen1-header";
+5: @import "Homepage/Screen 1/screen1-main";
+6: 
+7: 
+8: @import "Homepage/header";
+9: @import "Homepage/Screen 2/screen2-main";
+10: 
+11: 
+12: 
+13: @import "about_page/Screen1/screen-header";
+
+Backtrace:
+C:\Users\Alphonse\Google Drive\HETIC\Semaine intensive\Semaine_integration\src\scss\app.scss:8
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:67:in `rescue in import'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:45:in `import'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:28:in `imported_file'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:37:in `css_import?'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:314:in `visit_import'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:22:in `load'
+C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: Homepage/header.\A        Load path: C:/Users/Alphonse/Google Drive/HETIC/Semaine intensive/Semaine_integration/src/scss\A         on line 8 of C:\Users\Alphonse\Google Drive\HETIC\Semaine intensive\Semaine_integration\src\scss\app.scss\A \A 3: \A 4: @import \"Homepage/Screen 1/screen1-header\";\A 5: @import \"Homepage/Screen 1/screen1-main\";\A 6: \A 7: \A 8: @import \"Homepage/header\";\A 9: @import \"Homepage/Screen 2/screen2-main\";\A 10: \A 11: \A 12: \A 13: @import \"about_page/Screen1/screen-header\";"; }
+>>>>>>> d119b39fee4c1e23da03966be12461dd58aad310
