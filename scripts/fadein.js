@@ -1,4 +1,4 @@
-let el1 = document.querySelector('main div div p')
+let el1 = document.querySelector('.phrase')
 let el2 = document.querySelector('.first')
 let el3 = document.querySelector('.second')
 let el4 = document.querySelector('.third')

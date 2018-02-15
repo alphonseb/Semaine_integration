@@ -461,18 +461,21 @@ header {
     top: 0;
     margin-top: 20px; }
     .homepage-products .homepage-products-row > div {
-      text-align: center; }
+      text-align: center;
+      opacity: 0; }
     .homepage-products .homepage-products-row img {
       max-width: 90%;
       height: auto;
-      border: solid 1px black;
-      opacity: 0; }
+      border: solid 1px black; }
+    .homepage-products .homepage-products-row p {
+      font-family: Arial, sans-serif;
+      font-size: 1.7rem; }
 @keyframes fadeIN {
   from {
     opacity: 0; }
   to {
     opacity: 1; } }
-  .homepage-products .show img {
+  .homepage-products .show div {
     animation: fadeIN 1s 1 linear forwards; }
 
 .grid {
