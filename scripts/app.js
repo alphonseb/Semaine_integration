@@ -55,7 +55,7 @@ function slidePerm(){
   else if (index === 3) {
     rightArrow.style.display = 'none'
   }
-  else if(leftArrow.style.display !== 'none' && rightArrow.style.display !== 'none'){
+  else if(leftArrow.style.display !== 'none' && rightArrow.style.display !== 'none')  {
     leftArrow.style.display = 'block'
     rightArrow.style.display = 'block'
   }
