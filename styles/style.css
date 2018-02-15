@@ -1158,38 +1158,19 @@ div.decouvrez h4 {
   font-size: 22px;
   margin-top: 60px; }
 
-div.pure-g#bottom {
+.product-slider {
+  width: 60%;
+  margin: 0 auto;
   display: flex;
-  justify-content: center;
-  position: relative; }
-  div.pure-g#bottom div.pure-u-5-8#first {
-    margin-top: 40px;
+  flex-direction: row;
+  overflow: hidden; }
+  .product-slider div {
     display: flex;
-    justify-content: space-around; }
-    div.pure-g#bottom div.pure-u-5-8#first div.pure-u-1-8 img {
-      width: 160px;
-      height: 160px; }
-  div.pure-g#bottom div.pure-u-5-8#second {
-    margin-top: 40px;
-    display: flex;
-    justify-content: space-around;
-    position: absolute;
-    right: 0; }
-    div.pure-g#bottom div.pure-u-5-8#second div.pure-u-1-8 img {
-      width: 160px;
-      height: 160px; }
-  div.pure-g#bottom div.pure-u-5-8#third {
-    margin-top: 40px;
-    display: flex;
-    justify-content: space-around;
-    position: absolute;
-    right: 0; }
-    div.pure-g#bottom div.pure-u-5-8#third div.pure-u-1-8 img {
-      width: 160px;
-      height: 160px; }
-
-div.pure-g#footer {
-  margin-top: 70px; }
+    flex-direction: row;
+    transition: all 0.5s ease-in; }
+    .product-slider div img {
+      width: 200px;
+      margin: 0 50px; }
 
 footer {
   margin-top: 50px;
