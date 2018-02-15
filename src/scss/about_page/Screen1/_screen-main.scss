@@ -8,7 +8,7 @@
 .titre {
   display: flex;
   justify-content: center;
-  height: 20vh;
+  height: 176px;
 }
 
 .titre p {
@@ -47,6 +47,7 @@
 }
 
 .bullet {
+  display: flex;
   margin-left: 15vh;
   margin-top: 7px;
   margin-right: 15vh;
@@ -198,6 +199,7 @@
   margin-right: auto;
 }
 
+
 #parcours {
   padding-top: 2vh;
   font-size: 1.6rem;
@@ -218,7 +220,7 @@
 
 //
 
-@media only screen and (min-width : 745px) and (max-width : 1024px)  {
+@media only screen and (min-width : 667px) and (max-width : 1024px)  {
   .trait1 {
     display: none;
   }
@@ -234,7 +236,7 @@
   .bullet {
     width: auto;
     margin-left: -5vh;
-    margin-right: -5vh;
+    margin-right: 0vh;
     background: url(../images/trousseau_background.png)
   }
 
@@ -314,12 +316,9 @@
     margin-left: 10px;
     margin-right: 10px;
   }
-
-
-
 }
 
-@media only screen and (min-width : 375px) and (max-width : 745px) {
+@media only screen and (min-width : 667px) and (max-width : 705px) {
   .trait1 {
     display: none;
   }
@@ -336,7 +335,7 @@
     width: auto;
     background: url(../images/trousseau_background.png);
     margin-left: -5vh;
-    margin-right: -5vh;
+    margin-right: 0vh;
   }
 
   #france {
@@ -383,6 +382,110 @@
     margin-left: 10vh;
     margin-right: 10vh;
   }
+
+  .image{
+    width: 100%;
+    display: flex;
+  }
+
+  .image img {
+    height: 10rem;
+    width: 10rem;
+    margin-bottom: -3vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .text{
+    width: 100%;
+  }
+
+  .philosophie {
+    letter-spacing: normal;
+    background-color: #fafafa;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-align: justify;
+    height: 120vh;
+  }
+
+  .title_crea {
+    height: 10vh;
+    background-color: #fafafa ;
+    display: flex;
+    justify-content: center;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
+
+}
+
+@media only screen and (min-width : 375px) and (max-width : 667px) {
+  .trait1 {
+    display: none;
+  }
+
+  .trait2 {
+    display: none;
+  }
+
+  .trait3 {
+    display: none;
+  }
+
+  .bullet {
+    width: auto;
+    background: url(../images/trousseau_background.png);
+    margin-left: -5vh;
+    margin-right: 0vh;
+  }
+
+  #france {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-left: 10vh;
+    margin-right: 10vh;
+  }
+
+  #faitmain {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-left: 10vh;
+    margin-right: 10vh;
+  }
+
+  #attention {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-left: 10vh;
+    margin-right: 10vh;
+  }
+
+  #quality {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-left: 10vh;
+    margin-right: 10vh;
+  }
+
+  #partage {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-left: 10vh;
+    margin-right: 10vh;
+  }
+
   .image{
     width: 100%;
     display: flex;

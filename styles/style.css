@@ -599,7 +599,7 @@ body {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  height: 20vh; }
+  height: 176px; }
 
 .titre p {
   font-size: 4rem;
@@ -633,6 +633,10 @@ body {
   z-index: 1; }
 
 .bullet {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   margin-left: 15vh;
   margin-top: 7px;
   margin-right: 15vh;
@@ -813,7 +817,7 @@ body {
   font-size: 1.6rem;
   margin-left: 5vh; }
 
-@media only screen and (min-width: 745px) and (max-width: 1024px) {
+@media only screen and (min-width: 667px) and (max-width: 1024px) {
   .trait1 {
     display: none; }
   .trait2 {
@@ -823,7 +827,7 @@ body {
   .bullet {
     width: auto;
     margin-left: -5vh;
-    margin-right: -5vh;
+    margin-right: 0vh;
     background: url(../images/trousseau_background.png); }
   .image img {
     height: 10rem;
@@ -932,7 +936,7 @@ body {
     margin-left: 10px;
     margin-right: 10px; } }
 
-@media only screen and (min-width: 375px) and (max-width: 745px) {
+@media only screen and (min-width: 667px) and (max-width: 705px) {
   .trait1 {
     display: none; }
   .trait2 {
@@ -943,7 +947,119 @@ body {
     width: auto;
     background: url(../images/trousseau_background.png);
     margin-left: -5vh;
-    margin-right: -5vh; }
+    margin-right: 0vh; }
+  #france {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-left: 10vh;
+    margin-right: 10vh; }
+  #faitmain {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-left: 10vh;
+    margin-right: 10vh; }
+  #attention {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-left: 10vh;
+    margin-right: 10vh; }
+  #quality {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-left: 10vh;
+    margin-right: 10vh; }
+  #partage {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-left: 10vh;
+    margin-right: 10vh; }
+  .image {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+  .image img {
+    height: 10rem;
+    width: 10rem;
+    margin-bottom: -3vh;
+    margin-left: auto;
+    margin-right: auto; }
+  .text {
+    width: 100%; }
+  .philosophie {
+    letter-spacing: normal;
+    background-color: #fafafa;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-align: justify;
+    height: 120vh; }
+  .title_crea {
+    height: 10vh;
+    background-color: #fafafa;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-left: 2px;
+    margin-right: 2px; } }
+
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+  .trait1 {
+    display: none; }
+  .trait2 {
+    display: none; }
+  .trait3 {
+    display: none; }
+  .bullet {
+    width: auto;
+    background: url(../images/trousseau_background.png);
+    margin-left: -5vh;
+    margin-right: 0vh; }
   #france {
     display: -webkit-box;
     display: -webkit-flex;
