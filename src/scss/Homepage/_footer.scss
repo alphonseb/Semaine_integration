@@ -105,12 +105,6 @@ footer{
 
 @media only screen and (max-width : 1280px) and (min-width : 1024px)  {
   footer{
-    margin-top: 50px;
-    width: 100%;
-    background: $light-pink;
-    color: $white;
-    font-size: 1.6rem;
-    display: flex;
     .pure-g {
       width: 100%;
       display: flex;
@@ -187,7 +181,7 @@ footer{
 }
 
 
-@media only screen and (max-width : 1024px)  {
+@media only screen and (max-width : 1000px)  {
   footer {
     width: 100%;
     &>div{
@@ -234,6 +228,27 @@ footer{
     }
     div:nth-child(1) {
       margin-bottom: 40px;
+    }
+  }
+}
+
+@media only screen and (max-device-width : 375px){
+  footer {
+    width: 100%;
+    .pure-g {
+      width: auto;
+    }
+    div:nth-child(2), div:nth-child(4){
+      margin: 0px 0px 40px 70px;
+    }
+  }
+  .last{
+    flex-direction: column;
+    .social{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-right: 70px;
     }
   }
 }
