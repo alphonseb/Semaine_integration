@@ -328,11 +328,9 @@ html, button, input, select, textarea,
   .topbar .centered {
     padding-top: 2.5%;
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center; }
     .topbar .centered p {
@@ -357,16 +355,13 @@ html, button, input, select, textarea,
       color: #997C6C; }
   .topbar .social {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
     -webkit-box-pack: end;
-    -webkit-justify-content: flex-end;
     -ms-flex-pack: end;
     justify-content: flex-end; }
     .topbar .social .fb a {
@@ -427,11 +422,9 @@ header {
             font-size: 1.7rem; }
     header ul li:hover .sub-menu {
       display: -webkit-box;
-      display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
       -webkit-box-pack: center;
-      -webkit-justify-content: center;
       -ms-flex-pack: center;
       justify-content: center; }
     header ul li:hover > a {
@@ -494,7 +487,6 @@ header {
     left: 46%;
     bottom: -3vh;
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
     .slider .slider-index div {
@@ -513,7 +505,6 @@ header {
   overflow: hidden;
   border: solid 1.5px #DD8496;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
   .slider-content div {
@@ -601,11 +592,9 @@ header {
 
 .titre {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
   height: 176px; }
@@ -643,7 +632,6 @@ header {
 
 .bullet {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   margin-left: 15vh;
@@ -659,12 +647,10 @@ header {
 
 #france {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-flow: row wrap;
   -ms-flex-flow: row wrap;
   flex-flow: row wrap;
   padding-top: 5.5vh;
@@ -675,12 +661,10 @@ header {
 
 #faitmain {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-flow: row wrap;
   -ms-flex-flow: row wrap;
   flex-flow: row wrap;
   padding-top: 5.5vh;
@@ -691,12 +675,10 @@ header {
 
 #attention {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-flow: row wrap;
   -ms-flex-flow: row wrap;
   flex-flow: row wrap;
   padding-top: 5.5vh;
@@ -707,12 +689,10 @@ header {
 
 #quality {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-flow: row wrap;
   -ms-flex-flow: row wrap;
   flex-flow: row wrap;
   margin-top: 4vh;
@@ -723,12 +703,10 @@ header {
 
 #partage {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-flow: row wrap;
   -ms-flex-flow: row wrap;
   flex-flow: row wrap;
   padding-top: 3vh;
@@ -761,11 +739,9 @@ header {
   height: 10vh;
   background-color: #fafafa;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
   margin-left: 15vh;
@@ -795,11 +771,9 @@ header {
   width: 100%;
   margin-top: 10vh;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center; }
 
@@ -842,21 +816,17 @@ header {
     height: 10rem;
     width: 10rem;
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center; }
   #france {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -webkit-flex-flow: row wrap;
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
     padding-top: 5.5vh;
@@ -866,12 +836,10 @@ header {
     margin-right: 10vh; }
   #faitmain {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -webkit-flex-flow: row wrap;
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
     padding-top: 5.5vh;
@@ -881,12 +849,10 @@ header {
     margin-right: 10vh; }
   #attention {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -webkit-flex-flow: row wrap;
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
     padding-top: 5.5vh;
@@ -896,12 +862,10 @@ header {
     margin-right: 10vh; }
   #quality {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -webkit-flex-flow: row wrap;
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
     margin-top: 4vh;
@@ -911,12 +875,10 @@ header {
     margin-right: 10vh; }
   #partage {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -webkit-flex-flow: row wrap;
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
     padding-top: 3vh;
@@ -935,11 +897,9 @@ header {
     height: 10vh;
     background-color: #fafafa;
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
     margin-left: 10px;
@@ -959,11 +919,9 @@ header {
     margin-right: 0vh; }
   #france {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
     font-size: 1.5rem;
@@ -972,11 +930,9 @@ header {
     margin-right: 10vh; }
   #faitmain {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
     font-size: 1.5rem;
@@ -985,11 +941,9 @@ header {
     margin-right: 10vh; }
   #attention {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
     font-size: 1.5rem;
@@ -998,11 +952,9 @@ header {
     margin-right: 10vh; }
   #quality {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
     font-size: 1.5rem;
@@ -1011,11 +963,9 @@ header {
     margin-right: 10vh; }
   #partage {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
     font-size: 1.5rem;
@@ -1025,7 +975,6 @@ header {
   .image {
     width: 100%;
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
   .image img {
@@ -1047,11 +996,9 @@ header {
     height: 10vh;
     background-color: #fafafa;
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
     margin-left: 2px;
@@ -1071,11 +1018,9 @@ header {
     margin-right: 0vh; }
   #france {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
     font-size: 1.5rem;
@@ -1084,11 +1029,9 @@ header {
     margin-right: 10vh; }
   #faitmain {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
     font-size: 1.5rem;
@@ -1097,11 +1040,9 @@ header {
     margin-right: 10vh; }
   #attention {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
     font-size: 1.5rem;
@@ -1110,11 +1051,9 @@ header {
     margin-right: 10vh; }
   #quality {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
     font-size: 1.5rem;
@@ -1123,11 +1062,9 @@ header {
     margin-right: 10vh; }
   #partage {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
     font-size: 1.5rem;
@@ -1137,7 +1074,6 @@ header {
   .image {
     width: 100%;
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
   .image img {
@@ -1159,11 +1095,9 @@ header {
     height: 10vh;
     background-color: #fafafa;
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
     margin-left: 2px;
@@ -1172,17 +1106,14 @@ header {
 div.pure-g#top {
   letter-spacing: normal;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center; }
   div.pure-g#top div.pure-u-1pure-u-lg-1-2#left {
-    padding: 100px 0px 0px 315px;
+    padding: 100px 0px 0px 115px;
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
     div.pure-g#top div.pure-u-1pure-u-lg-1-2#left img.pure-u-3-4#grande {
@@ -1196,7 +1127,6 @@ div.pure-g#top {
         margin: 0px 20px 0px 0px;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
         -ms-flex-direction: column;
         flex-direction: column;
         width: 105px; }
@@ -1215,70 +1145,35 @@ div.pure-g#top {
       height: 80px;
       border-radius: 3px;
       -webkit-box-pack: start;
-      -webkit-justify-content: flex-start;
       -ms-flex-pack: start;
       justify-content: flex-start; }
       div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.titre h3 {
         padding-left: 30px;
         font-family: "Della Respira", serif;
         font-size: 25px; }
-    div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.ligne {
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex; }
-      div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.ligne img {
-        width: 40px;
-        height: 40px;
-        padding: 30px 5px 5px 15px; }
-      div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.ligne span {
-        margin-top: 42px;
-        font-size: 13px; }
-    div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.ligne2 {
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex; }
-      div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.ligne2 img {
-        width: 30px;
-        height: 30px;
-        padding: 10px 5px 5px 20px; }
-      div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.ligne2 span {
-        margin-top: 17px;
-        margin-left: 5px;
-        font-size: 13px; }
-    div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.ligne3 {
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex; }
-      div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.ligne3 img {
-        width: 40px;
-        height: 40px;
-        padding: 10px 5px 5px 15px; }
-      div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.ligne3 span {
-        margin-top: 22px;
-        font-size: 13px; }
+    div.pure-g#top div.pure-u-1pure-u-lg-1-2#right p {
+      font-size: 14px;
+      text-align: left;
+      margin: 50px 60px;
+      width: 400px; }
     div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.petit {
       padding-top: 15px;
-      padding-right: 350px; }
+      padding-right: 100px; }
       div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.petit span.matiere {
         display: -webkit-box;
-        display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
         -webkit-box-align: end;
-        -webkit-align-items: flex-end;
         -ms-flex-align: end;
         align-items: flex-end;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
         -ms-flex-direction: column;
         flex-direction: column; }
       div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.petit span.quantite {
         font-size: 14px;
-        margin-top: 15px; }
+        margin-top: 15px;
+        margin-left: 30px; }
       div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.petit input {
         width: 20px;
         height: 20px;
@@ -1304,7 +1199,6 @@ div.pure-g#top {
     margin: 50px 0px 0px 0px;
     padding: 0;
     -webkit-box-pack: center;
-    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center; }
     div.pure-g#top div.pure-u-1pure-u-lg-1-2#left img.pure-u-3-4#grande {
@@ -1319,7 +1213,6 @@ div.pure-g#top {
     margin: 0px auto;
     width: 550px;
     -webkit-box-pack: center;
-    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center; }
     div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.petit {
@@ -1334,14 +1227,58 @@ div.pure-g#middle {
     text-align: center;
     margin: auto;
     border-radius: 3px;
-    padding-top: 0px; }
+    padding-top: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row; }
     div.pure-g#middle div.pure-u-5-8#description h3 {
       font-family: "Della Respira", serif;
-      font-size: 22px; }
-    div.pure-g#middle div.pure-u-5-8#description p {
-      font-size: 17px;
-      text-align: left;
-      margin: 30px 60px; }
+      font-size: 22px;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin-left: 15px; }
+    div.pure-g#middle div.pure-u-5-8#description div.ligne {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-left: 50px; }
+      div.pure-g#middle div.pure-u-5-8#description div.ligne img {
+        width: 40px;
+        height: 40px;
+        padding: 20px 5px 10px 15px; }
+      div.pure-g#middle div.pure-u-5-8#description div.ligne span {
+        margin-top: 32px;
+        font-size: 13px; }
+    div.pure-g#middle div.pure-u-5-8#description div.ligne2 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-left: 50px; }
+      div.pure-g#middle div.pure-u-5-8#description div.ligne2 img {
+        width: 30px;
+        height: 30px;
+        padding: 25px 5px 5px 20px; }
+      div.pure-g#middle div.pure-u-5-8#description div.ligne2 span {
+        margin-top: 32px;
+        margin-left: 5px;
+        font-size: 13px; }
+    div.pure-g#middle div.pure-u-5-8#description div.ligne3 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-left: 50px; }
+      div.pure-g#middle div.pure-u-5-8#description div.ligne3 img {
+        width: 40px;
+        height: 40px;
+        padding: 20px 5px 5px 15px; }
+      div.pure-g#middle div.pure-u-5-8#description div.ligne3 span {
+        margin-top: 32px;
+        font-size: 13px; }
   div.pure-g#middle div.pure-g#garantie_details {
     text-align: center;
     margin: auto; }
@@ -1383,7 +1320,6 @@ div.pure-g#middle {
   div.pure-g#middle div.pure-g#garantie_details div.pure-u-1-3#garantie {
     width: 100%;
     -webkit-box-pack: center;
-    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
     margin: 50px 0px 0px 0px; }
@@ -1404,21 +1340,17 @@ div.decouvrez h4 {
 
 div.pure-g#bottom {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
   position: relative; }
   div.pure-g#bottom div.pure-u-5-8#first {
     margin-top: 40px;
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-justify-content: space-around;
     -ms-flex-pack: distribute;
     justify-content: space-around; }
     div.pure-g#bottom div.pure-u-5-8#first div.pure-u-1-8 img {
@@ -1427,10 +1359,8 @@ div.pure-g#bottom {
   div.pure-g#bottom div.pure-u-5-8#second {
     margin-top: 40px;
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-justify-content: space-around;
     -ms-flex-pack: distribute;
     justify-content: space-around;
     position: absolute;
@@ -1441,10 +1371,8 @@ div.pure-g#bottom {
   div.pure-g#bottom div.pure-u-5-8#third {
     margin-top: 40px;
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-justify-content: space-around;
     -ms-flex-pack: distribute;
     justify-content: space-around;
     position: absolute;
@@ -1487,21 +1415,17 @@ footer {
 .last {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column; }
   .last .social {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
     -webkit-box-pack: center;
-    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center; }
     .last .social .fb-white {
