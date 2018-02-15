@@ -10,9 +10,9 @@ div.pure-g#top{
       height: 345px;
       border: 1px solid $light-brown;
     }
-    div#goutière{
+    div.pure-g#goutière{
       padding:0;
-      margin:0;
+      margin:50px 0px 0px 0px;
       div#petites_images{
         margin: 0px 20px 0px 0px;
         flex-direction: column;
