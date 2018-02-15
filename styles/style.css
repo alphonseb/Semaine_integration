@@ -820,20 +820,20 @@ div.pure-g#top {
   display: flex;
   justify-content: center; }
   div.pure-g#top div.pure-u-1pure-u-lg-1-2#left {
-    padding: 100px 0px 0px 315px;
+    padding: 100px 0px 0px 115px;
     display: flex; }
     div.pure-g#top div.pure-u-1pure-u-lg-1-2#left img.pure-u-3-4#grande {
       width: 345px;
       height: 345px;
       border: 1px solid #997C6C; }
-    div.pure-g#top div.pure-u-1pure-u-lg-1-2#left div#goutière {
+    div.pure-g#top div.pure-u-1pure-u-lg-1-2#left div.pure-g#goutière {
       padding: 0;
-      margin: 0; }
-      div.pure-g#top div.pure-u-1pure-u-lg-1-2#left div#goutière div#petites_images {
+      margin: 50px 0px 0px 0px; }
+      div.pure-g#top div.pure-u-1pure-u-lg-1-2#left div.pure-g#goutière div#petites_images {
         margin: 0px 20px 0px 0px;
         flex-direction: column;
         width: 105px; }
-        div.pure-g#top div.pure-u-1pure-u-lg-1-2#left div#goutière div#petites_images img.petite {
+        div.pure-g#top div.pure-u-1pure-u-lg-1-2#left div.pure-g#goutière div#petites_images img.petite {
           width: 109px;
           height: 109px;
           margin-bottom: 5px;
@@ -852,44 +852,22 @@ div.pure-g#top {
         padding-left: 30px;
         font-family: "Della Respira", serif;
         font-size: 25px; }
-    div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.ligne {
-      display: flex; }
-      div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.ligne img {
-        width: 40px;
-        height: 40px;
-        padding: 30px 5px 5px 15px; }
-      div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.ligne span {
-        margin-top: 42px;
-        font-size: 13px; }
-    div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.ligne2 {
-      display: flex; }
-      div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.ligne2 img {
-        width: 30px;
-        height: 30px;
-        padding: 10px 5px 5px 20px; }
-      div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.ligne2 span {
-        margin-top: 17px;
-        margin-left: 5px;
-        font-size: 13px; }
-    div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.ligne3 {
-      display: flex; }
-      div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.ligne3 img {
-        width: 40px;
-        height: 40px;
-        padding: 10px 5px 5px 15px; }
-      div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.ligne3 span {
-        margin-top: 22px;
-        font-size: 13px; }
+    div.pure-g#top div.pure-u-1pure-u-lg-1-2#right p {
+      font-size: 14px;
+      text-align: left;
+      margin: 50px 60px;
+      width: 400px; }
     div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.petit {
       padding-top: 15px;
-      padding-right: 350px; }
+      padding-right: 100px; }
       div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.petit span.matiere {
         display: flex;
         align-items: flex-end;
         flex-direction: column; }
       div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.petit span.quantite {
         font-size: 14px;
-        margin-top: 15px; }
+        margin-top: 15px;
+        margin-left: 30px; }
       div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.petit input {
         width: 20px;
         height: 20px;
@@ -939,14 +917,45 @@ div.pure-g#middle {
     text-align: center;
     margin: auto;
     border-radius: 3px;
-    padding-top: 0px; }
+    padding-top: 0px;
+    display: flex;
+    flex-direction: row; }
     div.pure-g#middle div.pure-u-5-8#description h3 {
       font-family: "Della Respira", serif;
-      font-size: 22px; }
-    div.pure-g#middle div.pure-u-5-8#description p {
-      font-size: 17px;
-      text-align: left;
-      margin: 30px 60px; }
+      font-size: 22px;
+      justify-content: center;
+      margin-left: 15px; }
+    div.pure-g#middle div.pure-u-5-8#description div.ligne {
+      display: flex;
+      margin-left: 50px; }
+      div.pure-g#middle div.pure-u-5-8#description div.ligne img {
+        width: 40px;
+        height: 40px;
+        padding: 20px 5px 10px 15px; }
+      div.pure-g#middle div.pure-u-5-8#description div.ligne span {
+        margin-top: 32px;
+        font-size: 13px; }
+    div.pure-g#middle div.pure-u-5-8#description div.ligne2 {
+      display: flex;
+      margin-left: 50px; }
+      div.pure-g#middle div.pure-u-5-8#description div.ligne2 img {
+        width: 30px;
+        height: 30px;
+        padding: 25px 5px 5px 20px; }
+      div.pure-g#middle div.pure-u-5-8#description div.ligne2 span {
+        margin-top: 32px;
+        margin-left: 5px;
+        font-size: 13px; }
+    div.pure-g#middle div.pure-u-5-8#description div.ligne3 {
+      display: flex;
+      margin-left: 50px; }
+      div.pure-g#middle div.pure-u-5-8#description div.ligne3 img {
+        width: 40px;
+        height: 40px;
+        padding: 20px 5px 5px 15px; }
+      div.pure-g#middle div.pure-u-5-8#description div.ligne3 span {
+        margin-top: 32px;
+        font-size: 13px; }
   div.pure-g#middle div.pure-g#garantie_details {
     text-align: center;
     margin: auto; }
