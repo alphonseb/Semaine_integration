@@ -123,12 +123,16 @@
     margin-top: 20px;
     &>div{
       text-align: center;
+      opacity: 0
     }
     img{
       max-width: 90%;
       height: auto;
       border: solid 1px $black;
-      opacity: 0;
+    }
+    p{
+      font-family: Arial, sans-serif;
+      font-size: 1.7rem;
     }
   }
   @keyframes fadeIN{
@@ -139,7 +143,7 @@
       opacity: 1;
     }
   }
-  .show img{
+  .show div{
     animation: fadeIN 1s 1 linear forwards;
   }
 }
