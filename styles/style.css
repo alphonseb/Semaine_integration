@@ -328,9 +328,11 @@ html, button, input, select, textarea,
   .topbar .centered {
     padding-top: 2.5%;
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
+    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center; }
     .topbar .centered p {
@@ -355,13 +357,16 @@ html, button, input, select, textarea,
       color: #997C6C; }
   .topbar .social {
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
     -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
     -ms-flex-pack: end;
     justify-content: flex-end; }
     .topbar .social .fb a {
@@ -422,9 +427,11 @@ header {
             font-size: 1.7rem; }
     header ul li:hover .sub-menu {
       display: -webkit-box;
+      display: -webkit-flex;
       display: -ms-flexbox;
       display: flex;
       -webkit-box-pack: center;
+      -webkit-justify-content: center;
       -ms-flex-pack: center;
       justify-content: center; }
     header ul li:hover > a {
@@ -487,6 +494,7 @@ header {
     left: 46%;
     bottom: -3vh;
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
     .slider .slider-index div {
@@ -505,6 +513,7 @@ header {
   overflow: hidden;
   border: solid 1.5px #DD8496;
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
   .slider-content div {
@@ -592,12 +601,14 @@ header {
 
 .titre {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
+  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  height: 20vh; }
+  height: 176px; }
 
 .titre p {
   font-size: 4rem;
@@ -631,6 +642,10 @@ header {
   z-index: 1; }
 
 .bullet {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   margin-left: 15vh;
   margin-top: 7px;
   margin-right: 15vh;
@@ -644,10 +659,12 @@ header {
 
 #france {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
   -ms-flex-flow: row wrap;
   flex-flow: row wrap;
   padding-top: 5.5vh;
@@ -658,10 +675,12 @@ header {
 
 #faitmain {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
   -ms-flex-flow: row wrap;
   flex-flow: row wrap;
   padding-top: 5.5vh;
@@ -672,10 +691,12 @@ header {
 
 #attention {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
   -ms-flex-flow: row wrap;
   flex-flow: row wrap;
   padding-top: 5.5vh;
@@ -686,10 +707,12 @@ header {
 
 #quality {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
   -ms-flex-flow: row wrap;
   flex-flow: row wrap;
   margin-top: 4vh;
@@ -700,10 +723,12 @@ header {
 
 #partage {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
   -ms-flex-flow: row wrap;
   flex-flow: row wrap;
   padding-top: 3vh;
@@ -736,9 +761,11 @@ header {
   height: 10vh;
   background-color: #fafafa;
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
+  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
   margin-left: 15vh;
@@ -768,9 +795,11 @@ header {
   width: 100%;
   margin-top: 10vh;
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
+  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center; }
 
@@ -797,7 +826,7 @@ header {
   font-size: 1.6rem;
   margin-left: 5vh; }
 
-@media only screen and (min-width: 745px) and (max-width: 1024px) {
+@media only screen and (min-width: 667px) and (max-width: 1024px) {
   .trait1 {
     display: none; }
   .trait2 {
@@ -807,23 +836,27 @@ header {
   .bullet {
     width: auto;
     margin-left: -5vh;
-    margin-right: -5vh;
+    margin-right: 0vh;
     background: url(../images/trousseau_background.png); }
   .image img {
     height: 10rem;
     width: 10rem;
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
+    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center; }
   #france {
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap;
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
     padding-top: 5.5vh;
@@ -833,10 +866,12 @@ header {
     margin-right: 10vh; }
   #faitmain {
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap;
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
     padding-top: 5.5vh;
@@ -846,10 +881,12 @@ header {
     margin-right: 10vh; }
   #attention {
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap;
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
     padding-top: 5.5vh;
@@ -859,10 +896,12 @@ header {
     margin-right: 10vh; }
   #quality {
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap;
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
     margin-top: 4vh;
@@ -872,10 +911,12 @@ header {
     margin-right: 10vh; }
   #partage {
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
+    -webkit-flex-flow: row wrap;
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
     padding-top: 3vh;
@@ -894,15 +935,17 @@ header {
     height: 10vh;
     background-color: #fafafa;
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
+    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
     margin-left: 10px;
     margin-right: 10px; } }
 
-@media only screen and (min-width: 375px) and (max-width: 745px) {
+@media only screen and (min-width: 667px) and (max-width: 705px) {
   .trait1 {
     display: none; }
   .trait2 {
@@ -913,12 +956,14 @@ header {
     width: auto;
     background: url(../images/trousseau_background.png);
     margin-left: -5vh;
-    margin-right: -5vh; }
+    margin-right: 0vh; }
   #france {
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
+    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
     font-size: 1.5rem;
@@ -927,9 +972,11 @@ header {
     margin-right: 10vh; }
   #faitmain {
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
+    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
     font-size: 1.5rem;
@@ -938,9 +985,11 @@ header {
     margin-right: 10vh; }
   #attention {
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
+    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
     font-size: 1.5rem;
@@ -949,9 +998,11 @@ header {
     margin-right: 10vh; }
   #quality {
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
+    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
     font-size: 1.5rem;
@@ -960,9 +1011,11 @@ header {
     margin-right: 10vh; }
   #partage {
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
+    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
     font-size: 1.5rem;
@@ -972,6 +1025,7 @@ header {
   .image {
     width: 100%;
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
   .image img {
@@ -993,9 +1047,123 @@ header {
     height: 10vh;
     background-color: #fafafa;
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-left: 2px;
+    margin-right: 2px; } }
+
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+  .trait1 {
+    display: none; }
+  .trait2 {
+    display: none; }
+  .trait3 {
+    display: none; }
+  .bullet {
+    width: auto;
+    background: url(../images/trousseau_background.png);
+    margin-left: -5vh;
+    margin-right: 0vh; }
+  #france {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-left: 10vh;
+    margin-right: 10vh; }
+  #faitmain {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-left: 10vh;
+    margin-right: 10vh; }
+  #attention {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-left: 10vh;
+    margin-right: 10vh; }
+  #quality {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-left: 10vh;
+    margin-right: 10vh; }
+  #partage {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-left: 10vh;
+    margin-right: 10vh; }
+  .image {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+  .image img {
+    height: 10rem;
+    width: 10rem;
+    margin-bottom: -3vh;
+    margin-left: auto;
+    margin-right: auto; }
+  .text {
+    width: 100%; }
+  .philosophie {
+    letter-spacing: normal;
+    background-color: #fafafa;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-align: justify;
+    height: 120vh; }
+  .title_crea {
+    height: 10vh;
+    background-color: #fafafa;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
     margin-left: 2px;
@@ -1004,14 +1172,17 @@ header {
 div.pure-g#top {
   letter-spacing: normal;
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
+  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center; }
   div.pure-g#top div.pure-u-1pure-u-lg-1-2#left {
     padding: 100px 0px 0px 315px;
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
     div.pure-g#top div.pure-u-1pure-u-lg-1-2#left img.pure-u-3-4#grande {
@@ -1025,6 +1196,7 @@ div.pure-g#top {
         margin: 0px 20px 0px 0px;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
         -ms-flex-direction: column;
         flex-direction: column;
         width: 105px; }
@@ -1043,6 +1215,7 @@ div.pure-g#top {
       height: 80px;
       border-radius: 3px;
       -webkit-box-pack: start;
+      -webkit-justify-content: flex-start;
       -ms-flex-pack: start;
       justify-content: flex-start; }
       div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.titre h3 {
@@ -1051,6 +1224,7 @@ div.pure-g#top {
         font-size: 25px; }
     div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.ligne {
       display: -webkit-box;
+      display: -webkit-flex;
       display: -ms-flexbox;
       display: flex; }
       div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.ligne img {
@@ -1062,6 +1236,7 @@ div.pure-g#top {
         font-size: 13px; }
     div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.ligne2 {
       display: -webkit-box;
+      display: -webkit-flex;
       display: -ms-flexbox;
       display: flex; }
       div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.ligne2 img {
@@ -1074,6 +1249,7 @@ div.pure-g#top {
         font-size: 13px; }
     div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.ligne3 {
       display: -webkit-box;
+      display: -webkit-flex;
       display: -ms-flexbox;
       display: flex; }
       div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.ligne3 img {
@@ -1088,13 +1264,16 @@ div.pure-g#top {
       padding-right: 350px; }
       div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.petit span.matiere {
         display: -webkit-box;
+        display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
         -webkit-box-align: end;
+        -webkit-align-items: flex-end;
         -ms-flex-align: end;
         align-items: flex-end;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
         -ms-flex-direction: column;
         flex-direction: column; }
       div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.petit span.quantite {
@@ -1125,6 +1304,7 @@ div.pure-g#top {
     margin: 50px 0px 0px 0px;
     padding: 0;
     -webkit-box-pack: center;
+    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center; }
     div.pure-g#top div.pure-u-1pure-u-lg-1-2#left img.pure-u-3-4#grande {
@@ -1139,6 +1319,7 @@ div.pure-g#top {
     margin: 0px auto;
     width: 550px;
     -webkit-box-pack: center;
+    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center; }
     div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.petit {
@@ -1202,6 +1383,7 @@ div.pure-g#middle {
   div.pure-g#middle div.pure-g#garantie_details div.pure-u-1-3#garantie {
     width: 100%;
     -webkit-box-pack: center;
+    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
     margin: 50px 0px 0px 0px; }
@@ -1222,17 +1404,21 @@ div.decouvrez h4 {
 
 div.pure-g#bottom {
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
+  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
   position: relative; }
   div.pure-g#bottom div.pure-u-5-8#first {
     margin-top: 40px;
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    -webkit-justify-content: space-around;
     -ms-flex-pack: distribute;
     justify-content: space-around; }
     div.pure-g#bottom div.pure-u-5-8#first div.pure-u-1-8 img {
@@ -1241,8 +1427,10 @@ div.pure-g#bottom {
   div.pure-g#bottom div.pure-u-5-8#second {
     margin-top: 40px;
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    -webkit-justify-content: space-around;
     -ms-flex-pack: distribute;
     justify-content: space-around;
     position: absolute;
@@ -1253,8 +1441,10 @@ div.pure-g#bottom {
   div.pure-g#bottom div.pure-u-5-8#third {
     margin-top: 40px;
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    -webkit-justify-content: space-around;
     -ms-flex-pack: distribute;
     justify-content: space-around;
     position: absolute;
@@ -1297,17 +1487,21 @@ footer {
 .last {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column; }
   .last .social {
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
     -webkit-box-pack: center;
+    -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center; }
     .last .social .fb-white {
