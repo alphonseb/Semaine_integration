@@ -16,6 +16,13 @@ header{
       background-size: auto 97px;
       background-repeat: no-repeat;
       height: 91px;
+      @media screen and (max-width: 780px){
+        background-position: center;
+        background-size: auto 115%;
+      }
+      @media screen and(max-width: 400px){
+        background-size: auto 80%;
+      }
     }
     .centered{
       p{
@@ -53,6 +60,9 @@ header{
       display: flex;
       flex-direction: row;
       justify-content: flex-end;
+      @media screen and (max-width: 780px){
+        justify-content: center;
+      }
       .fb a{
         display: block;
         margin: 0 10px;

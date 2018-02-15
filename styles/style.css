@@ -63,6 +63,9 @@ html, button, input, select, textarea,
   .screen1 .pure-g {
     position: relative;
     margin: 0 90px; }
+    @media screen and (max-width: 780px) {
+      .screen1 .pure-g {
+        margin: 0; } }
     .screen1 .pure-g div {
       margin: 0 auto; }
       .screen1 .pure-g div p.phrase {
@@ -88,11 +91,14 @@ html, button, input, select, textarea,
   .screen1 main > div:nth-child(2) {
     opacity: 0;
     text-align: center;
-    width: 20%;
+    width: 25%;
     margin: 0 auto;
     -webkit-animation-delay: 1.3s;
     animation-delay: 1.3s;
     margin-top: 20px; }
+    @media screen and (max-width: 780px) {
+      .screen1 main > div:nth-child(2) {
+        width: 88%; } }
     .screen1 main > div:nth-child(2) a {
       display: block;
       text-decoration: none;
@@ -345,6 +351,13 @@ header {
     background-size: auto 97px;
     background-repeat: no-repeat;
     height: 91px; }
+    @media screen and (max-width: 780px) {
+      .topbar .logo a {
+        background-position: center;
+        background-size: auto 115%; } }
+    @media screen and (max-width: 400px) {
+      .topbar .logo a {
+        background-size: auto 80%; } }
   .topbar .centered {
     padding-top: 2.5%;
     display: -webkit-box;
@@ -389,6 +402,12 @@ header {
     -webkit-justify-content: flex-end;
     -ms-flex-pack: end;
     justify-content: flex-end; }
+    @media screen and (max-width: 780px) {
+      .topbar .social {
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center; } }
     .topbar .social .fb a {
       display: block;
       margin: 0 10px;
@@ -542,6 +561,7 @@ header {
 
 .slider-content {
   max-width: 100%;
+  height: 55vh;
   margin: 0 auto;
   overflow: hidden;
   display: -webkit-box;
@@ -555,8 +575,11 @@ header {
     -o-transition: all ease-in .75s;
     transition: all ease-in .75s; }
     .slider-content div img {
-      width: 100vw;
-      height: 50vh; }
+      width: 100vw; }
+    .slider-content div img.slider-last {
+      -webkit-transform: translateY(-26%);
+      -ms-transform: translateY(-26%);
+      transform: translateY(-26%); }
     .slider-content div a {
       display: block;
       border: solid 3px white;
@@ -1158,7 +1181,7 @@ div.pure-g#top {
         margin-top: 15px;
         margin-left: 30px; }
       div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.petit input {
-        width: 20px;
+        width: 30px;
         height: 20px;
         margin-left: 5px;
         margin-top: 15px; }
@@ -1304,34 +1327,44 @@ div.pure-g#middle {
       div.pure-g#middle div.pure-u-5-8#description div.ligne3 span {
         margin-top: 32px;
         font-size: 13px; }
-  div.pure-g#middle div.pure-g#garantie_details {
+  div.pure-g#middle div.pure-u-5-8#garantie_details {
     text-align: center;
-    margin: auto; }
-    div.pure-g#middle div.pure-g#garantie_details div.pure-u-1-3#détails_entretien {
+    margin: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    div.pure-g#middle div.pure-u-5-8#garantie_details div.pure-u-1-3#détails_entretien {
       background-color: #FAFAFA;
-      margin: 70px 0px 0px 150px;
+      margin: 70px 0px 0px 0px;
       border: #DD8496 1px solid;
       opacity: 0.6;
       height: 173px;
-      border-radius: 3px; }
-      div.pure-g#middle div.pure-g#garantie_details div.pure-u-1-3#détails_entretien h3 {
+      border-radius: 3px;
+      width: 450px; }
+      div.pure-g#middle div.pure-u-5-8#garantie_details div.pure-u-1-3#détails_entretien h3 {
         font-family: "Della Respira", serif;
         font-size: 22px; }
-      div.pure-g#middle div.pure-g#garantie_details div.pure-u-1-3#détails_entretien p {
+      div.pure-g#middle div.pure-u-5-8#garantie_details div.pure-u-1-3#détails_entretien p {
         font-size: 17px;
         text-align: left;
         margin: 30px 60px; }
-    div.pure-g#middle div.pure-g#garantie_details div.pure-u-1-3#garantie {
+    div.pure-g#middle div.pure-u-5-8#garantie_details div.pure-u-1-3#garantie {
       background-color: #FAFAFA;
-      margin: 70px 0px 0px 150px;
+      margin: 70px 0px 0px 0px;
       height: 173px;
       border: #DD8496 1px solid;
       opacity: 0.6;
-      border-radius: 3px; }
-      div.pure-g#middle div.pure-g#garantie_details div.pure-u-1-3#garantie h3 {
+      border-radius: 3px;
+      width: 450px; }
+      div.pure-g#middle div.pure-u-5-8#garantie_details div.pure-u-1-3#garantie h3 {
         font-family: "Della Respira", serif;
         font-size: 22px; }
-      div.pure-g#middle div.pure-g#garantie_details div.pure-u-1-3#garantie p {
+      div.pure-g#middle div.pure-u-5-8#garantie_details div.pure-u-1-3#garantie p {
         font-size: 17px;
         text-align: left;
         margin: 40px 60px 30px 60px; }
@@ -1412,30 +1445,34 @@ div.pure-g#middle {
       div.pure-g#middle div.pure-u-5-8#description div.ligne3 img {
         width: 160px;
         height: 160px; }
-  div.pure-g#middle div.pure-g#garantie_details div.pure-u-1-3#garantie {
+  div.pure-g#middle div.pure-u-5-8#garantie_details {
+    margin: 0;
     width: 100%;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    margin: 50px 0px 0px 0px;
-    height: auto; }
-    div.pure-g#middle div.pure-g#garantie_details div.pure-u-1-3#garantie h3 {
-      font-size: 45px; }
-    div.pure-g#middle div.pure-g#garantie_details div.pure-u-1-3#garantie p {
-      font-size: 30px;
-      padding: 0px 20px;
-      text-align: center; }
-  div.pure-g#middle div.pure-g#garantie_details div.pure-u-1-3#détails_entretien {
-    width: 100%;
-    margin: 50px 0px 0px 0px;
-    height: auto; }
-    div.pure-g#middle div.pure-g#garantie_details div.pure-u-1-3#détails_entretien h3 {
-      font-size: 45px; }
-    div.pure-g#middle div.pure-g#garantie_details div.pure-u-1-3#détails_entretien p {
-      padding: 0px 20px;
-      text-align: center;
-      font-size: 30px; } }
+    display: block; }
+    div.pure-g#middle div.pure-u-5-8#garantie_details div.pure-u-1-3#garantie {
+      width: 100%;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin: 50px 0px 0px 0px;
+      height: auto; }
+      div.pure-g#middle div.pure-u-5-8#garantie_details div.pure-u-1-3#garantie h3 {
+        font-size: 45px; }
+      div.pure-g#middle div.pure-u-5-8#garantie_details div.pure-u-1-3#garantie p {
+        font-size: 30px;
+        padding: 0px 20px;
+        text-align: center; }
+    div.pure-g#middle div.pure-u-5-8#garantie_details div.pure-u-1-3#détails_entretien {
+      width: 100%;
+      margin: 50px 0px 0px 0px;
+      height: auto; }
+      div.pure-g#middle div.pure-u-5-8#garantie_details div.pure-u-1-3#détails_entretien h3 {
+        font-size: 45px; }
+      div.pure-g#middle div.pure-u-5-8#garantie_details div.pure-u-1-3#détails_entretien p {
+        padding: 0px 20px;
+        text-align: center;
+        font-size: 30px; } }
 
 div.decouvrez h4 {
   text-align: center;
