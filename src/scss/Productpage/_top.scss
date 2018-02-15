@@ -3,16 +3,16 @@ div.pure-g#top{
   display: flex;
   justify-content: center;
   div.pure-u-1pure-u-lg-1-2#left{
-    padding: 100px 0px 0px 315px;
+    padding: 100px 0px 0px 115px;
     display: flex;
     img.pure-u-3-4#grande{
       width:345px;
       height: 345px;
       border: 1px solid $light-brown;
     }
-    div#goutière{
+    div.pure-g#goutière{
       padding:0;
-      margin:0;
+      margin:50px 0px 0px 0px;
       div#petites_images{
         margin: 0px 20px 0px 0px;
         flex-direction: column;
@@ -32,7 +32,7 @@ div.pure-g#top{
     padding-top: 100px;
     div.titre{
       width: 520px;
-      background-color: #DD8496;
+      background-color: #EFC4CB;
       padding: 3px;
       height: 80px;
       border-radius: 3px;
@@ -41,48 +41,18 @@ div.pure-g#top{
         padding-left: 30px;
         font-family: $primary-font;
         font-size: 25px;
+        font-weight: lighter;
       }
     }
-    div.ligne{
-      display: flex;
-      img{
-        width:40px;
-        height: 40px;
-        padding: 30px 5px 5px 15px;
-      }
-      span{
-        margin-top: 42px;
-        font-size: 13px;
-      }
-    }
-    div.ligne2{
-      display: flex;
-      img{
-        width:30px;
-        height: 30px;
-        padding: 10px 5px 5px 20px;
-      }
-      span{
-        margin-top: 17px;
-        margin-left: 5px;
-        font-size: 13px;
-      }
-    }
-    div.ligne3{
-      display: flex;
-      img{
-        width:40px;
-        height: 40px;
-        padding: 10px 5px 5px 15px;
-      }
-      span{
-        margin-top: 22px;
-        font-size: 13px;
-      }
+    p {
+      font-size: 14px;
+      text-align: left;
+      margin: 50px 60px;
+      width: 400px;
     }
     div.petit{
       padding-top: 15px;
-      padding-right: 350px;
+      padding-right: 100px;
       span.matiere{
         display:flex;
         align-items: flex-end;
@@ -91,6 +61,7 @@ div.pure-g#top{
       span.quantite{
         font-size: 14px;
         margin-top: 15px;
+        margin-left: 30px;
       }
       input{
         width:20px;
