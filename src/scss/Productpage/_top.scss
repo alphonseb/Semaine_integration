@@ -97,25 +97,56 @@ div.pure-g#top{
       padding: 0;
       justify-content: center;
       img.pure-u-3-4#grande{
-        width:445px;
-        height: 445px;
+        width:560px;
+        height: 560px;
       }
       div.pure-g#goutière{
         div.pure-u-1-4#petites_images{
-          width: 155px;
+          width: 185px;
           img.petite{
-            width:142px;
-            height: 142px;
+            width:180px;
+            height: 180px;
             }
           }
       }
     }
     div.pure-u-1pure-u-lg-1-2#right{
       margin: 0px auto;
-      width: 550px;
       justify-content: center;
+      display: flex;
+      flex-direction: column;
+      div.titre{
+        margin-bottom: 30px;
+        height: 120px;
+        margin-left: 150px;
+        h3{
+          font-size: 40px;
+        }
+      }
+      p{
+        font-size: 32px;
+        margin-right: 150px;
+        width: 450px;
+        justify-content: center;
+      }
       div.petit{
-        width: 490px;
+        font-size: 25px;
+        width: 740px;
+        margin-left: 40px;
+        span.quantite{
+          font-size: 25px;
+        }
+        span.price{
+          font-size: 25px;
+        }
+        input{
+          font-size: 25px;
+          height: 40px;
+          width: 40px;
+        }
+        button.pure-button#button_panier{
+          font-size: 25px;
+        }
       }
     }
   }
