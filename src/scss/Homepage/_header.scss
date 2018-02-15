@@ -130,6 +130,15 @@ header{
           padding: 70px 2.5vw;
           z-index: 9999;
           display: none;
+          @media screen and (max-width: 800px){
+            position: static;
+            width: 80%;
+            border: 1px solid $light-pink;
+            padding: 0;
+            a{
+              background: none;
+            }
+          }
           &>li{
             margin: 0 30px;
             a{
@@ -149,6 +158,9 @@ header{
       li:hover .sub-menu{
         display: flex;
         justify-content: center;
+        @media screen and (max-width: 800px){
+          flex-direction: column;
+        }
       }
       li:hover>a{
         color: $white;

@@ -18,7 +18,7 @@
     transition: all 0.3s ease-in;
   }
   .slider-arrow-left:hover{
-    transform: scale(1.5) rotate(-90deg);
+    transform: scale(1.5) translateY(-50%) rotate(-90deg);
   }
   .slider-arrow-right{
     width: 40px;
@@ -34,7 +34,7 @@
     transition: all 0.3s ease-in;
   }
   .slider-arrow-right:hover{
-    transform: scale(1.5) rotate(90deg);
+    transform: scale(1.5) translateY(-50%) rotate(90deg);
   }
   .slider-index {
     position: absolute;

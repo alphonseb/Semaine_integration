@@ -347,6 +347,14 @@ header {
         padding: 70px 2.5vw;
         z-index: 9999;
         display: none; }
+        @media screen and (max-width: 800px) {
+          header ul li .sub-menu {
+            position: static;
+            width: 80%;
+            border: 1px solid #DD8496;
+            padding: 0; }
+            header ul li .sub-menu a {
+              background: none; } }
         header ul li .sub-menu > li {
           margin: 0 30px; }
           header ul li .sub-menu > li a {
@@ -361,6 +369,9 @@ header {
     header ul li:hover .sub-menu {
       display: flex;
       justify-content: center; }
+      @media screen and (max-width: 800px) {
+        header ul li:hover .sub-menu {
+          flex-direction: column; } }
     header ul li:hover > a {
       color: white;
       background: #DD8496; }
@@ -390,7 +401,7 @@ header {
     cursor: pointer;
     transition: all 0.3s ease-in; }
   .slider .slider-arrow-left:hover {
-    transform: scale(1.5) rotate(-90deg); }
+    transform: scale(1.5) translateY(-50%) rotate(-90deg); }
   .slider .slider-arrow-right {
     width: 40px;
     height: 40px;
@@ -404,7 +415,7 @@ header {
     cursor: pointer;
     transition: all 0.3s ease-in; }
   .slider .slider-arrow-right:hover {
-    transform: scale(1.5) rotate(90deg); }
+    transform: scale(1.5) translateY(-50%) rotate(90deg); }
   .slider .slider-index {
     position: absolute;
     left: 50%;
