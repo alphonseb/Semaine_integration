@@ -9,6 +9,7 @@
   display: flex;
   justify-content: center;
   height: 176px;
+  margin-top: 50px;
 }
 
 .titre p {
@@ -19,7 +20,7 @@
 }
 
 .trait1 {
-  top: 168px;
+  top: 182px;
   height: 1px;
   background-color: black;
   width : 250px;
@@ -28,9 +29,9 @@
 }
 
 .trait2 {
-  top: 168px;
+  top: 182px;
   left: 250px;
-  height: 705px;
+  height: 811px;
   background-color: black;
   width: 1px;
   position: absolute;
@@ -38,7 +39,7 @@
 }
 
 .trait3 {
-  top: 872px;
+  top: 992px;
   height: 1px;
   background-color: black;
   width : 250px;
@@ -58,55 +59,50 @@
 .image img {
   height: 10rem;
   width: 10rem;
-  margin: 2.5vh 10vh;
+  margin: 30px 10vh;
+}
+
+#attention {
+  display: flex;
+  flex-direction: row wrap;
+  padding-top: 4vh;
+  font-size: 1.9rem;
+  margin-left: -5vh;
+  margin-right: 10vh;
 }
 
 #france {
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: row wrap;
   padding-top: 5.5vh;
-  font-size: 1.5rem;
-  font-style: italic;
+  font-size: 1.9rem;
   margin-left: -5vh;
   margin-right: 10vh;
 }
 
 #faitmain {
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: row wrap;
   padding-top: 5.5vh;
-  font-size: 1.5rem;
-  font-style: italic;
-  margin-left: -5vh;
-  margin-right: 10vh;
-}
-
-#attention {
-  display: flex;
-  flex-flow: row wrap;
-  padding-top: 5.5vh;
-  font-size: 1.5rem;
-  font-style: italic;
+  font-size: 1.9rem;
   margin-left: -5vh;
   margin-right: 10vh;
 }
 
 #quality {
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: row wrap;
   margin-top: 4vh;
-  font-size: 1.5rem;
-  font-style: italic;
+  font-size: 1.9rem;
   margin-left: -5vh;
   margin-right: 10vh;
 }
 
 #partage {
   display: flex;
-  flex-flow: row wrap;
-  padding-top: 3vh;
-  font-size: 1.5rem;
-  font-style: italic;
+  flex-direction: row wrap;
+  padding-top: 2vh;
+  font-size: 1.9rem;
   margin-left: -5vh;
   margin-right: 10vh;
 }
@@ -118,6 +114,7 @@
 
 .text{
   width: 65%;
+  display: flex;
 }
 
 .espace {
@@ -164,7 +161,6 @@
 }
 
 .a_propos h2 {
-  padding-top: 4.2vh;
   font-size: 1.6rem;
   margin-left: 5vh;
 }
@@ -178,18 +174,26 @@
 }
 
 .creatrice {
-  height: 35vh;
+  height: 30vh;
   width: 100%;
   margin-top: 10vh;
   display: flex;
   justify-content: center;
 }
 
+.descriptif_crea {
+  height: 100px;
+  display: flex;
+  margin-top: -10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
 #descriptif_crea {
   font-size: 1.4rem;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -8vh;
 }
 
 .creatrice img{
@@ -199,7 +203,6 @@
   margin-right: auto;
 }
 
-
 #parcours {
   padding-top: 2vh;
   font-size: 1.6rem;
@@ -207,6 +210,7 @@
   margin-right: 5vh;
   line-height: 2.3rem;
 }
+
 .parcours h2{
   font-size: 1.6rem;
   margin-left: 5vh;
@@ -219,8 +223,7 @@
 
 
 //
-
-@media only screen and (min-width : 667px) and (max-width : 1024px)  {
+@media only screen and (min-width : 768px) and (max-width : 1024px)  {
   .trait1 {
     display: none;
   }
@@ -247,54 +250,59 @@
     justify-content: center;
   }
 
+  #attention {
+    display: flex;
+    justify-content: center;
+    padding-top: 3.5vh;
+    font-size: 1.9rem;
+    margin-left: -5vh;
+    margin-right: 10vh;
+  }
+
   #france {
     display: flex;
-    flex-flow: row wrap;
-    padding-top: 5.5vh;
-    font-size: 1.5rem;
-    font-style: italic;
+    justify-content: center;
+    padding-top: 4vh;
+    font-size: 1.9rem;
     margin-left: -5vh;
     margin-right: 10vh;
   }
 
   #faitmain {
     display: flex;
-    flex-flow: row wrap;
-    padding-top: 5.5vh;
-    font-size: 1.5rem;
-    font-style: italic;
+    justify-content: center;
+    padding-top: 4vh;
+    font-size: 1.9rem;
     margin-left: -5vh;
     margin-right: 10vh;
   }
 
-  #attention {
-    display: flex;
-    flex-flow: row wrap;
-    padding-top: 5.5vh;
-    font-size: 1.5rem;
-    font-style: italic;
-    margin-left: -5vh;
-    margin-right: 10vh;
-  }
 
   #quality {
     display: flex;
-    flex-flow: row wrap;
+    justify-content: center;
     margin-top: 4vh;
-    font-size: 1.5rem;
-    font-style: italic;
+    font-size: 1.9rem;
     margin-left: -5vh;
     margin-right: 10vh;
   }
 
   #partage {
     display: flex;
-    flex-flow: row wrap;
-    padding-top: 3vh;
-    font-size: 1.5rem;
-    font-style: italic;
+    justify-content: center;
+    padding-top: 1vh;
+    font-size: 1.9rem;
     margin-left: -5vh;
     margin-right: 10vh;
+  }
+
+  .image{
+    width: auto;
+    z-index: 3;
+  }
+
+  .text{
+    width: 65%;
   }
 
 // DEUXIEME PARTIE //
@@ -318,7 +326,8 @@
   }
 }
 
-@media only screen and (min-width : 667px) and (max-width : 705px) {
+
+@media only screen and (min-width : 375px) and (max-width : 768px) {
   .trait1 {
     display: none;
   }
@@ -341,46 +350,36 @@
   #france {
     display: flex;
     justify-content: center;
-    font-size: 1.5rem;
-    font-style: italic;
-    margin-left: 10vh;
-    margin-right: 10vh;
+    padding-top: 5.5vh;
+    font-size: 1.9rem;
   }
 
   #faitmain {
     display: flex;
     justify-content: center;
-    font-size: 1.5rem;
-    font-style: italic;
-    margin-left: 10vh;
-    margin-right: 10vh;
+    padding-top: 5.5vh;
+    font-size: 1.9rem;
   }
 
   #attention {
     display: flex;
     justify-content: center;
-    font-size: 1.5rem;
-    font-style: italic;
-    margin-left: 10vh;
-    margin-right: 10vh;
+    padding-top: 5.5vh;
+    font-size: 1.9rem;
   }
 
   #quality {
     display: flex;
     justify-content: center;
-    font-size: 1.5rem;
-    font-style: italic;
-    margin-left: 10vh;
-    margin-right: 10vh;
+    margin-top: 4vh;
+    font-size: 1.9rem;
   }
 
   #partage {
     display: flex;
     justify-content: center;
-    font-size: 1.5rem;
-    font-style: italic;
-    margin-left: 10vh;
-    margin-right: 10vh;
+    padding-top: 3vh;
+    font-size: 1.9rem;
   }
 
   .image{
@@ -398,109 +397,7 @@
 
   .text{
     width: 100%;
-  }
-
-  .philosophie {
-    letter-spacing: normal;
-    background-color: #fafafa;
-    margin-left: 2px;
-    margin-right: 2px;
-    text-align: justify;
-    height: 120vh;
-  }
-
-  .title_crea {
-    height: 10vh;
-    background-color: #fafafa ;
     display: flex;
-    justify-content: center;
-    margin-left: 2px;
-    margin-right: 2px;
-  }
-
-
-}
-
-@media only screen and (min-width : 375px) and (max-width : 667px) {
-  .trait1 {
-    display: none;
-  }
-
-  .trait2 {
-    display: none;
-  }
-
-  .trait3 {
-    display: none;
-  }
-
-  .bullet {
-    width: auto;
-    background: url(../images/trousseau_background.png);
-    margin-left: -5vh;
-    margin-right: 0vh;
-  }
-
-  #france {
-    display: flex;
-    justify-content: center;
-    font-size: 1.5rem;
-    font-style: italic;
-    margin-left: 10vh;
-    margin-right: 10vh;
-  }
-
-  #faitmain {
-    display: flex;
-    justify-content: center;
-    font-size: 1.5rem;
-    font-style: italic;
-    margin-left: 10vh;
-    margin-right: 10vh;
-  }
-
-  #attention {
-    display: flex;
-    justify-content: center;
-    font-size: 1.5rem;
-    font-style: italic;
-    margin-left: 10vh;
-    margin-right: 10vh;
-  }
-
-  #quality {
-    display: flex;
-    justify-content: center;
-    font-size: 1.5rem;
-    font-style: italic;
-    margin-left: 10vh;
-    margin-right: 10vh;
-  }
-
-  #partage {
-    display: flex;
-    justify-content: center;
-    font-size: 1.5rem;
-    font-style: italic;
-    margin-left: 10vh;
-    margin-right: 10vh;
-  }
-
-  .image{
-    width: 100%;
-    display: flex;
-  }
-
-  .image img {
-    height: 10rem;
-    width: 10rem;
-    margin-bottom: -3vh;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .text{
-    width: 100%;
   }
 
   .philosophie {

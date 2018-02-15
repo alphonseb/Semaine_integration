@@ -608,7 +608,8 @@ header {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  height: 176px; }
+  height: 176px;
+  margin-top: 50px; }
 
 .titre p {
   font-size: 4rem;
@@ -617,7 +618,7 @@ header {
   margin-bottom: 2vh; }
 
 .trait1 {
-  top: 168px;
+  top: 182px;
   height: 1px;
   background-color: black;
   width: 250px;
@@ -625,16 +626,16 @@ header {
   z-index: 1; }
 
 .trait2 {
-  top: 168px;
+  top: 182px;
   left: 250px;
-  height: 705px;
+  height: 811px;
   background-color: black;
   width: 1px;
   position: absolute;
   z-index: 1; }
 
 .trait3 {
-  top: 872px;
+  top: 992px;
   height: 1px;
   background-color: black;
   width: 250px;
@@ -655,7 +656,22 @@ header {
 .image img {
   height: 10rem;
   width: 10rem;
-  margin: 2.5vh 10vh; }
+  margin: 30px 10vh; }
+
+#attention {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row wrap;
+  -ms-flex-direction: row wrap;
+  flex-direction: row wrap;
+  padding-top: 4vh;
+  font-size: 1.9rem;
+  margin-left: -5vh;
+  margin-right: 10vh; }
 
 #france {
   display: -webkit-box;
@@ -664,12 +680,11 @@ header {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-flow: row wrap;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
+  -webkit-flex-direction: row wrap;
+  -ms-flex-direction: row wrap;
+  flex-direction: row wrap;
   padding-top: 5.5vh;
-  font-size: 1.5rem;
-  font-style: italic;
+  font-size: 1.9rem;
   margin-left: -5vh;
   margin-right: 10vh; }
 
@@ -680,28 +695,11 @@ header {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-flow: row wrap;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
+  -webkit-flex-direction: row wrap;
+  -ms-flex-direction: row wrap;
+  flex-direction: row wrap;
   padding-top: 5.5vh;
-  font-size: 1.5rem;
-  font-style: italic;
-  margin-left: -5vh;
-  margin-right: 10vh; }
-
-#attention {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-flow: row wrap;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
-  padding-top: 5.5vh;
-  font-size: 1.5rem;
-  font-style: italic;
+  font-size: 1.9rem;
   margin-left: -5vh;
   margin-right: 10vh; }
 
@@ -712,12 +710,11 @@ header {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-flow: row wrap;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
+  -webkit-flex-direction: row wrap;
+  -ms-flex-direction: row wrap;
+  flex-direction: row wrap;
   margin-top: 4vh;
-  font-size: 1.5rem;
-  font-style: italic;
+  font-size: 1.9rem;
   margin-left: -5vh;
   margin-right: 10vh; }
 
@@ -728,12 +725,11 @@ header {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-flow: row wrap;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
-  padding-top: 3vh;
-  font-size: 1.5rem;
-  font-style: italic;
+  -webkit-flex-direction: row wrap;
+  -ms-flex-direction: row wrap;
+  flex-direction: row wrap;
+  padding-top: 2vh;
+  font-size: 1.9rem;
   margin-left: -5vh;
   margin-right: 10vh; }
 
@@ -742,7 +738,11 @@ header {
   z-index: 3; }
 
 .text {
-  width: 65%; }
+  width: 65%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
 
 .espace {
   width: 100%;
@@ -779,7 +779,6 @@ header {
   margin-right: auto; }
 
 .a_propos h2 {
-  padding-top: 4.2vh;
   font-size: 1.6rem;
   margin-left: 5vh; }
 
@@ -791,7 +790,7 @@ header {
   line-height: 2.3rem; }
 
 .creatrice {
-  height: 35vh;
+  height: 30vh;
   width: 100%;
   margin-top: 10vh;
   display: -webkit-box;
@@ -803,11 +802,21 @@ header {
   -ms-flex-pack: center;
   justify-content: center; }
 
+.descriptif_crea {
+  height: 100px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%; }
+
 #descriptif_crea {
   font-size: 1.4rem;
   margin-left: auto;
-  margin-right: auto;
-  margin-top: -8vh; }
+  margin-right: auto; }
 
 .creatrice img {
   height: 25vh;
@@ -826,7 +835,7 @@ header {
   font-size: 1.6rem;
   margin-left: 5vh; }
 
-@media only screen and (min-width: 667px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   .trait1 {
     display: none; }
   .trait2 {
@@ -849,19 +858,30 @@ header {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center; }
+  #attention {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-top: 3.5vh;
+    font-size: 1.9rem;
+    margin-left: -5vh;
+    margin-right: 10vh; }
   #france {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-flow: row wrap;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
-    padding-top: 5.5vh;
-    font-size: 1.5rem;
-    font-style: italic;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-top: 4vh;
+    font-size: 1.9rem;
     margin-left: -5vh;
     margin-right: 10vh; }
   #faitmain {
@@ -869,29 +889,12 @@ header {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-flow: row wrap;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
-    padding-top: 5.5vh;
-    font-size: 1.5rem;
-    font-style: italic;
-    margin-left: -5vh;
-    margin-right: 10vh; }
-  #attention {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-flow: row wrap;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
-    padding-top: 5.5vh;
-    font-size: 1.5rem;
-    font-style: italic;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-top: 4vh;
+    font-size: 1.9rem;
     margin-left: -5vh;
     margin-right: 10vh; }
   #quality {
@@ -899,14 +902,12 @@ header {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-flow: row wrap;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     margin-top: 4vh;
-    font-size: 1.5rem;
-    font-style: italic;
+    font-size: 1.9rem;
     margin-left: -5vh;
     margin-right: 10vh; }
   #partage {
@@ -914,16 +915,19 @@ header {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-flow: row wrap;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
-    padding-top: 3vh;
-    font-size: 1.5rem;
-    font-style: italic;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-top: 1vh;
+    font-size: 1.9rem;
     margin-left: -5vh;
     margin-right: 10vh; }
+  .image {
+    width: auto;
+    z-index: 3; }
+  .text {
+    width: 65%; }
   .philosophie {
     letter-spacing: normal;
     background-color: #fafafa;
@@ -945,7 +949,7 @@ header {
     margin-left: 10px;
     margin-right: 10px; } }
 
-@media only screen and (min-width: 667px) and (max-width: 705px) {
+@media only screen and (min-width: 375px) and (max-width: 768px) {
   .trait1 {
     display: none; }
   .trait2 {
@@ -966,10 +970,8 @@ header {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    font-size: 1.5rem;
-    font-style: italic;
-    margin-left: 10vh;
-    margin-right: 10vh; }
+    padding-top: 5.5vh;
+    font-size: 1.9rem; }
   #faitmain {
     display: -webkit-box;
     display: -webkit-flex;
@@ -979,10 +981,8 @@ header {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    font-size: 1.5rem;
-    font-style: italic;
-    margin-left: 10vh;
-    margin-right: 10vh; }
+    padding-top: 5.5vh;
+    font-size: 1.9rem; }
   #attention {
     display: -webkit-box;
     display: -webkit-flex;
@@ -992,10 +992,8 @@ header {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    font-size: 1.5rem;
-    font-style: italic;
-    margin-left: 10vh;
-    margin-right: 10vh; }
+    padding-top: 5.5vh;
+    font-size: 1.9rem; }
   #quality {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1005,10 +1003,8 @@ header {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    font-size: 1.5rem;
-    font-style: italic;
-    margin-left: 10vh;
-    margin-right: 10vh; }
+    margin-top: 4vh;
+    font-size: 1.9rem; }
   #partage {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1018,10 +1014,8 @@ header {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    font-size: 1.5rem;
-    font-style: italic;
-    margin-left: 10vh;
-    margin-right: 10vh; }
+    padding-top: 3vh;
+    font-size: 1.9rem; }
   .image {
     width: 100%;
     display: -webkit-box;
@@ -1035,119 +1029,11 @@ header {
     margin-left: auto;
     margin-right: auto; }
   .text {
-    width: 100%; }
-  .philosophie {
-    letter-spacing: normal;
-    background-color: #fafafa;
-    margin-left: 2px;
-    margin-right: 2px;
-    text-align: justify;
-    height: 120vh; }
-  .title_crea {
-    height: 10vh;
-    background-color: #fafafa;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    margin-left: 2px;
-    margin-right: 2px; } }
-
-@media only screen and (min-width: 375px) and (max-width: 667px) {
-  .trait1 {
-    display: none; }
-  .trait2 {
-    display: none; }
-  .trait3 {
-    display: none; }
-  .bullet {
-    width: auto;
-    background: url(../images/trousseau_background.png);
-    margin-left: -5vh;
-    margin-right: 0vh; }
-  #france {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    font-size: 1.5rem;
-    font-style: italic;
-    margin-left: 10vh;
-    margin-right: 10vh; }
-  #faitmain {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    font-size: 1.5rem;
-    font-style: italic;
-    margin-left: 10vh;
-    margin-right: 10vh; }
-  #attention {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    font-size: 1.5rem;
-    font-style: italic;
-    margin-left: 10vh;
-    margin-right: 10vh; }
-  #quality {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    font-size: 1.5rem;
-    font-style: italic;
-    margin-left: 10vh;
-    margin-right: 10vh; }
-  #partage {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    font-size: 1.5rem;
-    font-style: italic;
-    margin-left: 10vh;
-    margin-right: 10vh; }
-  .image {
     width: 100%;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex; }
-  .image img {
-    height: 10rem;
-    width: 10rem;
-    margin-bottom: -3vh;
-    margin-left: auto;
-    margin-right: auto; }
-  .text {
-    width: 100%; }
   .philosophie {
     letter-spacing: normal;
     background-color: #fafafa;
