@@ -78,7 +78,7 @@ html, button, input, select, textarea,
   .screen1 main > div:nth-child(2) {
     opacity: 0;
     text-align: center;
-    width: 20%;
+    width: 25%;
     margin: 0 auto;
     animation-delay: 1.3s;
     margin-top: 20px; }
@@ -422,6 +422,7 @@ header {
 
 .slider-content {
   max-width: 100%;
+  height: 55vh;
   margin: 0 auto;
   overflow: hidden;
   display: flex; }
@@ -430,8 +431,9 @@ header {
     position: relative;
     transition: all ease-in .75s; }
     .slider-content div img {
-      width: 100vw;
-      height: 50vh; }
+      width: 100vw; }
+    .slider-content div img.slider-last {
+      transform: translateY(-26%); }
     .slider-content div a {
       display: block;
       border: solid 3px white;
