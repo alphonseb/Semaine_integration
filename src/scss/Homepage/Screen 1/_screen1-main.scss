@@ -44,6 +44,9 @@
  .pure-g{
     position: relative;
     margin: 0 90px;
+    @media screen and (max-width: 780px){
+      margin: 0;
+    }
 
     div{
       margin: 0 auto;
@@ -78,6 +81,9 @@ main>div:nth-child(2){
   margin: 0 auto;
   animation-delay: 1.3s;
   margin-top: 20px;
+  @media screen and (max-width: 780px){
+    width: 88%;
+  }
   a{
     display: block;
     text-decoration: none;

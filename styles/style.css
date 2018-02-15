@@ -54,6 +54,9 @@ html, button, input, select, textarea,
   .screen1 .pure-g {
     position: relative;
     margin: 0 90px; }
+    @media screen and (max-width: 780px) {
+      .screen1 .pure-g {
+        margin: 0; } }
     .screen1 .pure-g div {
       margin: 0 auto; }
       .screen1 .pure-g div p.phrase {
@@ -79,6 +82,9 @@ html, button, input, select, textarea,
     margin: 0 auto;
     animation-delay: 1.3s;
     margin-top: 20px; }
+    @media screen and (max-width: 780px) {
+      .screen1 main > div:nth-child(2) {
+        width: 88%; } }
     .screen1 main > div:nth-child(2) a {
       display: block;
       text-decoration: none;
@@ -246,6 +252,13 @@ header {
     background-size: auto 97px;
     background-repeat: no-repeat;
     height: 91px; }
+    @media screen and (max-width: 780px) {
+      .topbar .logo a {
+        background-position: center;
+        background-size: auto 115%; } }
+    @media screen and (max-width: 400px) {
+      .topbar .logo a {
+        background-size: auto 80%; } }
   .topbar .centered {
     padding-top: 2.5%;
     display: flex;
@@ -274,6 +287,9 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: flex-end; }
+    @media screen and (max-width: 780px) {
+      .topbar .social {
+        justify-content: center; } }
     .topbar .social .fb a {
       display: block;
       margin: 0 10px;
