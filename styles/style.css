@@ -22,7 +22,6 @@ html, button, input, select, textarea,
   margin: 10px auto; }
 
 .fade-in {
-  opacity: 0;
   opacity: 1 \9;
   /*just in case ie*/
   -webkit-animation: fadein ease-in 1;
@@ -65,12 +64,16 @@ html, button, input, select, textarea,
       .screen1 .pure-g div div {
         text-align: center; }
     .screen1 .pure-g .first {
+      opacity: 0;
       animation-delay: 0.3s; }
     .screen1 .pure-g .second {
+      opacity: 0;
       animation-delay: .6s; }
     .screen1 .pure-g .third {
+      opacity: 0;
       animation-delay: .9s; }
   .screen1 main > div:nth-child(2) {
+    opacity: 0;
     text-align: center;
     width: 20%;
     margin: 0 auto;
@@ -331,7 +334,14 @@ header {
         header ul li .sub-menu > li {
           margin: 0 30px; }
           header ul li .sub-menu > li a {
-            font-size: 1.7rem; }
+            font-size: 1.7rem;
+            font-family: "Della Respira", serif;
+            text-decoration: none;
+            color: #DD8496;
+            display: inline; }
+          header ul li .sub-menu > li a:hover {
+            color: #997C6C;
+            background: white; }
     header ul li:hover .sub-menu {
       display: flex;
       justify-content: center; }
@@ -455,7 +465,7 @@ header {
     .homepage-products .homepage-products-row img {
       max-width: 90%;
       height: auto;
-      border: solid 2px #DD8496;
+      border: solid 1px black;
       opacity: 0; }
 @keyframes fadeIN {
   from {
@@ -1037,8 +1047,27 @@ footer {
     padding: 2% 0; }
     footer > div div:first-child {
       text-align: center; }
-    footer > div ul li {
-      list-style: none; }
+      footer > div div:first-child p {
+        margin: 2% 0; }
+      footer > div div:first-child form {
+        margin-top: 4%; }
+      footer > div div:first-child button {
+        margin-top: 3%;
+        color: black;
+        font-family: Arial, sans-serif; }
+    footer > div div:nth-child(2), footer > div div:nth-child(4) {
+      padding-top: 0.7%; }
+    footer > div span {
+      padding-left: 13%; }
+    footer > div ul {
+      padding-left: 13%; }
+      footer > div ul li {
+        list-style: none; }
+        footer > div ul li a {
+          color: white;
+          text-decoration: none; }
+        footer > div ul li a:hover {
+          text-decoration: underline; }
 
 .logo-white {
   background: url(../images/logo_blanc.png);
@@ -1048,7 +1077,7 @@ footer {
   .logo-white p {
     position: absolute;
     bottom: -25%;
-    left: 40%; }
+    left: 32%; }
     .logo-white p a {
       color: white;
       text-decoration: none; }
@@ -1057,6 +1086,10 @@ footer {
 
 .last {
   flex-direction: column; }
+  .last .info p {
+    margin: 5% 0; }
+  .last .info p:last-child {
+    margin-bottom: 9%; }
   .last .social {
     display: flex;
     flex-direction: row;
