@@ -8,6 +8,11 @@ body {
   font-family: "Della Respira", serif;
   background: white; }
 
+html, button, input, select, textarea,
+.pure-g [class*="pure-u"] {
+  /* Set your content font stack here: */
+  font-family: "Della Respira", serif; }
+
 .screen1 {
   height: 100vh; }
 
@@ -195,110 +200,113 @@ body {
     width: 0; }
   100% {
     width: 30%; } }
-.screen2 {
-  height: 100vh; }
+#home {
+  display: none; }
 
-.screen2 .topbar {
+.topbar {
   width: 83%;
   margin: 30px auto; }
-  .screen2 .topbar span {
-    font-size: 1.5rem;
+  .topbar span {
+    font-size: 1.7rem;
     font-family: "Della Respira", serif;
     color: #DD8496; }
-  .screen2 .topbar .logo a {
+  .topbar .logo a {
     display: block;
     background: url(../images/logo.png);
     background-size: auto 97px;
     background-repeat: no-repeat;
     height: 91px; }
-  .screen2 .topbar .centered {
+  .topbar .centered {
     padding-top: 2.5%;
     display: flex;
     justify-content: center; }
-    .screen2 .topbar .centered p {
+    .topbar .centered p {
       margin: 0; }
-  .screen2 .topbar .icone-client {
+  .topbar .icone-client {
     width: 25px;
     height: 25px;
     background: url(../images/people_rose.png);
     background-size: 25px 25px; }
-    .screen2 .topbar .icone-client + a {
+    .topbar .icone-client + a {
       text-decoration: none; }
-    .screen2 .topbar .icone-client + a:hover span {
+    .topbar .icone-client + a:hover span {
       color: #997C6C; }
-  .screen2 .topbar .icone-panier {
+  .topbar .icone-panier {
     width: 25px;
     height: 25px;
     background: url(../images/panier_rose.png);
     background-size: 25px 25px; }
-    .screen2 .topbar .icone-panier + a {
+    .topbar .icone-panier + a {
       text-decoration: none; }
-    .screen2 .topbar .icone-panier + a:hover span {
+    .topbar .icone-panier + a:hover span {
       color: #997C6C; }
-  .screen2 .topbar .social {
+  .topbar .social {
     display: flex;
     flex-direction: row;
     justify-content: flex-end; }
-    .screen2 .topbar .social .fb a {
+    .topbar .social .fb a {
       display: block;
       margin: 0 10px;
       width: 30px;
       height: 30px;
       background: url(../images/fb_rose.png);
       background-size: 30px 30px; }
-    .screen2 .topbar .social .twi a {
+    .topbar .social .twi a {
       display: block;
       margin: 0 10px;
       width: 30px;
       height: 30px;
       background: url(../images/twitter_rose.png);
       background-size: 30px 30px; }
-    .screen2 .topbar .social .insta a {
+    .topbar .social .insta a {
       display: block;
       margin: 0 10px;
       width: 30px;
       height: 30px;
       background: url(../images/insta_rose.png);
       background-size: 30px 30px; }
-  .screen2 .topbar div {
+  .topbar div {
     text-align: center; }
-.screen2 header ul {
-  margin: 0 auto;
-  width: 90.5%;
-  padding: 0;
-  font-size: 1.5rem;
+
+header {
   position: relative; }
-  .screen2 header ul li {
-    list-style: none;
-    text-align: center;
-    padding-bottom: 5px; }
-    .screen2 header ul li a {
-      font-family: "Della Respira", serif;
-      text-decoration: none;
-      color: #DD8496; }
-    .screen2 header ul li a.color-active {
+  header ul {
+    margin: 0 auto;
+    width: 90.5%;
+    padding: 0;
+    font-size: 2rem; }
+    header ul li {
+      list-style: none;
+      text-align: center;
+      padding-bottom: 5px; }
+      header ul li a {
+        font-family: "Della Respira", serif;
+        text-decoration: none;
+        color: #DD8496; }
+      header ul li a.color-active {
+        color: #997C6C; }
+      header ul li .sub-menu {
+        background: white;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 98%;
+        border-top: 2px solid #997C6C;
+        border-bottom: 1.5px solid #997C6C;
+        padding: 70px 2.5vw;
+        z-index: 9999;
+        display: none; }
+        header ul li .sub-menu > li {
+          margin: 0 30px; }
+          header ul li .sub-menu > li a {
+            font-size: 1.7rem; }
+    header ul li:hover .sub-menu {
+      display: flex;
+      justify-content: center; }
+    header ul li:hover > a {
       color: #997C6C; }
-    .screen2 header ul li .sub-menu {
-      background: white;
-      width: 100%;
-      position: absolute;
-      left: -2.5%;
-      top: 25px;
-      border-top: 2px solid #997C6C;
-      border-bottom: 1.5px solid #997C6C;
-      padding: 70px 2.5vw;
-      z-index: 9999;
-      display: none; }
-      .screen2 header ul li .sub-menu > li {
-        margin: 0 30px; }
-        .screen2 header ul li .sub-menu > li a {
-          font-size: 1.4rem; }
-  .screen2 header ul li:hover .sub-menu {
-    display: flex;
-    justify-content: center; }
-  .screen2 header ul li:hover > a {
-    color: #997C6C; }
-.screen2 .fixedline {
+
+.fixedline {
   border-bottom: 2px solid #997C6C;
   width: 80.6%;
   position: relative;
@@ -402,10 +410,13 @@ body {
   .homepage-products .product-container {
     position: relative; }
   .homepage-products .homepage-products-row {
+    width: 100%;
     position: absolute;
     left: 0;
     top: 0;
     margin-top: 20px; }
+    .homepage-products .homepage-products-row > div {
+      text-align: center; }
     .homepage-products .homepage-products-row img {
       max-width: 90%;
       height: auto;
@@ -418,6 +429,187 @@ body {
     opacity: 1; } }
   .homepage-products .show img {
     animation: fadeIN 1s 1 linear forwards; }
+
+.grid {
+  height: 100vh;
+  font-size: 62.5%;
+  font-family: "Della Respira", serif;
+  position: relative; }
+
+.titre {
+  display: flex;
+  justify-content: center;
+  height: 20vh; }
+
+.titre p {
+  font-size: 4rem;
+  font-style: italic;
+  color: #de8496;
+  margin-bottom: 2vh; }
+
+.trait1 {
+  top: 168px;
+  height: 1px;
+  background-color: black;
+  width: 250px;
+  position: absolute;
+  z-index: 1; }
+
+.trait2 {
+  top: 168px;
+  left: 250px;
+  height: 705px;
+  background-color: black;
+  width: 1px;
+  position: absolute;
+  z-index: 1; }
+
+.trait3 {
+  top: 872px;
+  height: 1px;
+  background-color: black;
+  width: 250px;
+  position: absolute;
+  z-index: 1; }
+
+.bullet {
+  margin-left: 15vh;
+  margin-top: 7px;
+  margin-right: 15vh;
+  z-index: 2;
+  background: url(../images/trousseau_background.png); }
+
+.image img {
+  height: 10rem;
+  width: 10rem;
+  margin: 2.5vh 10vh; }
+
+#france {
+  display: flex;
+  flex-flow: row wrap;
+  padding-top: 5.5vh;
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-left: -5vh;
+  margin-right: 10vh; }
+
+#faitmain {
+  display: flex;
+  flex-flow: row wrap;
+  padding-top: 5.5vh;
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-left: -5vh;
+  margin-right: 10vh; }
+
+#attention {
+  display: flex;
+  flex-flow: row wrap;
+  padding-top: 5.5vh;
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-left: -5vh;
+  margin-right: 10vh; }
+
+#quality {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 4vh;
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-left: -5vh;
+  margin-right: 10vh; }
+
+#partage {
+  display: flex;
+  flex-flow: row wrap;
+  padding-top: 3vh;
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-left: -5vh;
+  margin-right: 10vh; }
+
+.image {
+  width: auto;
+  z-index: 3; }
+
+.text {
+  width: 65%; }
+
+.espace {
+  width: 100%;
+  height: 25vh;
+  background-color: white; }
+
+.philosophie {
+  letter-spacing: normal;
+  background: url(../images/gris_rose.png);
+  margin-left: 15vh;
+  margin-right: 15vh;
+  text-align: justify;
+  height: 80vh; }
+
+.title_crea {
+  height: 10vh;
+  background: url(../images/gris_rose.png);
+  display: flex;
+  justify-content: center;
+  margin-left: 15vh;
+  margin-right: 15vh; }
+
+.title_crea p {
+  margin-top: 10vh;
+  font-size: 2.8rem; }
+
+.a_propos {
+  width: 33%;
+  height: 50vh;
+  margin-top: 10vh; }
+
+.a_propos h2 {
+  padding-top: 4.2vh;
+  font-size: 1.6rem;
+  text-align: center; }
+
+#a_propos {
+  padding-top: 4.2vh;
+  font-size: 1.6rem;
+  margin-left: 5vh;
+  margin-right: 5vh;
+  line-height: 2.3rem; }
+
+.creatrice {
+  width: 33%;
+  height: 50vh;
+  margin-top: 10vh; }
+
+#descriptif_crea {
+  font-size: 1.4rem;
+  text-align: center; }
+
+.creatrice img {
+  height: 35vh;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7vh; }
+
+.parcours {
+  width: 33%;
+  margin-top: 10vh; }
+
+#parcours {
+  padding-top: 4.2vh;
+  font-size: 1.6rem;
+  margin-left: 5vh;
+  margin-right: 5vh;
+  line-height: 2.3rem; }
+
+.parcours h2 {
+  padding-top: 4.2vh;
+  font-size: 1.6rem;
+  text-align: center; }
 
 div.pure-g div.pure-u-1-2#left {
   padding-top: 100px;
@@ -576,5 +768,58 @@ div.pure-g#bottom {
     div.pure-g#bottom div.pure-u-5-8#third div.pure-u-1-8 img {
       width: 160px;
       height: 160px; }
+
+footer {
+  width: 100%;
+  background: #DD8496;
+  color: white;
+  font-size: 1.4rem; }
+  footer > div {
+    margin: 0 10%;
+    padding: 2% 0; }
+    footer > div div:first-child {
+      text-align: center; }
+    footer > div ul li {
+      list-style: none; }
+
+.logo-white {
+  background: url(../images/logo_blanc.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative; }
+  .logo-white p {
+    position: absolute;
+    bottom: -25%;
+    left: 40%; }
+    .logo-white p a {
+      color: white;
+      text-decoration: none; }
+    .logo-white p a:hover {
+      text-decoration: underline; }
+
+.last {
+  flex-direction: column; }
+  .last .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    .last .social .fb-white {
+      background: url(../images/fb_blanc.png);
+      background-size: 30px 30px; }
+    .last .social .twi-white {
+      background: url(../images/twitter_blanc.png);
+      background-size: 30px 30px; }
+    .last .social .insta-white {
+      background: url(../images/insta_blanc.png);
+      background-size: 30px 30px; }
+    .last .social a {
+      display: block;
+      height: 30px;
+      width: 30px;
+      margin: 0 10px; }
+
+.newsletter input {
+  font-family: Arial, sans-serif;
+  color: black; }
 
 /*# sourceMappingURL=style.css.map */

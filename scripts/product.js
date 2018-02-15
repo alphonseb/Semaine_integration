@@ -15,7 +15,7 @@ setInterval(
       timerIndex = 0
     }
   },
-  5000
+  7000
 )
 
 for (let i = 0; i < titreOnglet.length; i++) {
