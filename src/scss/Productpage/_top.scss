@@ -128,8 +128,18 @@ div.pure-g#top{
       margin: 50px 0px 0px 0px;
       padding: 0;
       justify-content: center;
+      img.pure-u-3-4#grande{
+        width:445px;
+        height: 445px;
+      }
       div.pure-g#goutière{
-        width: 100%;
+        div.pure-u-1-4#petites_images{
+          width: 155px;
+          img.petite{
+            width:142px;
+            height: 142px;
+            }
+          }
       }
     }
     div.pure-u-1pure-u-lg-1-2#right{
