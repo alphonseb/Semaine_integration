@@ -9,9 +9,36 @@ footer{
     padding: 2% 0;
     div:first-child{
       text-align: center;
+      p{
+        margin: 2% 0;
+      }
+      form{
+        margin-top: 4%;
+      }
+      button{
+        margin-top: 3%;
+        color: $black;
+        font-family: Arial, sans-serif;
+      }
     }
-    ul li {
+    div:nth-child(2), div:nth-child(4){
+      padding-top: 0.7%;
+    }
+    span{
+      padding-left: 13%;
+    }
+    ul{
+      padding-left: 13%;
+      li {
       list-style: none;
+        a{
+          color: $white;
+          text-decoration: none;
+        }
+        a:hover{
+          text-decoration: underline;
+        }
+      }
     }
   }
 }
@@ -24,7 +51,7 @@ footer{
   p{
     position: absolute;
     bottom: -25%;
-    left: 40%;
+    left: 32%;
     a{
       color: $white;
       text-decoration: none;
@@ -37,6 +64,14 @@ footer{
 
 .last{
   flex-direction: column;
+  .info{
+    p{
+      margin: 5% 0;
+    }
+    p:last-child{
+      margin-bottom: 9%;
+    }
+  }
   .social{
     display: flex;
     flex-direction: row;

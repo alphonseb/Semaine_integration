@@ -123,6 +123,14 @@ header{
             margin: 0 30px;
             a{
               font-size: 1.7rem;
+              font-family: $primary-font;
+              text-decoration: none;
+              color: $light-pink;
+              display: inline;
+            }
+            a:hover{
+              color: $light-brown;
+              background: $white;
             }
           }
         }
