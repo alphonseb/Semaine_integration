@@ -507,9 +507,9 @@ header {
     background: url(../images/triangle_rose.png);
     background-size: 40px 40px;
     background-repeat: no-repeat;
-    -webkit-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    transform: rotate(-90deg);
+    -webkit-transform: translateY(-50%) rotate(-90deg);
+    -ms-transform: translateY(-50%) rotate(-90deg);
+    transform: translateY(-50%) rotate(-90deg);
     position: absolute;
     left: 14%;
     top: 50%;
@@ -527,9 +527,9 @@ header {
     background: url(../images/triangle_rose.png);
     background-size: 40px 40px;
     background-repeat: no-repeat;
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
+    -webkit-transform: translateY(-50%) rotate(90deg);
+    -ms-transform: translateY(-50%) rotate(90deg);
+    transform: translateY(-50%) rotate(90deg);
     position: absolute;
     right: 14%;
     top: 50%;
@@ -586,6 +586,11 @@ header {
       -webkit-transform: translateY(-26%);
       -ms-transform: translateY(-26%);
       transform: translateY(-26%); }
+      @media screen and (max-width: 800px) {
+        .slider-content div img.slider-last {
+          -webkit-transform: none;
+          -ms-transform: none;
+          transform: none; } }
     .slider-content div a {
       display: block;
       border: solid 3px white;
@@ -606,7 +611,10 @@ header {
       -o-transition: all 0.2s ease-in;
       transition: all 0.2s ease-in;
       padding: 5px; }
-      @media screen and (max-width: 414px) {
+      @media screen and (min-width: 415px) and (max-width: 800px) {
+        .slider-content div a {
+          width: 40%; } }
+      @media screen and (max-width: 415px) {
         .slider-content div a {
           width: 90%;
           height: 20%; } }
