@@ -50,7 +50,7 @@
   margin-top: 7px;
   margin-right: 15vh;
   z-index: 2;
-  background: url(../images/trousseau_background.png)
+  background-color: #fafafa ;
 }
 
 .image img {
@@ -178,6 +178,28 @@
   margin-left: 5vh;
 }
 
+.discover_products a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  width: 375px;
+  background: #997C6C;
+  color: white;
+  border: solid thick white;
+  outline: solid 1px #997C6C;
+  margin: 0 auto;
+  padding: 5%;
+  font-size: 2.5rem;
+}
+
+.discover_products {
+  margin-top: 50px;
+  transition: all .2s ease-in;
+}
+
+.discover_products:hover {
+  transform: scale(1.08)
+}
 //
 
 
@@ -186,7 +208,7 @@
 
 //
 
-@media only screen and (max-width : 1366px)  {
+@media only screen and (max-width : 1280px)  {
   .trait1 {
     display: none;
   }
@@ -241,7 +263,12 @@
     margin-left: 10px;
     margin-right: 10px;
   }
+  .logo-white {
+    display: none;
+  }
 }
+
+
 
 
 @media only screen and (max-device-width : 769px){
@@ -316,7 +343,6 @@
     margin-left: 2px;
     margin-right: 2px;
   }
-
 }
 
 @media only screen and (max-width : 780px){
@@ -394,5 +420,4 @@
     margin-left: 2px;
     margin-right: 2px;
   }
-
 }

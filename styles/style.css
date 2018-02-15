@@ -683,7 +683,7 @@ header {
   margin-top: 7px;
   margin-right: 15vh;
   z-index: 2;
-  background: url(../images/trousseau_background.png); }
+  background-color: #fafafa; }
 
 .image img {
   height: 10rem;
@@ -806,7 +806,37 @@ header {
   font-size: 1.6rem;
   margin-left: 5vh; }
 
-@media only screen and (max-width: 1366px) {
+.discover_products a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-decoration: none;
+  width: 375px;
+  background: #997C6C;
+  color: white;
+  border: solid thick white;
+  outline: solid 1px #997C6C;
+  margin: 0 auto;
+  padding: 5%;
+  font-size: 2.5rem; }
+
+.discover_products {
+  margin-top: 50px;
+  -webkit-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  transition: all .2s ease-in; }
+
+.discover_products:hover {
+  -webkit-transform: scale(1.08);
+  -ms-transform: scale(1.08);
+  transform: scale(1.08); }
+
+@media only screen and (max-width: 1280px) {
   .trait1 {
     display: none; }
   .trait2 {
@@ -852,7 +882,9 @@ header {
     -ms-flex-pack: center;
     justify-content: center;
     margin-left: 10px;
-    margin-right: 10px; } }
+    margin-right: 10px; }
+  .logo-white {
+    display: none; } }
 
 @media only screen and (max-device-width: 769px) {
   .trait1 {
@@ -1392,3 +1424,41 @@ footer {
 .newsletter input {
   font-family: Arial, sans-serif;
   color: black; }
+
+@media only screen and (max-width: 1280px) {
+  footer {
+    width: 100%; }
+    footer > div {
+      margin: 0 0%;
+      padding: 0% 0; }
+    footer .pure-g {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex; }
+    footer div:nth-child(1) {
+      margin-bottom: 20px; }
+    footer div:nth-child(4) {
+      width: 49%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center; }
+  .last {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 300px; } }
