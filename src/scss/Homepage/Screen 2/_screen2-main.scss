@@ -16,6 +16,9 @@
     top: 50%;
     cursor: pointer;
     transition: all 0.3s ease-in;
+    @media screen and (max-width: 800px){
+      display: none;
+    }
   }
   .slider-arrow-left:hover{
     transform: scale(1.5) translateY(-50%) rotate(-90deg);
@@ -32,6 +35,9 @@
     top: 50%;
     cursor: pointer;
     transition: all 0.3s ease-in;
+    @media screen and (max-width: 800px){
+      display: none;
+    }
   }
   .slider-arrow-right:hover{
     transform: scale(1.5) translateY(-50%) rotate(90deg);

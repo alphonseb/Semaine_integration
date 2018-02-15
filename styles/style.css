@@ -400,6 +400,9 @@ header {
     top: 50%;
     cursor: pointer;
     transition: all 0.3s ease-in; }
+    @media screen and (max-width: 800px) {
+      .slider .slider-arrow-left {
+        display: none; } }
   .slider .slider-arrow-left:hover {
     transform: scale(1.5) translateY(-50%) rotate(-90deg); }
   .slider .slider-arrow-right {
@@ -414,6 +417,9 @@ header {
     top: 50%;
     cursor: pointer;
     transition: all 0.3s ease-in; }
+    @media screen and (max-width: 800px) {
+      .slider .slider-arrow-right {
+        display: none; } }
   .slider .slider-arrow-right:hover {
     transform: scale(1.5) translateY(-50%) rotate(90deg); }
   .slider .slider-index {
