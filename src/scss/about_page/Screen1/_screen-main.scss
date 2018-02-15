@@ -84,8 +84,6 @@
   height: 10vh;
   background-color: white;
 }
-
-
 //
 
 
@@ -182,7 +180,7 @@
   display: flex;
   justify-content: center;
   text-decoration: none;
-  width: 375px;
+  width: auto;
   background: #997C6C;
   color: white;
   border: solid thick white;
@@ -195,6 +193,11 @@
 .discover_products {
   margin-top: 50px;
   transition: all .2s ease-in;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .discover_products:hover {
@@ -244,6 +247,21 @@
     width: 65%;
   }
 
+  .description_image {
+    font-size: 1.8rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .description_image p {
+    font-size: 1.8rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+
 // DEUXIEME PARTIE //
 
   .philosophie {
@@ -251,8 +269,9 @@
     background-color: #fafafa;
     margin-left: 10px;
     margin-right: 10px;
+    padding-bottom: 42px;
     text-align: justify;
-    height: 100vh;
+    height: auto;
   }
 
   .title_crea {
@@ -267,10 +286,6 @@
     display: none;
   }
 }
-
-
-
-
 @media only screen and (max-device-width : 769px){
   .trait1 {
     display: none;
@@ -316,9 +331,15 @@
 
   .description_image {
     font-size: 1.8rem;
-    margin-left: 5vh;
-    margin-right: 5vh;
     width: 100%;
+    display: flex;
+  }
+
+  .description_image p {
+    font-size: 1.8rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
   }
 
   .text p {
@@ -343,6 +364,7 @@
     margin-left: 2px;
     margin-right: 2px;
   }
+
 }
 
 @media only screen and (max-width : 780px){
