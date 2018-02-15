@@ -32,7 +32,7 @@ div.pure-g#top{
     padding-top: 100px;
     div.titre{
       width: 520px;
-      background-color: #DD8496;
+      background-color: $light-pink;
       padding: 3px;
       height: 80px;
       border-radius: 3px;
@@ -41,6 +41,7 @@ div.pure-g#top{
         padding-left: 30px;
         font-family: $primary-font;
         font-size: 25px;
+        font-weight: lighter;
       }
     }
     p {

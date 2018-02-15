@@ -1071,7 +1071,8 @@ div.pure-g#top {
       div.pure-g#top div.pure-u-1pure-u-lg-1-2#right div.titre h3 {
         padding-left: 30px;
         font-family: "Della Respira", serif;
-        font-size: 25px; }
+        font-size: 25px;
+        font-weight: lighter; }
     div.pure-g#top div.pure-u-1pure-u-lg-1-2#right p {
       font-size: 14px;
       text-align: left;
