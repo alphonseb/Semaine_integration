@@ -654,7 +654,7 @@ header {
   display: flex;
   justify-content: center;
   text-decoration: none;
-  width: 375px;
+  width: auto;
   background: #997C6C;
   color: white;
   border: solid thick white;
@@ -665,7 +665,12 @@ header {
 
 .discover_products {
   margin-top: 50px;
-  transition: all .2s ease-in; }
+  transition: all .2s ease-in;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto; }
 
 .discover_products:hover {
   transform: scale(1.08); }
@@ -698,13 +703,26 @@ header {
   .text {
     width: 65%; }
 
+  .description_image {
+    font-size: 1.8rem;
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+
+  .description_image p {
+    font-size: 1.8rem;
+    width: 100%;
+    display: flex;
+    align-items: center; }
+
   .philosophie {
     letter-spacing: normal;
     background-color: #fafafa;
     margin-left: 10px;
     margin-right: 10px;
+    padding-bottom: 42px;
     text-align: justify;
-    height: 100vh; }
+    height: auto; }
 
   .title_crea {
     height: 10vh;
@@ -754,9 +772,14 @@ header {
 
   .description_image {
     font-size: 1.8rem;
-    margin-left: 5vh;
-    margin-right: 5vh;
-    width: 100%; }
+    width: 100%;
+    display: flex; }
+
+  .description_image p {
+    font-size: 1.8rem;
+    width: 100%;
+    display: flex;
+    align-items: center; }
 
   .text p {
     display: flex;
@@ -1221,7 +1244,69 @@ footer {
   font-family: Arial, sans-serif;
   color: black; }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1280px) and (min-width: 1024px) {
+  footer {
+    margin-top: 50px;
+    width: 100%;
+    background: #DD8496;
+    color: white;
+    font-size: 1.6rem;
+    display: flex; }
+    footer .pure-g {
+      width: 100%;
+      display: flex;
+      justify-content: center; }
+    footer > div {
+      margin: 0 0%;
+      padding: 2% 0; }
+      footer > div div:first-child {
+        text-align: center;
+        margin-right: 100px; }
+        footer > div div:first-child p {
+          margin: 2% 0; }
+        footer > div div:first-child form {
+          margin-top: 4%; }
+        footer > div div:first-child button {
+          margin-top: 3%;
+          color: black;
+          font-family: Arial, sans-serif; }
+      footer > div div:nth-child(2), footer > div div:nth-child(4) {
+        padding-top: 0.7%;
+        margin-right: 70px; }
+      footer > div div:nth-child(5) {
+        margin-left: 20px; }
+
+  .last {
+    flex-direction: column; }
+    .last .info {
+      margin-left: 40px; }
+      .last .info p {
+        margin: 3% 0; }
+      .last .info p:first-child {
+        margin-left: 20px; }
+      .last .info p:last-child {
+        margin-bottom: 9%;
+        width: 100px; }
+    .last .social {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-right: 0px; }
+      .last .social .fb-white {
+        background: url(../images/fb_blanc.png);
+        background-size: 30px 30px; }
+      .last .social .twi-white {
+        background: url(../images/twitter_blanc.png);
+        background-size: 30px 30px; }
+      .last .social .insta-white {
+        background: url(../images/insta_blanc.png);
+        background-size: 30px 30px; }
+      .last .social a {
+        display: block;
+        height: 30px;
+        width: 30px;
+        margin: 0 10px; } }
+@media only screen and (max-width: 1024px) {
   footer {
     width: 100%; }
     footer > div {
@@ -1230,7 +1315,7 @@ footer {
     footer .pure-g {
       display: flex; }
     footer div:nth-child(1) {
-      margin-bottom: 20px; }
+      margin-bottom: 5px; }
     footer div:nth-child(4) {
       width: 49%;
       display: flex;
@@ -1242,6 +1327,17 @@ footer {
     margin-left: auto;
     margin-right: auto;
     width: 300px;
-    height: 300px; } }
+    height: 150px; }
+    .last .info p {
+      margin: 0% 0; }
+    .last .info p:last-child {
+      margin-bottom: 0%; } }
+@media only screen and (max-device-width: 769px) {
+  footer {
+    width: 100%; }
+    footer .pure-g {
+      width: auto; }
+    footer div:nth-child(1) {
+      margin-bottom: 40px; } }
 
 /*# sourceMappingURL=style.css.map */
