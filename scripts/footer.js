@@ -3,7 +3,7 @@ let prevDivHeight = prevDiv.clientHeight
 let margin = prevDivHeight + 60
 let width = window.innerWidth
 
-let reassurance = document.querySelector('#firstPage')
+let reassurance = document.querySelector('.reassure')
 reassurance.style.marginTop = `${margin}px`
 
 window.addEventListener('resize', function () {
