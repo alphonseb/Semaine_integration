@@ -49,15 +49,17 @@ function slidePerm(){
   if (index === 6) {
     index = 0
   }
-  if (index === 0) {
-    leftArrow.style.display = 'none'
-  }
-  else if (index === 3) {
-    rightArrow.style.display = 'none'
-  }
-  else if(leftArrow.style.display !== 'none' && rightArrow.style.display !== 'none')  {
-    leftArrow.style.display = 'block'
-    rightArrow.style.display = 'block'
+  if(!((leftArrow.style.display === 'none') && (rightArrow.style.display === 'none'))){
+    if (index === 0) {
+      leftArrow.style.display = 'none'
+    }
+    else if (index === 3) {
+      rightArrow.style.display = 'none'
+    }
+    else  {
+      leftArrow.style.display = 'block'
+      rightArrow.style.display = 'block'
+    }
   }
 }
 
@@ -139,12 +141,14 @@ function slideRight(){
       img[indexVisible+1].classList.add('is-visible')
       sliderIndex[indexVisible+1].classList.add('pink-background')
       index = indexVisible+1
-      if (index === 3) {
-        rightArrow.style.display = 'none'
-      }
-      else if(leftArrow.style.display !== 'none' && rightArrow.style.display !== 'none'){
-        leftArrow.style.display = 'block'
-        rightArrow.style.display = 'block'
+      if(!((leftArrow.style.display === 'none') && (rightArrow.style.display === 'none'))){
+        if (index === 3) {
+          rightArrow.style.display = 'none'
+        }
+        else{
+          leftArrow.style.display = 'block'
+          rightArrow.style.display = 'block'
+        }
       }
   }
 
@@ -170,12 +174,14 @@ function slideLeft(){
     img[indexVisible-1].classList.add('is-visible')
     sliderIndex[indexVisible-1].classList.add('pink-background')
     index = indexVisible-1
-    if (index === 0) {
-      leftArrow.style.display = 'none'
-    }
-    else if(leftArrow.style.display !== 'none' && rightArrow.style.display !== 'none') {
-      leftArrow.style.display = 'block'
-      rightArrow.style.display = 'block'
+    if(!((leftArrow.style.display === 'none') && (rightArrow.style.display === 'none'))){
+      if (index === 0) {
+        leftArrow.style.display = 'none'
+      }
+      else  {
+        leftArrow.style.display = 'block'
+        rightArrow.style.display = 'block'
+      }
     }
   }
 
