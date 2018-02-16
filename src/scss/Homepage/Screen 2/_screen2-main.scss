@@ -1,5 +1,5 @@
 
-main{
+.screen2 main{
   margin-top: 50px;
 }
 .slider{
@@ -69,7 +69,7 @@ main{
   overflow: hidden;
   // border: solid 1.5px $light-pink;
   display: flex;
-  @media screen and (max-width: 1024px){
+  @media screen and (max-width: 800px){
     height: auto;
   }
   div{
@@ -132,9 +132,6 @@ main{
       font-size: 1.8rem;
       opacity: 0.5;
       cursor: pointer;
-      @media screen and (max-width: 1024px){
-        font-size: 1.5rem;
-      }
     }
     h2.selected{
       opacity: 1;

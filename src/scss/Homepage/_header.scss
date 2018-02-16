@@ -1,10 +1,3 @@
-#menuToggle {
-  margin-bottom: 100px;
-  width: 10%;
-}
-h1{
-  display: none;
-}
 header{
   border-bottom: solid 2px $light-pink;
 
@@ -13,9 +6,6 @@ header{
     width: 83%;
     margin: 0 auto;
     margin-bottom: 30px;
-    @media screen and (max-width: 1024px){
-      width: 100%;
-    }
     span{
       font-size: 1.7rem;
       font-family: $primary-font;
