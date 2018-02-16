@@ -15,10 +15,8 @@
  animation-duration:1s;
 }
 
-.screen1{
-  position: relative;
-  z-index: 1;
-  main{
+
+.reassure{
 
   margin-top: 5vh;
   p, span{
@@ -26,7 +24,7 @@
     font-size: 1.5rem;
     color: $light-brown;
     }
-  }
+
 
 
 
@@ -73,8 +71,8 @@
       animation-delay: .9s;
     }
   }
-
-main>div:nth-child(2){
+}
+.reassure>div:nth-child(2){
   opacity: 0;
   text-align: center;
   width: 25%;
@@ -99,193 +97,5 @@ main>div:nth-child(2){
   }
   a:hover{
     transform: scale(1.08);
-  }
-}
-
-  .line1{
-    position: absolute;
-    left: 15.5%;
-    top: 30%;
-    height: 2px;
-    background: $light-brown;
-    animation: move 1s 1 linear forwards;
-    animation-delay: 0.3s;
-  }
-  .line2{
-    position: absolute;
-    left: 41%;
-    top: 30%;
-    height: 2px;
-    background: $light-brown;
-    animation: move 1s 1 linear forwards;
-    animation-delay: 1.3s;
-  }
-  .line3{
-    position: absolute;
-    left: 65.6%;
-    top: 30%;
-    height: 2px;
-    background: $light-brown;
-    animation: move3 1.7s 1 linear forwards;
-    animation-delay: 2.3s
-  }
-
-  .arrow-top{
-    position: absolute;
-    left: 94.5%;
-    top: 26%;
-    height: 1.5px;
-    background: $light-brown;
-    transform: rotate(35deg);
-    animation: arrowmove 1s 1 linear forwards;
-    animation-delay: 4s;
-  }
-
-  .arrow-bottom{
-    position: absolute;
-    left: 94.5%;
-    top: 34.5%;
-    height: 1.5px;
-    background: $light-brown;
-    transform: rotate(-35deg);
-    animation: arrowmove 1s 1 linear forwards;
-    animation-delay: 4s;
-  }
-
-  .vert1{
-    position: absolute;
-    left: 12.5%;
-    top: 57%;
-    width: 2px;
-    background: $light-brown;
-    animation: movevert1 0.3s 1 linear forwards;
-    animation-delay: 0.3s;
-  }
-
-  .vert2{
-    position: absolute;
-    left: 12.5%;
-    top: 91%;
-    width: 2px;
-    background: $light-brown;
-    animation: movevert2 0.8s 1 linear forwards;
-    animation-delay: 0.8s;
-  }
-
-  .line5{
-    position: absolute;
-    left: 12.5%;
-    top: 191%;
-    height: 2px;
-    background: $light-brown;
-    animation: moveline5 1s 1 linear forwards;
-    animation-delay: 1.8s;
-  }
-
-  .vert3{
-    position: absolute;
-    left: 50%;
-    top: 191%;
-    width: 2px;
-    background: $light-brown;
-    animation: movevert3 1s 1 linear forwards;
-    animation-delay: 2.8s;
-  }
-
-  .product{
-    width: 50%;
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 14.5%;
-    animation-delay: 2.4s;
-    a{
-      color: $light-brown;
-      text-decoration: none;
     }
   }
-
-  .arrow-left{
-    position: absolute;
-    left: 48.85%;
-    top: 231%;
-    height: 1.5px;
-    background: $light-brown;
-    transform: rotate(55deg);
-    animation: arrowmove 1s 1 linear forwards;
-    animation-delay: 4s;
-  }
-
-  .arrow-right{
-    position: absolute;
-    left: 49.75%;
-    top: 231%;
-    height: 1.5px;
-    background: $light-brown;
-    transform: rotate(-55deg);
-    animation: arrowmove 1s 1 linear forwards;
-    animation-delay: 4s;
-  }
-
-  @keyframes moveline5 {
-    from{
-      width: 0;
-    }
-    to{
-      width: 37.5%;
-    }
-  }
-
-  @keyframes movevert1 {
-    from{
-      height: 0;
-    }
-    to{
-      height: 20%;
-    }
-  }
-
-  @keyframes movevert2 {
-    from{
-      height: 0;
-    }
-    to{
-      height: 100%;
-    }
-  }
-
-  @keyframes movevert3 {
-    from{
-      height: 0;
-    }
-    to{
-      height: 40%;
-    }
-  }
-
-  @keyframes arrowmove {
-    from{
-      width: 0;
-    }
-    to{
-      width: 1.6%;
-    }
-  }
-
-  @keyframes move {
-    0%{
-      width: 0;
-    }
-    100%{
-        width: 18.5%;
-    }
-  }
-
-  @keyframes move3 {
-    0%{
-      width: 0;
-    }
-    100%{
-        width: 30%;
-    }
-  }
-}

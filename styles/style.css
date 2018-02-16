@@ -40,16 +40,13 @@ html, button, input, select, textarea,
   -moz-animation-duration: 1s;
   animation-duration: 1s; }
 
-.screen1 {
-  position: relative;
-  z-index: 1; }
-  .screen1 main {
-    margin-top: 5vh; }
-    .screen1 main p, .screen1 main span {
-      font-family: "Della Respira", serif;
-      font-size: 1.5rem;
-      color: #997C6C; }
-  .screen1 img {
+.reassure {
+  margin-top: 5vh; }
+  .reassure p, .reassure span {
+    font-family: "Della Respira", serif;
+    font-size: 1.5rem;
+    color: #997C6C; }
+  .reassure img {
     height: 100px;
     width: auto; }
 
@@ -64,34 +61,35 @@ html, button, input, select, textarea,
     opacity: 0; }
   to {
     opacity: 1; } }
-  .screen1 .pure-g {
+  .reassure .pure-g {
     position: relative;
     margin: 0 90px; }
     @media screen and (max-width: 780px) {
-      .screen1 .pure-g {
+      .reassure .pure-g {
         margin: 0; } }
-    .screen1 .pure-g div {
+    .reassure .pure-g div {
       margin: 0 auto; }
-      .screen1 .pure-g div p.phrase {
+      .reassure .pure-g div p.phrase {
         opacity: 0;
         -webkit-animation-delay: 1.3s;
         animation-delay: 1.3s;
         text-align: center;
         font-size: 1.9rem; }
-      .screen1 .pure-g div div {
+      .reassure .pure-g div div {
         text-align: center; }
-    .screen1 .pure-g .first {
+    .reassure .pure-g .first {
       opacity: 0;
       -webkit-animation-delay: 0.3s;
       animation-delay: 0.3s; }
-    .screen1 .pure-g .second {
+    .reassure .pure-g .second {
       opacity: 0;
       -webkit-animation-delay: .6s;
       animation-delay: .6s; }
-    .screen1 .pure-g .third {
+    .reassure .pure-g .third {
       opacity: 0;
       -webkit-animation-delay: .9s;
       animation-delay: .9s; }
+<<<<<<< HEAD
   .screen1 main > div:nth-child(2) {
     opacity: 0;
     text-align: center;
@@ -337,6 +335,40 @@ html, button, input, select, textarea,
     width: 0; }
   100% {
     width: 30%; } }
+=======
+
+.reassure > div:nth-child(2) {
+  opacity: 0;
+  text-align: center;
+  width: 25%;
+  margin: 0 auto;
+  animation-delay: 1.3s;
+  margin-top: 20px; }
+  @media screen and (max-width: 780px) {
+    .reassure > div:nth-child(2) {
+      width: 88%; } }
+  .reassure > div:nth-child(2) a {
+    display: block;
+    text-decoration: none;
+    width: 88%;
+    background: #997C6C;
+    color: white;
+    border: solid thick white;
+    outline: solid 1px #997C6C;
+    margin: 0 auto;
+    padding: 5%;
+    font-size: 2.5rem;
+    transition: all .2s ease-in; }
+  .reassure > div:nth-child(2) a:hover {
+    transform: scale(1.08); }
+
+#menuToggle {
+  margin-bottom: 100px;
+  width: 10%; }
+
+h1 {
+  display: none; }
+>>>>>>> bcdd4a690b1086efd30d57c4f20733a2701c3a6f
 
 header {
   border-bottom: solid 2px #DD8496; }
@@ -345,6 +377,9 @@ header {
   width: 83%;
   margin: 0 auto;
   margin-bottom: 30px; }
+  @media screen and (max-width: 1024px) {
+    .topbar {
+      width: 100%; } }
   .topbar span {
     font-size: 1.7rem;
     font-family: "Della Respira", serif;
@@ -643,8 +678,12 @@ header {
 @media screen and (max-width: 375px) {
   .menu {
     width: 275px; } }
+<<<<<<< HEAD
 
 .screen2 main {
+=======
+main {
+>>>>>>> bcdd4a690b1086efd30d57c4f20733a2701c3a6f
   margin-top: 50px; }
 
 .slider {
@@ -725,7 +764,7 @@ header {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1024px) {
     .slider-content {
       height: auto; } }
   .slider-content div {
@@ -791,6 +830,9 @@ header {
       font-size: 1.8rem;
       opacity: 0.5;
       cursor: pointer; }
+      @media screen and (max-width: 1024px) {
+        .homepage-products > div h2 {
+          font-size: 1.5rem; } }
     .homepage-products > div h2.selected {
       opacity: 1; }
   .homepage-products .product-container {
@@ -1029,10 +1071,14 @@ header {
   -webkit-transition: all .2s ease-in;
   -o-transition: all .2s ease-in;
   transition: all .2s ease-in;
+<<<<<<< HEAD
   width: 300px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
+=======
+  width: 20%;
+>>>>>>> bcdd4a690b1086efd30d57c4f20733a2701c3a6f
   display: flex;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
