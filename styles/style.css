@@ -116,6 +116,9 @@ header {
   width: 83%;
   margin: 0 auto;
   margin-bottom: 30px; }
+  @media screen and (max-width: 1024px) {
+    .topbar {
+      width: 100%; } }
   .topbar span {
     font-size: 1.7rem;
     font-family: "Della Respira", serif;
@@ -426,7 +429,7 @@ main {
   margin: 0 auto;
   overflow: hidden;
   display: flex; }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1024px) {
     .slider-content {
       height: auto; } }
   .slider-content div {
@@ -482,6 +485,9 @@ main {
       font-size: 1.8rem;
       opacity: 0.5;
       cursor: pointer; }
+      @media screen and (max-width: 1024px) {
+        .homepage-products > div h2 {
+          font-size: 1.5rem; } }
     .homepage-products > div h2.selected {
       opacity: 1; }
   .homepage-products .product-container {
